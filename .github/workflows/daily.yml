@@ -2,7 +2,7 @@ name: Daily betting analysis
 
 on:
   schedule:
-    - cron: "0 7 * * *"   # 07:00 UTC chaque jour
+    - cron: "*/5 * * * *"   # 07:00 UTC chaque jour
   workflow_dispatch: {}     # permet aussi un lancement manuel depuis l'onglet Actions
 
 permissions:
