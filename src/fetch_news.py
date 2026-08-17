@@ -19,11 +19,10 @@ def search_news(query: str, api_key: str, cse_id: str, num: int = 5) -> list:
         "q": query,
         "dateRestrict": "m1",  # dernier mois
         "num": num,
-        "lr": "lang_fr|lang_en",
     }
     resp = requests.get(CSE_URL, params=params, timeout=20)
     if resp.status_code != 200:
-        print(f"[fetch_news] Erreur {resp.status_code} pour '{query}': {resp.text[:200]}")
+        print(f"[fetch_news] Erreur {resp.status_code} pour '{query}': {resp.text[:500]}")
         return []
     items = resp.json().get("items", [])
     return [{"title": i.get("title", ""), "snippet": i.get("snippet", ""), "link": i.get("link", "")}
