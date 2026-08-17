@@ -15,6 +15,7 @@ GOOGLE_CSE_API_KEY = os.environ["GOOGLE_CSE_API_KEY"]
 GOOGLE_CSE_ID = os.environ["GOOGLE_CSE_ID"]
 SPORT_KEYS = os.environ.get("SPORT_KEYS", "soccer_epl").split(",")
 MAX_EVENTS = int(os.environ.get("MAX_EVENTS", "15"))
+HOURS_AHEAD = int(os.environ.get("HOURS_AHEAD", "168"))  # 7 jours par défaut
 
 # Ces deux-là sont optionnels ici : le script peut tourner sans Sheets
 # (utile pour tester juste odds+news+analyse+JSON en local)
@@ -24,7 +25,7 @@ GOOGLE_SERVICE_ACCOUNT_JSON = os.environ.get("GOOGLE_SERVICE_ACCOUNT_JSON")
 
 def main():
     print("1/4 - Recuperation des cotes du jour...")
-    events = get_events(SPORT_KEYS, ODDS_API_KEY, max_events=MAX_EVENTS)
+    events = get_events(SPORT_KEYS, ODDS_API_KEY, max_events=MAX_EVENTS, hours_ahead=HOURS_AHEAD)
     print(f"   -> {len(events)} rencontres trouvees")
 
     print("2/4 - Recuperation de l'actualite des equipes...")

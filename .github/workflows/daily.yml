@@ -28,8 +28,9 @@ jobs:
           GOOGLE_CSE_ID: ${{ secrets.GOOGLE_CSE_ID }}
           GOOGLE_SHEET_ID: ${{ secrets.GOOGLE_SHEET_ID }}
           GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
-          SPORT_KEYS: "soccer_france_ligue_one,soccer_france_ligue_two,soccer_epl,soccer_uefa_champs_league,basketball_nba"
+          SPORT_KEYS: "soccer_france_ligue_one,soccer_epl,soccer_uefa_champs_league_qualification,basketball_nba"
           MAX_EVENTS: "15"
+          HOURS_AHEAD: "168"
         run: python main.py
 
       - name: Commit et push du data.json
