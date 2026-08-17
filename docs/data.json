@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-17T23:04:00.357323+00:00",
+  "generated_at_utc": "2026-08-17T23:10:47.936078+00:00",
   "disclaimer": "Score de confiance heuristique base sur les cotes du marche et l'actualite recente. Ne constitue en aucun cas une garantie de gain.",
   "picks": [
     {
@@ -102,7 +102,7 @@
         {
           "selection": "Hull City",
           "type": "Victoire domicile",
-          "odds": 8.19,
+          "odds": 8.18,
           "market_probability_pct": 11.5,
           "confidence_score_pct": 11.5,
           "news_net_signal": 0,
@@ -120,7 +120,7 @@
         {
           "selection": "Match nul",
           "type": "Nul",
-          "odds": 4.71,
+          "odds": 4.72,
           "market_probability_pct": 20.0,
           "confidence_score_pct": 20.0,
           "news_net_signal": 0,
@@ -309,8 +309,8 @@
         "selection": "Doncaster Rovers",
         "type": "Victoire domicile",
         "odds": 1.95,
-        "market_probability_pct": 47.1,
-        "confidence_score_pct": 47.1,
+        "market_probability_pct": 47.3,
+        "confidence_score_pct": 47.3,
         "news_net_signal": 0,
         "news_nb_articles": 0
       },
@@ -319,8 +319,8 @@
           "selection": "Doncaster Rovers",
           "type": "Victoire domicile",
           "odds": 1.95,
-          "market_probability_pct": 47.1,
-          "confidence_score_pct": 47.1,
+          "market_probability_pct": 47.3,
+          "confidence_score_pct": 47.3,
           "news_net_signal": 0,
           "news_nb_articles": 0
         },
@@ -328,17 +328,17 @@
           "selection": "Barnsley",
           "type": "Victoire extérieur",
           "odds": 3.41,
-          "market_probability_pct": 26.9,
-          "confidence_score_pct": 26.9,
+          "market_probability_pct": 27.0,
+          "confidence_score_pct": 27.0,
           "news_net_signal": 0,
           "news_nb_articles": 0
         },
         {
           "selection": "Match nul",
           "type": "Nul",
-          "odds": 3.52,
-          "market_probability_pct": 26.1,
-          "confidence_score_pct": 26.1,
+          "odds": 3.58,
+          "market_probability_pct": 25.7,
+          "confidence_score_pct": 25.7,
           "news_net_signal": 0,
           "news_nb_articles": 0
         }
