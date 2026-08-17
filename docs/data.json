@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-17T22:41:19.142112+00:00",
+  "generated_at_utc": "2026-08-17T22:57:01.979741+00:00",
   "disclaimer": "Score de confiance heuristique base sur les cotes du marche et l'actualite recente. Ne constitue en aucun cas une garantie de gain.",
   "picks": [
     {
@@ -13,7 +13,9 @@
         "type": "Victoire domicile",
         "odds": 1.1,
         "market_probability_pct": 82.6,
-        "confidence_score_pct": 82.6
+        "confidence_score_pct": 82.6,
+        "news_net_signal": 0,
+        "news_nb_articles": 0
       },
       "all_candidates": [
         {
@@ -21,14 +23,18 @@
           "type": "Victoire domicile",
           "odds": 1.1,
           "market_probability_pct": 82.6,
-          "confidence_score_pct": 82.6
+          "confidence_score_pct": 82.6,
+          "news_net_signal": 0,
+          "news_nb_articles": 0
         },
         {
           "selection": "Ottawa Redblacks",
           "type": "Victoire extérieur",
           "odds": 5.2,
           "market_probability_pct": 17.4,
-          "confidence_score_pct": 17.4
+          "confidence_score_pct": 17.4,
+          "news_net_signal": 0,
+          "news_nb_articles": 0
         }
       ]
     },
@@ -43,7 +49,9 @@
         "type": "Victoire domicile",
         "odds": 1.17,
         "market_probability_pct": 81.1,
-        "confidence_score_pct": 81.1
+        "confidence_score_pct": 81.1,
+        "news_net_signal": 0,
+        "news_nb_articles": 0
       },
       "all_candidates": [
         {
@@ -51,21 +59,27 @@
           "type": "Victoire domicile",
           "odds": 1.17,
           "market_probability_pct": 81.1,
-          "confidence_score_pct": 81.1
+          "confidence_score_pct": 81.1,
+          "news_net_signal": 0,
+          "news_nb_articles": 0
         },
         {
           "selection": "Coventry City",
           "type": "Victoire extérieur",
           "odds": 16.06,
           "market_probability_pct": 5.9,
-          "confidence_score_pct": 5.9
+          "confidence_score_pct": 5.9,
+          "news_net_signal": 0,
+          "news_nb_articles": 0
         },
         {
           "selection": "Match nul",
           "type": "Nul",
           "odds": 7.31,
           "market_probability_pct": 13.0,
-          "confidence_score_pct": 13.0
+          "confidence_score_pct": 13.0,
+          "news_net_signal": 0,
+          "news_nb_articles": 0
         }
       ]
     },
@@ -80,7 +94,9 @@
         "type": "Victoire extérieur",
         "odds": 1.38,
         "market_probability_pct": 68.5,
-        "confidence_score_pct": 68.5
+        "confidence_score_pct": 68.5,
+        "news_net_signal": 0,
+        "news_nb_articles": 0
       },
       "all_candidates": [
         {
@@ -88,21 +104,27 @@
           "type": "Victoire domicile",
           "odds": 8.19,
           "market_probability_pct": 11.5,
-          "confidence_score_pct": 11.5
+          "confidence_score_pct": 11.5,
+          "news_net_signal": 0,
+          "news_nb_articles": 0
         },
         {
           "selection": "Manchester United",
           "type": "Victoire extérieur",
           "odds": 1.38,
           "market_probability_pct": 68.5,
-          "confidence_score_pct": 68.5
+          "confidence_score_pct": 68.5,
+          "news_net_signal": 0,
+          "news_nb_articles": 0
         },
         {
           "selection": "Match nul",
           "type": "Nul",
           "odds": 4.71,
           "market_probability_pct": 20.0,
-          "confidence_score_pct": 20.0
+          "confidence_score_pct": 20.0,
+          "news_net_signal": 0,
+          "news_nb_articles": 0
         }
       ]
     },
@@ -117,7 +139,9 @@
         "type": "Victoire domicile",
         "odds": 1.31,
         "market_probability_pct": 67.0,
-        "confidence_score_pct": 67.0
+        "confidence_score_pct": 67.0,
+        "news_net_signal": 0,
+        "news_nb_articles": 0
       },
       "all_candidates": [
         {
@@ -125,14 +149,18 @@
           "type": "Victoire domicile",
           "odds": 1.31,
           "market_probability_pct": 67.0,
-          "confidence_score_pct": 67.0
+          "confidence_score_pct": 67.0,
+          "news_net_signal": 0,
+          "news_nb_articles": 0
         },
         {
           "selection": "Winnipeg Blue Bombers",
           "type": "Victoire extérieur",
           "odds": 2.66,
           "market_probability_pct": 33.0,
-          "confidence_score_pct": 33.0
+          "confidence_score_pct": 33.0,
+          "news_net_signal": 0,
+          "news_nb_articles": 0
         }
       ]
     },
@@ -147,7 +175,9 @@
         "type": "Victoire domicile",
         "odds": 1.6,
         "market_probability_pct": 57.7,
-        "confidence_score_pct": 57.7
+        "confidence_score_pct": 57.7,
+        "news_net_signal": 0,
+        "news_nb_articles": 0
       },
       "all_candidates": [
         {
@@ -155,21 +185,27 @@
           "type": "Victoire domicile",
           "odds": 1.6,
           "market_probability_pct": 57.7,
-          "confidence_score_pct": 57.7
+          "confidence_score_pct": 57.7,
+          "news_net_signal": 0,
+          "news_nb_articles": 0
         },
         {
           "selection": "Notts County",
           "type": "Victoire extérieur",
-          "odds": 4.95,
+          "odds": 4.94,
           "market_probability_pct": 18.7,
-          "confidence_score_pct": 18.7
+          "confidence_score_pct": 18.7,
+          "news_net_signal": 0,
+          "news_nb_articles": 0
         },
         {
           "selection": "Match nul",
           "type": "Nul",
           "odds": 3.91,
           "market_probability_pct": 23.6,
-          "confidence_score_pct": 23.6
+          "confidence_score_pct": 23.6,
+          "news_net_signal": 0,
+          "news_nb_articles": 0
         }
       ]
     },
@@ -184,7 +220,9 @@
         "type": "Victoire domicile",
         "odds": 1.64,
         "market_probability_pct": 55.9,
-        "confidence_score_pct": 55.9
+        "confidence_score_pct": 55.9,
+        "news_net_signal": 0,
+        "news_nb_articles": 0
       },
       "all_candidates": [
         {
@@ -192,21 +230,27 @@
           "type": "Victoire domicile",
           "odds": 1.64,
           "market_probability_pct": 55.9,
-          "confidence_score_pct": 55.9
+          "confidence_score_pct": 55.9,
+          "news_net_signal": 0,
+          "news_nb_articles": 0
         },
         {
           "selection": "Newport County",
           "type": "Victoire extérieur",
           "odds": 4.63,
           "market_probability_pct": 19.8,
-          "confidence_score_pct": 19.8
+          "confidence_score_pct": 19.8,
+          "news_net_signal": 0,
+          "news_nb_articles": 0
         },
         {
           "selection": "Match nul",
           "type": "Nul",
           "odds": 3.76,
           "market_probability_pct": 24.4,
-          "confidence_score_pct": 24.4
+          "confidence_score_pct": 24.4,
+          "news_net_signal": 0,
+          "news_nb_articles": 0
         }
       ]
     },
@@ -221,7 +265,9 @@
         "type": "Victoire domicile",
         "odds": 1.73,
         "market_probability_pct": 54.3,
-        "confidence_score_pct": 54.3
+        "confidence_score_pct": 54.3,
+        "news_net_signal": 0,
+        "news_nb_articles": 0
       },
       "all_candidates": [
         {
@@ -229,21 +275,27 @@
           "type": "Victoire domicile",
           "odds": 1.73,
           "market_probability_pct": 54.3,
-          "confidence_score_pct": 54.3
+          "confidence_score_pct": 54.3,
+          "news_net_signal": 0,
+          "news_nb_articles": 0
         },
         {
           "selection": "Strasbourg",
           "type": "Victoire extérieur",
           "odds": 4.22,
           "market_probability_pct": 22.3,
-          "confidence_score_pct": 22.3
+          "confidence_score_pct": 22.3,
+          "news_net_signal": 0,
+          "news_nb_articles": 0
         },
         {
           "selection": "Match nul",
           "type": "Nul",
           "odds": 4.02,
           "market_probability_pct": 23.4,
-          "confidence_score_pct": 23.4
+          "confidence_score_pct": 23.4,
+          "news_net_signal": 0,
+          "news_nb_articles": 0
         }
       ]
     },
@@ -257,30 +309,38 @@
         "selection": "Doncaster Rovers",
         "type": "Victoire domicile",
         "odds": 1.95,
-        "market_probability_pct": 47.1,
-        "confidence_score_pct": 47.1
+        "market_probability_pct": 47.0,
+        "confidence_score_pct": 47.0,
+        "news_net_signal": 0,
+        "news_nb_articles": 0
       },
       "all_candidates": [
         {
           "selection": "Doncaster Rovers",
           "type": "Victoire domicile",
           "odds": 1.95,
-          "market_probability_pct": 47.1,
-          "confidence_score_pct": 47.1
+          "market_probability_pct": 47.0,
+          "confidence_score_pct": 47.0,
+          "news_net_signal": 0,
+          "news_nb_articles": 0
         },
         {
           "selection": "Barnsley",
           "type": "Victoire extérieur",
-          "odds": 3.39,
-          "market_probability_pct": 27.1,
-          "confidence_score_pct": 27.1
+          "odds": 3.4,
+          "market_probability_pct": 26.9,
+          "confidence_score_pct": 26.9,
+          "news_net_signal": 0,
+          "news_nb_articles": 0
         },
         {
           "selection": "Match nul",
           "type": "Nul",
-          "odds": 3.56,
-          "market_probability_pct": 25.8,
-          "confidence_score_pct": 25.8
+          "odds": 3.52,
+          "market_probability_pct": 26.0,
+          "confidence_score_pct": 26.0,
+          "news_net_signal": 0,
+          "news_nb_articles": 0
         }
       ]
     },
@@ -295,7 +355,9 @@
         "type": "Victoire domicile",
         "odds": 2.04,
         "market_probability_pct": 44.9,
-        "confidence_score_pct": 44.9
+        "confidence_score_pct": 44.9,
+        "news_net_signal": 0,
+        "news_nb_articles": 0
       },
       "all_candidates": [
         {
@@ -303,21 +365,27 @@
           "type": "Victoire domicile",
           "odds": 2.04,
           "market_probability_pct": 44.9,
-          "confidence_score_pct": 44.9
+          "confidence_score_pct": 44.9,
+          "news_net_signal": 0,
+          "news_nb_articles": 0
         },
         {
           "selection": "Chesterfield FC",
           "type": "Victoire extérieur",
           "odds": 3.42,
           "market_probability_pct": 26.8,
-          "confidence_score_pct": 26.8
+          "confidence_score_pct": 26.8,
+          "news_net_signal": 0,
+          "news_nb_articles": 0
         },
         {
           "selection": "Match nul",
           "type": "Nul",
           "odds": 3.24,
           "market_probability_pct": 28.3,
-          "confidence_score_pct": 28.3
+          "confidence_score_pct": 28.3,
+          "news_net_signal": 0,
+          "news_nb_articles": 0
         }
       ]
     },
@@ -332,7 +400,9 @@
         "type": "Victoire domicile",
         "odds": 2.09,
         "market_probability_pct": 41.8,
-        "confidence_score_pct": 41.8
+        "confidence_score_pct": 41.8,
+        "news_net_signal": 0,
+        "news_nb_articles": 0
       },
       "all_candidates": [
         {
@@ -340,21 +410,27 @@
           "type": "Victoire domicile",
           "odds": 2.09,
           "market_probability_pct": 41.8,
-          "confidence_score_pct": 41.8
+          "confidence_score_pct": 41.8,
+          "news_net_signal": 0,
+          "news_nb_articles": 0
         },
         {
           "selection": "Nancy",
           "type": "Victoire extérieur",
           "odds": 2.9,
           "market_probability_pct": 30.2,
-          "confidence_score_pct": 30.2
+          "confidence_score_pct": 30.2,
+          "news_net_signal": 0,
+          "news_nb_articles": 0
         },
         {
           "selection": "Match nul",
           "type": "Nul",
           "odds": 3.12,
           "market_probability_pct": 28.1,
-          "confidence_score_pct": 28.1
+          "confidence_score_pct": 28.1,
+          "news_net_signal": 0,
+          "news_nb_articles": 0
         }
       ]
     },
@@ -369,7 +445,9 @@
         "type": "Victoire extérieur",
         "odds": 2.21,
         "market_probability_pct": 39.9,
-        "confidence_score_pct": 39.9
+        "confidence_score_pct": 39.9,
+        "news_net_signal": 0,
+        "news_nb_articles": 0
       },
       "all_candidates": [
         {
@@ -377,21 +455,27 @@
           "type": "Victoire domicile",
           "odds": 2.94,
           "market_probability_pct": 30.0,
-          "confidence_score_pct": 30.0
+          "confidence_score_pct": 30.0,
+          "news_net_signal": 0,
+          "news_nb_articles": 0
         },
         {
           "selection": "Red Star",
           "type": "Victoire extérieur",
           "odds": 2.21,
           "market_probability_pct": 39.9,
-          "confidence_score_pct": 39.9
+          "confidence_score_pct": 39.9,
+          "news_net_signal": 0,
+          "news_nb_articles": 0
         },
         {
           "selection": "Match nul",
           "type": "Nul",
           "odds": 2.94,
           "market_probability_pct": 30.0,
-          "confidence_score_pct": 30.0
+          "confidence_score_pct": 30.0,
+          "news_net_signal": 0,
+          "news_nb_articles": 0
         }
       ]
     },
@@ -406,7 +490,9 @@
         "type": "Victoire extérieur",
         "odds": 2.22,
         "market_probability_pct": 39.2,
-        "confidence_score_pct": 39.2
+        "confidence_score_pct": 39.2,
+        "news_net_signal": 0,
+        "news_nb_articles": 0
       },
       "all_candidates": [
         {
@@ -414,21 +500,27 @@
           "type": "Victoire domicile",
           "odds": 2.73,
           "market_probability_pct": 31.9,
-          "confidence_score_pct": 31.9
+          "confidence_score_pct": 31.9,
+          "news_net_signal": 0,
+          "news_nb_articles": 0
         },
         {
           "selection": "Guingamp",
           "type": "Victoire extérieur",
           "odds": 2.22,
           "market_probability_pct": 39.2,
-          "confidence_score_pct": 39.2
+          "confidence_score_pct": 39.2,
+          "news_net_signal": 0,
+          "news_nb_articles": 0
         },
         {
           "selection": "Match nul",
           "type": "Nul",
           "odds": 3.02,
           "market_probability_pct": 28.9,
-          "confidence_score_pct": 28.9
+          "confidence_score_pct": 28.9,
+          "news_net_signal": 0,
+          "news_nb_articles": 0
         }
       ]
     },
@@ -443,7 +535,9 @@
         "type": "Victoire domicile",
         "odds": 2.41,
         "market_probability_pct": 38.5,
-        "confidence_score_pct": 38.5
+        "confidence_score_pct": 38.5,
+        "news_net_signal": 0,
+        "news_nb_articles": 0
       },
       "all_candidates": [
         {
@@ -451,21 +545,27 @@
           "type": "Victoire domicile",
           "odds": 2.41,
           "market_probability_pct": 38.5,
-          "confidence_score_pct": 38.5
+          "confidence_score_pct": 38.5,
+          "news_net_signal": 0,
+          "news_nb_articles": 0
         },
         {
           "selection": "Bradford City",
           "type": "Victoire extérieur",
           "odds": 2.72,
           "market_probability_pct": 34.1,
-          "confidence_score_pct": 34.1
+          "confidence_score_pct": 34.1,
+          "news_net_signal": 0,
+          "news_nb_articles": 0
         },
         {
           "selection": "Match nul",
           "type": "Nul",
           "odds": 3.38,
           "market_probability_pct": 27.4,
-          "confidence_score_pct": 27.4
+          "confidence_score_pct": 27.4,
+          "news_net_signal": 0,
+          "news_nb_articles": 0
         }
       ]
     },
@@ -480,7 +580,9 @@
         "type": "Victoire domicile",
         "odds": 2.36,
         "market_probability_pct": 37.2,
-        "confidence_score_pct": 37.2
+        "confidence_score_pct": 37.2,
+        "news_net_signal": 0,
+        "news_nb_articles": 0
       },
       "all_candidates": [
         {
@@ -488,21 +590,27 @@
           "type": "Victoire domicile",
           "odds": 2.36,
           "market_probability_pct": 37.2,
-          "confidence_score_pct": 37.2
+          "confidence_score_pct": 37.2,
+          "news_net_signal": 0,
+          "news_nb_articles": 0
         },
         {
           "selection": "Montpellier",
           "type": "Victoire extérieur",
           "odds": 2.55,
           "market_probability_pct": 34.4,
-          "confidence_score_pct": 34.4
+          "confidence_score_pct": 34.4,
+          "news_net_signal": 0,
+          "news_nb_articles": 0
         },
         {
           "selection": "Match nul",
           "type": "Nul",
           "odds": 3.09,
           "market_probability_pct": 28.4,
-          "confidence_score_pct": 28.4
+          "confidence_score_pct": 28.4,
+          "news_net_signal": 0,
+          "news_nb_articles": 0
         }
       ]
     },
@@ -517,7 +625,9 @@
         "type": "Victoire extérieur",
         "odds": 2.4,
         "market_probability_pct": 36.4,
-        "confidence_score_pct": 36.4
+        "confidence_score_pct": 36.4,
+        "news_net_signal": 0,
+        "news_nb_articles": 0
       },
       "all_candidates": [
         {
@@ -525,21 +635,27 @@
           "type": "Victoire domicile",
           "odds": 2.44,
           "market_probability_pct": 35.8,
-          "confidence_score_pct": 35.8
+          "confidence_score_pct": 35.8,
+          "news_net_signal": 0,
+          "news_nb_articles": 0
         },
         {
           "selection": "Dijon",
           "type": "Victoire extérieur",
           "odds": 2.4,
           "market_probability_pct": 36.4,
-          "confidence_score_pct": 36.4
+          "confidence_score_pct": 36.4,
+          "news_net_signal": 0,
+          "news_nb_articles": 0
         },
         {
           "selection": "Match nul",
           "type": "Nul",
           "odds": 3.14,
           "market_probability_pct": 27.8,
-          "confidence_score_pct": 27.8
+          "confidence_score_pct": 27.8,
+          "news_net_signal": 0,
+          "news_nb_articles": 0
         }
       ]
     }
