@@ -1,5 +1,547 @@
 {
-  "generated_at_utc": "2026-08-17T22:17:25.708654+00:00",
+  "generated_at_utc": "2026-08-17T22:41:19.142112+00:00",
   "disclaimer": "Score de confiance heuristique base sur les cotes du marche et l'actualite recente. Ne constitue en aucun cas une garantie de gain.",
-  "picks": []
+  "picks": [
+    {
+      "match": "Montreal Alouettes vs Ottawa Redblacks",
+      "sport": "americanfootball_cfl",
+      "country": "americanfootball",
+      "commence_time_gmt": "2026-08-20T23:30:00Z",
+      "nb_bookmakers": 10,
+      "best_pick": {
+        "selection": "Montreal Alouettes",
+        "type": "Victoire domicile",
+        "odds": 1.1,
+        "market_probability_pct": 82.6,
+        "confidence_score_pct": 82.6
+      },
+      "all_candidates": [
+        {
+          "selection": "Montreal Alouettes",
+          "type": "Victoire domicile",
+          "odds": 1.1,
+          "market_probability_pct": 82.6,
+          "confidence_score_pct": 82.6
+        },
+        {
+          "selection": "Ottawa Redblacks",
+          "type": "Victoire extérieur",
+          "odds": 5.2,
+          "market_probability_pct": 17.4,
+          "confidence_score_pct": 17.4
+        }
+      ]
+    },
+    {
+      "match": "Arsenal vs Coventry City",
+      "sport": "soccer_epl",
+      "country": "soccer",
+      "commence_time_gmt": "2026-08-21T19:00:00Z",
+      "nb_bookmakers": 41,
+      "best_pick": {
+        "selection": "Arsenal",
+        "type": "Victoire domicile",
+        "odds": 1.17,
+        "market_probability_pct": 81.1,
+        "confidence_score_pct": 81.1
+      },
+      "all_candidates": [
+        {
+          "selection": "Arsenal",
+          "type": "Victoire domicile",
+          "odds": 1.17,
+          "market_probability_pct": 81.1,
+          "confidence_score_pct": 81.1
+        },
+        {
+          "selection": "Coventry City",
+          "type": "Victoire extérieur",
+          "odds": 16.06,
+          "market_probability_pct": 5.9,
+          "confidence_score_pct": 5.9
+        },
+        {
+          "selection": "Match nul",
+          "type": "Nul",
+          "odds": 7.31,
+          "market_probability_pct": 13.0,
+          "confidence_score_pct": 13.0
+        }
+      ]
+    },
+    {
+      "match": "Hull City vs Manchester United",
+      "sport": "soccer_epl",
+      "country": "soccer",
+      "commence_time_gmt": "2026-08-22T11:30:00Z",
+      "nb_bookmakers": 42,
+      "best_pick": {
+        "selection": "Manchester United",
+        "type": "Victoire extérieur",
+        "odds": 1.38,
+        "market_probability_pct": 68.5,
+        "confidence_score_pct": 68.5
+      },
+      "all_candidates": [
+        {
+          "selection": "Hull City",
+          "type": "Victoire domicile",
+          "odds": 8.19,
+          "market_probability_pct": 11.5,
+          "confidence_score_pct": 11.5
+        },
+        {
+          "selection": "Manchester United",
+          "type": "Victoire extérieur",
+          "odds": 1.38,
+          "market_probability_pct": 68.5,
+          "confidence_score_pct": 68.5
+        },
+        {
+          "selection": "Match nul",
+          "type": "Nul",
+          "odds": 4.71,
+          "market_probability_pct": 20.0,
+          "confidence_score_pct": 20.0
+        }
+      ]
+    },
+    {
+      "match": "Edmonton Elks vs Winnipeg Blue Bombers",
+      "sport": "americanfootball_cfl",
+      "country": "americanfootball",
+      "commence_time_gmt": "2026-08-22T01:30:00Z",
+      "nb_bookmakers": 11,
+      "best_pick": {
+        "selection": "Edmonton Elks",
+        "type": "Victoire domicile",
+        "odds": 1.31,
+        "market_probability_pct": 67.0,
+        "confidence_score_pct": 67.0
+      },
+      "all_candidates": [
+        {
+          "selection": "Edmonton Elks",
+          "type": "Victoire domicile",
+          "odds": 1.31,
+          "market_probability_pct": 67.0,
+          "confidence_score_pct": 67.0
+        },
+        {
+          "selection": "Winnipeg Blue Bombers",
+          "type": "Victoire extérieur",
+          "odds": 2.66,
+          "market_probability_pct": 33.0,
+          "confidence_score_pct": 33.0
+        }
+      ]
+    },
+    {
+      "match": "Luton vs Notts County",
+      "sport": "soccer_england_league1",
+      "country": "soccer",
+      "commence_time_gmt": "2026-08-22T11:30:00Z",
+      "nb_bookmakers": 32,
+      "best_pick": {
+        "selection": "Luton",
+        "type": "Victoire domicile",
+        "odds": 1.6,
+        "market_probability_pct": 57.7,
+        "confidence_score_pct": 57.7
+      },
+      "all_candidates": [
+        {
+          "selection": "Luton",
+          "type": "Victoire domicile",
+          "odds": 1.6,
+          "market_probability_pct": 57.7,
+          "confidence_score_pct": 57.7
+        },
+        {
+          "selection": "Notts County",
+          "type": "Victoire extérieur",
+          "odds": 4.95,
+          "market_probability_pct": 18.7,
+          "confidence_score_pct": 18.7
+        },
+        {
+          "selection": "Match nul",
+          "type": "Nul",
+          "odds": 3.91,
+          "market_probability_pct": 23.6,
+          "confidence_score_pct": 23.6
+        }
+      ]
+    },
+    {
+      "match": "Bristol Rovers vs Newport County",
+      "sport": "soccer_england_league2",
+      "country": "soccer",
+      "commence_time_gmt": "2026-08-22T11:30:00Z",
+      "nb_bookmakers": 30,
+      "best_pick": {
+        "selection": "Bristol Rovers",
+        "type": "Victoire domicile",
+        "odds": 1.64,
+        "market_probability_pct": 55.9,
+        "confidence_score_pct": 55.9
+      },
+      "all_candidates": [
+        {
+          "selection": "Bristol Rovers",
+          "type": "Victoire domicile",
+          "odds": 1.64,
+          "market_probability_pct": 55.9,
+          "confidence_score_pct": 55.9
+        },
+        {
+          "selection": "Newport County",
+          "type": "Victoire extérieur",
+          "odds": 4.63,
+          "market_probability_pct": 19.8,
+          "confidence_score_pct": 19.8
+        },
+        {
+          "selection": "Match nul",
+          "type": "Nul",
+          "odds": 3.76,
+          "market_probability_pct": 24.4,
+          "confidence_score_pct": 24.4
+        }
+      ]
+    },
+    {
+      "match": "Marseille vs Strasbourg",
+      "sport": "soccer_france_ligue_one",
+      "country": "soccer",
+      "commence_time_gmt": "2026-08-21T18:45:00Z",
+      "nb_bookmakers": 40,
+      "best_pick": {
+        "selection": "Marseille",
+        "type": "Victoire domicile",
+        "odds": 1.73,
+        "market_probability_pct": 54.3,
+        "confidence_score_pct": 54.3
+      },
+      "all_candidates": [
+        {
+          "selection": "Marseille",
+          "type": "Victoire domicile",
+          "odds": 1.73,
+          "market_probability_pct": 54.3,
+          "confidence_score_pct": 54.3
+        },
+        {
+          "selection": "Strasbourg",
+          "type": "Victoire extérieur",
+          "odds": 4.22,
+          "market_probability_pct": 22.3,
+          "confidence_score_pct": 22.3
+        },
+        {
+          "selection": "Match nul",
+          "type": "Nul",
+          "odds": 4.02,
+          "market_probability_pct": 23.4,
+          "confidence_score_pct": 23.4
+        }
+      ]
+    },
+    {
+      "match": "Doncaster Rovers vs Barnsley",
+      "sport": "soccer_england_league1",
+      "country": "soccer",
+      "commence_time_gmt": "2026-08-22T11:30:00Z",
+      "nb_bookmakers": 32,
+      "best_pick": {
+        "selection": "Doncaster Rovers",
+        "type": "Victoire domicile",
+        "odds": 1.95,
+        "market_probability_pct": 47.1,
+        "confidence_score_pct": 47.1
+      },
+      "all_candidates": [
+        {
+          "selection": "Doncaster Rovers",
+          "type": "Victoire domicile",
+          "odds": 1.95,
+          "market_probability_pct": 47.1,
+          "confidence_score_pct": 47.1
+        },
+        {
+          "selection": "Barnsley",
+          "type": "Victoire extérieur",
+          "odds": 3.39,
+          "market_probability_pct": 27.1,
+          "confidence_score_pct": 27.1
+        },
+        {
+          "selection": "Match nul",
+          "type": "Nul",
+          "odds": 3.56,
+          "market_probability_pct": 25.8,
+          "confidence_score_pct": 25.8
+        }
+      ]
+    },
+    {
+      "match": "Salford City vs Chesterfield FC",
+      "sport": "soccer_england_league2",
+      "country": "soccer",
+      "commence_time_gmt": "2026-08-22T11:30:00Z",
+      "nb_bookmakers": 30,
+      "best_pick": {
+        "selection": "Salford City",
+        "type": "Victoire domicile",
+        "odds": 2.04,
+        "market_probability_pct": 44.9,
+        "confidence_score_pct": 44.9
+      },
+      "all_candidates": [
+        {
+          "selection": "Salford City",
+          "type": "Victoire domicile",
+          "odds": 2.04,
+          "market_probability_pct": 44.9,
+          "confidence_score_pct": 44.9
+        },
+        {
+          "selection": "Chesterfield FC",
+          "type": "Victoire extérieur",
+          "odds": 3.42,
+          "market_probability_pct": 26.8,
+          "confidence_score_pct": 26.8
+        },
+        {
+          "selection": "Match nul",
+          "type": "Nul",
+          "odds": 3.24,
+          "market_probability_pct": 28.3,
+          "confidence_score_pct": 28.3
+        }
+      ]
+    },
+    {
+      "match": "Pau FC vs Nancy",
+      "sport": "soccer_france_ligue_two",
+      "country": "soccer",
+      "commence_time_gmt": "2026-08-21T18:00:00Z",
+      "nb_bookmakers": 30,
+      "best_pick": {
+        "selection": "Pau FC",
+        "type": "Victoire domicile",
+        "odds": 2.09,
+        "market_probability_pct": 41.8,
+        "confidence_score_pct": 41.8
+      },
+      "all_candidates": [
+        {
+          "selection": "Pau FC",
+          "type": "Victoire domicile",
+          "odds": 2.09,
+          "market_probability_pct": 41.8,
+          "confidence_score_pct": 41.8
+        },
+        {
+          "selection": "Nancy",
+          "type": "Victoire extérieur",
+          "odds": 2.9,
+          "market_probability_pct": 30.2,
+          "confidence_score_pct": 30.2
+        },
+        {
+          "selection": "Match nul",
+          "type": "Nul",
+          "odds": 3.12,
+          "market_probability_pct": 28.1,
+          "confidence_score_pct": 28.1
+        }
+      ]
+    },
+    {
+      "match": "Boulogne vs Red Star",
+      "sport": "soccer_france_ligue_two",
+      "country": "soccer",
+      "commence_time_gmt": "2026-08-21T18:00:00Z",
+      "nb_bookmakers": 28,
+      "best_pick": {
+        "selection": "Red Star",
+        "type": "Victoire extérieur",
+        "odds": 2.21,
+        "market_probability_pct": 39.9,
+        "confidence_score_pct": 39.9
+      },
+      "all_candidates": [
+        {
+          "selection": "Boulogne",
+          "type": "Victoire domicile",
+          "odds": 2.94,
+          "market_probability_pct": 30.0,
+          "confidence_score_pct": 30.0
+        },
+        {
+          "selection": "Red Star",
+          "type": "Victoire extérieur",
+          "odds": 2.21,
+          "market_probability_pct": 39.9,
+          "confidence_score_pct": 39.9
+        },
+        {
+          "selection": "Match nul",
+          "type": "Nul",
+          "odds": 2.94,
+          "market_probability_pct": 30.0,
+          "confidence_score_pct": 30.0
+        }
+      ]
+    },
+    {
+      "match": "Sochaux vs Guingamp",
+      "sport": "soccer_france_ligue_two",
+      "country": "soccer",
+      "commence_time_gmt": "2026-08-21T18:00:00Z",
+      "nb_bookmakers": 25,
+      "best_pick": {
+        "selection": "Guingamp",
+        "type": "Victoire extérieur",
+        "odds": 2.22,
+        "market_probability_pct": 39.2,
+        "confidence_score_pct": 39.2
+      },
+      "all_candidates": [
+        {
+          "selection": "Sochaux",
+          "type": "Victoire domicile",
+          "odds": 2.73,
+          "market_probability_pct": 31.9,
+          "confidence_score_pct": 31.9
+        },
+        {
+          "selection": "Guingamp",
+          "type": "Victoire extérieur",
+          "odds": 2.22,
+          "market_probability_pct": 39.2,
+          "confidence_score_pct": 39.2
+        },
+        {
+          "selection": "Match nul",
+          "type": "Nul",
+          "odds": 3.02,
+          "market_probability_pct": 28.9,
+          "confidence_score_pct": 28.9
+        }
+      ]
+    },
+    {
+      "match": "Sheffield Wednesday vs Bradford City",
+      "sport": "soccer_england_league1",
+      "country": "soccer",
+      "commence_time_gmt": "2026-08-20T19:00:00Z",
+      "nb_bookmakers": 32,
+      "best_pick": {
+        "selection": "Sheffield Wednesday",
+        "type": "Victoire domicile",
+        "odds": 2.41,
+        "market_probability_pct": 38.5,
+        "confidence_score_pct": 38.5
+      },
+      "all_candidates": [
+        {
+          "selection": "Sheffield Wednesday",
+          "type": "Victoire domicile",
+          "odds": 2.41,
+          "market_probability_pct": 38.5,
+          "confidence_score_pct": 38.5
+        },
+        {
+          "selection": "Bradford City",
+          "type": "Victoire extérieur",
+          "odds": 2.72,
+          "market_probability_pct": 34.1,
+          "confidence_score_pct": 34.1
+        },
+        {
+          "selection": "Match nul",
+          "type": "Nul",
+          "odds": 3.38,
+          "market_probability_pct": 27.4,
+          "confidence_score_pct": 27.4
+        }
+      ]
+    },
+    {
+      "match": "USL Dunkerque vs Montpellier",
+      "sport": "soccer_france_ligue_two",
+      "country": "soccer",
+      "commence_time_gmt": "2026-08-21T18:00:00Z",
+      "nb_bookmakers": 28,
+      "best_pick": {
+        "selection": "USL Dunkerque",
+        "type": "Victoire domicile",
+        "odds": 2.36,
+        "market_probability_pct": 37.2,
+        "confidence_score_pct": 37.2
+      },
+      "all_candidates": [
+        {
+          "selection": "USL Dunkerque",
+          "type": "Victoire domicile",
+          "odds": 2.36,
+          "market_probability_pct": 37.2,
+          "confidence_score_pct": 37.2
+        },
+        {
+          "selection": "Montpellier",
+          "type": "Victoire extérieur",
+          "odds": 2.55,
+          "market_probability_pct": 34.4,
+          "confidence_score_pct": 34.4
+        },
+        {
+          "selection": "Match nul",
+          "type": "Nul",
+          "odds": 3.09,
+          "market_probability_pct": 28.4,
+          "confidence_score_pct": 28.4
+        }
+      ]
+    },
+    {
+      "match": "Clermont vs Dijon",
+      "sport": "soccer_france_ligue_two",
+      "country": "soccer",
+      "commence_time_gmt": "2026-08-21T18:00:00Z",
+      "nb_bookmakers": 28,
+      "best_pick": {
+        "selection": "Dijon",
+        "type": "Victoire extérieur",
+        "odds": 2.4,
+        "market_probability_pct": 36.4,
+        "confidence_score_pct": 36.4
+      },
+      "all_candidates": [
+        {
+          "selection": "Clermont",
+          "type": "Victoire domicile",
+          "odds": 2.44,
+          "market_probability_pct": 35.8,
+          "confidence_score_pct": 35.8
+        },
+        {
+          "selection": "Dijon",
+          "type": "Victoire extérieur",
+          "odds": 2.4,
+          "market_probability_pct": 36.4,
+          "confidence_score_pct": 36.4
+        },
+        {
+          "selection": "Match nul",
+          "type": "Nul",
+          "odds": 3.14,
+          "market_probability_pct": 27.8,
+          "confidence_score_pct": 27.8
+        }
+      ]
+    }
+  ]
 }
