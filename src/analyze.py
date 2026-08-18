@@ -63,6 +63,7 @@ def analyze_event(event: dict, home_news: dict, away_news: dict) -> dict:
             "confidence_score_pct": confidence_score(p_home, home_news.get("net_signal", 0), nb_bk),
             "news_net_signal": home_news.get("net_signal", 0),
             "news_nb_articles": home_news.get("nb_articles", 0),
+            "news_sources": ", ".join(home_news.get("sources", [])),
         })
     if p_away is not None:
         candidates.append({
@@ -73,6 +74,7 @@ def analyze_event(event: dict, home_news: dict, away_news: dict) -> dict:
             "confidence_score_pct": confidence_score(p_away, away_news.get("net_signal", 0), nb_bk),
             "news_net_signal": away_news.get("net_signal", 0),
             "news_nb_articles": away_news.get("nb_articles", 0),
+            "news_sources": ", ".join(away_news.get("sources", [])),
         })
     if p_draw is not None:
         candidates.append({
@@ -83,6 +85,7 @@ def analyze_event(event: dict, home_news: dict, away_news: dict) -> dict:
             "confidence_score_pct": confidence_score(p_draw, 0, nb_bk),
             "news_net_signal": 0,
             "news_nb_articles": home_news.get("nb_articles", 0) + away_news.get("nb_articles", 0),
+            "news_sources": ", ".join(sorted(set(home_news.get("sources", [])) | set(away_news.get("sources", [])))),
         })
 
     best = max(candidates, key=lambda c: c["confidence_score_pct"]) if candidates else None
