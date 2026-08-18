@@ -1,738 +1,843 @@
 {
-  "generated_at_utc": "2026-08-18T20:46:04.579359+00:00",
+  "generated_at_utc": "2026-08-18T21:08:44.085226+00:00",
   "disclaimer": "Score de confiance heuristique base sur les cotes du marche et l'actualite recente. Ne constitue en aucun cas une garantie de gain.",
   "picks": [
     {
-      "match": "Arsenal vs Coventry City",
-      "sport": "soccer_epl",
-      "country": "soccer",
-      "commence_time_gmt": "2026-08-21T19:00:00Z",
-      "nb_bookmakers": 42,
+      "match": "Aryna Sabalenka vs Xinyu Wang",
+      "sport": "tennis_wta_cincinnati_open",
+      "country": "tennis",
+      "commence_time_gmt": "2026-08-18T23:00:00Z",
+      "nb_bookmakers": 38,
       "best_pick": {
-        "selection": "Arsenal",
+        "selection": "Aryna Sabalenka",
         "type": "Victoire domicile",
-        "odds": 1.17,
-        "market_probability_pct": 81.1,
-        "confidence_score_pct": 86.1,
-        "news_net_signal": 8,
-        "news_nb_articles": 8,
-        "news_sources": "BBC Sport - Football, Google News"
-      },
-      "all_candidates": [
-        {
-          "selection": "Arsenal",
-          "type": "Victoire domicile",
-          "odds": 1.17,
-          "market_probability_pct": 81.1,
-          "confidence_score_pct": 86.1,
-          "news_net_signal": 8,
-          "news_nb_articles": 8,
-          "news_sources": "BBC Sport - Football, Google News"
-        },
-        {
-          "selection": "Coventry City",
-          "type": "Victoire extérieur",
-          "odds": 16.38,
-          "market_probability_pct": 5.8,
-          "confidence_score_pct": 7.8,
-          "news_net_signal": 2,
-          "news_nb_articles": 6,
-          "news_sources": "BBC Sport - Football, Google News"
-        },
-        {
-          "selection": "Match nul",
-          "type": "Nul",
-          "odds": 7.24,
-          "market_probability_pct": 13.1,
-          "confidence_score_pct": 13.1,
-          "news_net_signal": 0,
-          "news_nb_articles": 14,
-          "news_sources": "BBC Sport - Football, Google News"
-        }
-      ]
-    },
-    {
-      "match": "Hull City vs Manchester United",
-      "sport": "soccer_epl",
-      "country": "soccer",
-      "commence_time_gmt": "2026-08-22T11:30:00Z",
-      "nb_bookmakers": 42,
-      "best_pick": {
-        "selection": "Manchester United",
-        "type": "Victoire extérieur",
-        "odds": 1.36,
-        "market_probability_pct": 69.4,
-        "confidence_score_pct": 72.4,
-        "news_net_signal": 3,
-        "news_nb_articles": 8,
-        "news_sources": "BBC Sport - Football, BBC Sport - Toutes disciplines, Google News"
-      },
-      "all_candidates": [
-        {
-          "selection": "Hull City",
-          "type": "Victoire domicile",
-          "odds": 8.43,
-          "market_probability_pct": 11.2,
-          "confidence_score_pct": 16.2,
-          "news_net_signal": 6,
-          "news_nb_articles": 6,
-          "news_sources": "BBC Sport - Football, Google News"
-        },
-        {
-          "selection": "Manchester United",
-          "type": "Victoire extérieur",
-          "odds": 1.36,
-          "market_probability_pct": 69.4,
-          "confidence_score_pct": 72.4,
-          "news_net_signal": 3,
-          "news_nb_articles": 8,
-          "news_sources": "BBC Sport - Football, BBC Sport - Toutes disciplines, Google News"
-        },
-        {
-          "selection": "Match nul",
-          "type": "Nul",
-          "odds": 4.87,
-          "market_probability_pct": 19.4,
-          "confidence_score_pct": 19.4,
-          "news_net_signal": 0,
-          "news_nb_articles": 14,
-          "news_sources": "BBC Sport - Football, BBC Sport - Toutes disciplines, Google News"
-        }
-      ]
-    },
-    {
-      "match": "RC Lens vs Auxerre",
-      "sport": "soccer_france_ligue_one",
-      "country": "soccer",
-      "commence_time_gmt": "2026-08-22T15:15:00Z",
-      "nb_bookmakers": 41,
-      "best_pick": {
-        "selection": "RC Lens",
-        "type": "Victoire domicile",
-        "odds": 1.58,
-        "market_probability_pct": 59.5,
-        "confidence_score_pct": 64.5,
-        "news_net_signal": 6,
+        "odds": 1.08,
+        "market_probability_pct": 88.8,
+        "confidence_score_pct": 88.8,
+        "news_net_signal": 0.0,
         "news_nb_articles": 5,
+        "news_hype_ratio_pct": 0.0,
         "news_sources": "Google News"
       },
       "all_candidates": [
         {
-          "selection": "RC Lens",
+          "selection": "Aryna Sabalenka",
           "type": "Victoire domicile",
-          "odds": 1.58,
-          "market_probability_pct": 59.5,
-          "confidence_score_pct": 64.5,
-          "news_net_signal": 6,
+          "odds": 1.08,
+          "market_probability_pct": 88.8,
+          "confidence_score_pct": 88.8,
+          "news_net_signal": 0.0,
           "news_nb_articles": 5,
+          "news_hype_ratio_pct": 0.0,
           "news_sources": "Google News"
         },
         {
-          "selection": "Auxerre",
+          "selection": "Xinyu Wang",
           "type": "Victoire extérieur",
-          "odds": 5.22,
-          "market_probability_pct": 18.1,
-          "confidence_score_pct": 20.1,
-          "news_net_signal": 2,
-          "news_nb_articles": 5,
-          "news_sources": "Google News"
-        },
-        {
-          "selection": "Match nul",
-          "type": "Nul",
-          "odds": 4.2,
-          "market_probability_pct": 22.4,
-          "confidence_score_pct": 22.4,
-          "news_net_signal": 0,
-          "news_nb_articles": 10,
+          "odds": 8.53,
+          "market_probability_pct": 11.2,
+          "confidence_score_pct": 9.7,
+          "news_net_signal": -1.5,
+          "news_nb_articles": 4,
+          "news_hype_ratio_pct": 0.0,
           "news_sources": "Google News"
         }
       ]
     },
     {
-      "match": "Celtic vs LASK",
-      "sport": "soccer_uefa_champs_league_qualification",
-      "country": "soccer",
-      "commence_time_gmt": "2026-08-19T19:00:00Z",
-      "nb_bookmakers": 22,
-      "best_pick": {
-        "selection": "Celtic",
-        "type": "Victoire domicile",
-        "odds": 1.6,
-        "market_probability_pct": 58.3,
-        "confidence_score_pct": 60.3,
-        "news_net_signal": 2,
-        "news_nb_articles": 10,
-        "news_sources": "BBC Sport - Football, Google News"
-      },
-      "all_candidates": [
-        {
-          "selection": "Celtic",
-          "type": "Victoire domicile",
-          "odds": 1.6,
-          "market_probability_pct": 58.3,
-          "confidence_score_pct": 60.3,
-          "news_net_signal": 2,
-          "news_nb_articles": 10,
-          "news_sources": "BBC Sport - Football, Google News"
-        },
-        {
-          "selection": "LASK",
-          "type": "Victoire extérieur",
-          "odds": 5.18,
-          "market_probability_pct": 18.0,
-          "confidence_score_pct": 18.0,
-          "news_net_signal": 0,
-          "news_nb_articles": 6,
-          "news_sources": "BBC Sport - Football, Google News"
-        },
-        {
-          "selection": "Match nul",
-          "type": "Nul",
-          "odds": 3.94,
-          "market_probability_pct": 23.7,
-          "confidence_score_pct": 23.7,
-          "news_net_signal": 0,
-          "news_nb_articles": 16,
-          "news_sources": "BBC Sport - Football, Google News"
-        }
-      ]
-    },
-    {
-      "match": "ŠK Slovan Bratislava vs NK Celje",
-      "sport": "soccer_uefa_champs_league_qualification",
-      "country": "soccer",
-      "commence_time_gmt": "2026-08-19T19:00:00Z",
+      "match": "Toronto Tempo vs Indiana Fever",
+      "sport": "basketball_wnba",
+      "country": "basketball",
+      "commence_time_gmt": "2026-08-18T23:00:00Z",
       "nb_bookmakers": 23,
       "best_pick": {
-        "selection": "ŠK Slovan Bratislava",
+        "selection": "Indiana Fever",
+        "type": "Victoire extérieur",
+        "odds": 1.19,
+        "market_probability_pct": 79.7,
+        "confidence_score_pct": 79.7,
+        "news_net_signal": 0.0,
+        "news_nb_articles": 1,
+        "news_hype_ratio_pct": 0.0,
+        "news_sources": "Google News"
+      },
+      "all_candidates": [
+        {
+          "selection": "Toronto Tempo",
+          "type": "Victoire domicile",
+          "odds": 4.68,
+          "market_probability_pct": 20.3,
+          "confidence_score_pct": 20.3,
+          "news_net_signal": 0.0,
+          "news_nb_articles": 2,
+          "news_hype_ratio_pct": 0.0,
+          "news_sources": "Google News"
+        },
+        {
+          "selection": "Indiana Fever",
+          "type": "Victoire extérieur",
+          "odds": 1.19,
+          "market_probability_pct": 79.7,
+          "confidence_score_pct": 79.7,
+          "news_net_signal": 0.0,
+          "news_nb_articles": 1,
+          "news_hype_ratio_pct": 0.0,
+          "news_sources": "Google News"
+        }
+      ]
+    },
+    {
+      "match": "Juan Manuel Cerundolo vs Felix Auger-Aliassime",
+      "sport": "tennis_atp_cincinnati_open",
+      "country": "tennis",
+      "commence_time_gmt": "2026-08-18T23:00:00Z",
+      "nb_bookmakers": 39,
+      "best_pick": {
+        "selection": "Felix Auger-Aliassime",
+        "type": "Victoire extérieur",
+        "odds": 1.2,
+        "market_probability_pct": 79.6,
+        "confidence_score_pct": 79.6,
+        "news_net_signal": 0.0,
+        "news_nb_articles": 2,
+        "news_hype_ratio_pct": 0.0,
+        "news_sources": "Google News"
+      },
+      "all_candidates": [
+        {
+          "selection": "Juan Manuel Cerundolo",
+          "type": "Victoire domicile",
+          "odds": 4.68,
+          "market_probability_pct": 20.4,
+          "confidence_score_pct": 18.0,
+          "news_net_signal": -2.4,
+          "news_nb_articles": 5,
+          "news_hype_ratio_pct": 0.0,
+          "news_sources": "Google News"
+        },
+        {
+          "selection": "Felix Auger-Aliassime",
+          "type": "Victoire extérieur",
+          "odds": 1.2,
+          "market_probability_pct": 79.6,
+          "confidence_score_pct": 79.6,
+          "news_net_signal": 0.0,
+          "news_nb_articles": 2,
+          "news_hype_ratio_pct": 0.0,
+          "news_sources": "Google News"
+        }
+      ]
+    },
+    {
+      "match": "Mahamed Aly vs Alik Lorenz",
+      "sport": "mma_mixed_martial_arts",
+      "country": "mma",
+      "commence_time_gmt": "2026-08-18T23:45:00Z",
+      "nb_bookmakers": 4,
+      "best_pick": {
+        "selection": "Mahamed Aly",
+        "type": "Victoire domicile",
+        "odds": 1.31,
+        "market_probability_pct": 73.2,
+        "confidence_score_pct": 67.7,
+        "news_net_signal": 0,
+        "news_nb_articles": 0,
+        "news_hype_ratio_pct": 0.0,
+        "news_sources": ""
+      },
+      "all_candidates": [
+        {
+          "selection": "Mahamed Aly",
+          "type": "Victoire domicile",
+          "odds": 1.31,
+          "market_probability_pct": 73.2,
+          "confidence_score_pct": 67.7,
+          "news_net_signal": 0,
+          "news_nb_articles": 0,
+          "news_hype_ratio_pct": 0.0,
+          "news_sources": ""
+        },
+        {
+          "selection": "Alik Lorenz",
+          "type": "Victoire extérieur",
+          "odds": 3.57,
+          "market_probability_pct": 26.8,
+          "confidence_score_pct": 24.8,
+          "news_net_signal": 0.0,
+          "news_nb_articles": 1,
+          "news_hype_ratio_pct": 0.0,
+          "news_sources": "Google News"
+        }
+      ]
+    },
+    {
+      "match": "Logan Paxton vs Cristian Pérez",
+      "sport": "mma_mixed_martial_arts",
+      "country": "mma",
+      "commence_time_gmt": "2026-08-19T00:00:00Z",
+      "nb_bookmakers": 4,
+      "best_pick": {
+        "selection": "Cristian Pérez",
+        "type": "Victoire extérieur",
+        "odds": 1.38,
+        "market_probability_pct": 69.7,
+        "confidence_score_pct": 64.5,
+        "news_net_signal": 0.0,
+        "news_nb_articles": 2,
+        "news_hype_ratio_pct": 0.0,
+        "news_sources": "Google News"
+      },
+      "all_candidates": [
+        {
+          "selection": "Logan Paxton",
+          "type": "Victoire domicile",
+          "odds": 3.17,
+          "market_probability_pct": 30.3,
+          "confidence_score_pct": 28.0,
+          "news_net_signal": 0.0,
+          "news_nb_articles": 2,
+          "news_hype_ratio_pct": 0.0,
+          "news_sources": "Google News"
+        },
+        {
+          "selection": "Cristian Pérez",
+          "type": "Victoire extérieur",
+          "odds": 1.38,
+          "market_probability_pct": 69.7,
+          "confidence_score_pct": 64.5,
+          "news_net_signal": 0.0,
+          "news_nb_articles": 2,
+          "news_hype_ratio_pct": 0.0,
+          "news_sources": "Google News"
+        }
+      ]
+    },
+    {
+      "match": "Philadelphia Phillies vs Miami Marlins",
+      "sport": "baseball_mlb",
+      "country": "baseball",
+      "commence_time_gmt": "2026-08-18T22:41:00Z",
+      "nb_bookmakers": 38,
+      "best_pick": {
+        "selection": "Philadelphia Phillies",
+        "type": "Victoire domicile",
+        "odds": 1.45,
+        "market_probability_pct": 66.0,
+        "confidence_score_pct": 62.4,
+        "news_net_signal": -3.6,
+        "news_nb_articles": 5,
+        "news_hype_ratio_pct": 0.0,
+        "news_sources": "Google News"
+      },
+      "all_candidates": [
+        {
+          "selection": "Philadelphia Phillies",
+          "type": "Victoire domicile",
+          "odds": 1.45,
+          "market_probability_pct": 66.0,
+          "confidence_score_pct": 62.4,
+          "news_net_signal": -3.6,
+          "news_nb_articles": 5,
+          "news_hype_ratio_pct": 0.0,
+          "news_sources": "Google News"
+        },
+        {
+          "selection": "Miami Marlins",
+          "type": "Victoire extérieur",
+          "odds": 2.81,
+          "market_probability_pct": 34.0,
+          "confidence_score_pct": 31.6,
+          "news_net_signal": -2.4,
+          "news_nb_articles": 5,
+          "news_hype_ratio_pct": 0.0,
+          "news_sources": "Google News"
+        }
+      ]
+    },
+    {
+      "match": "Chicago Cubs vs Chicago White Sox",
+      "sport": "baseball_mlb",
+      "country": "baseball",
+      "commence_time_gmt": "2026-08-19T00:06:00Z",
+      "nb_bookmakers": 36,
+      "best_pick": {
+        "selection": "Chicago Cubs",
+        "type": "Victoire domicile",
+        "odds": 1.56,
+        "market_probability_pct": 61.6,
+        "confidence_score_pct": 61.6,
+        "news_net_signal": 0.0,
+        "news_nb_articles": 1,
+        "news_hype_ratio_pct": 0.0,
+        "news_sources": "Google News"
+      },
+      "all_candidates": [
+        {
+          "selection": "Chicago Cubs",
+          "type": "Victoire domicile",
+          "odds": 1.56,
+          "market_probability_pct": 61.6,
+          "confidence_score_pct": 61.6,
+          "news_net_signal": 0.0,
+          "news_nb_articles": 1,
+          "news_hype_ratio_pct": 0.0,
+          "news_sources": "Google News"
+        },
+        {
+          "selection": "Chicago White Sox",
+          "type": "Victoire extérieur",
+          "odds": 2.5,
+          "market_probability_pct": 38.4,
+          "confidence_score_pct": 33.6,
+          "news_net_signal": -4.8,
+          "news_nb_articles": 5,
+          "news_hype_ratio_pct": 0.0,
+          "news_sources": "Google News"
+        }
+      ]
+    },
+    {
+      "match": "Boston Red Sox vs Arizona Diamondbacks",
+      "sport": "baseball_mlb",
+      "country": "baseball",
+      "commence_time_gmt": "2026-08-18T23:11:00Z",
+      "nb_bookmakers": 37,
+      "best_pick": {
+        "selection": "Boston Red Sox",
+        "type": "Victoire domicile",
+        "odds": 1.59,
+        "market_probability_pct": 60.4,
+        "confidence_score_pct": 60.4,
+        "news_net_signal": 0.0,
+        "news_nb_articles": 1,
+        "news_hype_ratio_pct": 0.0,
+        "news_sources": "Google News"
+      },
+      "all_candidates": [
+        {
+          "selection": "Boston Red Sox",
+          "type": "Victoire domicile",
+          "odds": 1.59,
+          "market_probability_pct": 60.4,
+          "confidence_score_pct": 60.4,
+          "news_net_signal": 0.0,
+          "news_nb_articles": 1,
+          "news_hype_ratio_pct": 0.0,
+          "news_sources": "Google News"
+        },
+        {
+          "selection": "Arizona Diamondbacks",
+          "type": "Victoire extérieur",
+          "odds": 2.42,
+          "market_probability_pct": 39.6,
+          "confidence_score_pct": 37.2,
+          "news_net_signal": -2.4,
+          "news_nb_articles": 5,
+          "news_hype_ratio_pct": 0.0,
+          "news_sources": "Google News"
+        }
+      ]
+    },
+    {
+      "match": "Cleveland Guardians vs San Francisco Giants",
+      "sport": "baseball_mlb",
+      "country": "baseball",
+      "commence_time_gmt": "2026-08-18T22:41:00Z",
+      "nb_bookmakers": 38,
+      "best_pick": {
+        "selection": "Cleveland Guardians",
+        "type": "Victoire domicile",
+        "odds": 1.51,
+        "market_probability_pct": 63.6,
+        "confidence_score_pct": 60.0,
+        "news_net_signal": -3.6,
+        "news_nb_articles": 5,
+        "news_hype_ratio_pct": 0.0,
+        "news_sources": "Google News"
+      },
+      "all_candidates": [
+        {
+          "selection": "Cleveland Guardians",
+          "type": "Victoire domicile",
+          "odds": 1.51,
+          "market_probability_pct": 63.6,
+          "confidence_score_pct": 60.0,
+          "news_net_signal": -3.6,
+          "news_nb_articles": 5,
+          "news_hype_ratio_pct": 0.0,
+          "news_sources": "Google News"
+        },
+        {
+          "selection": "San Francisco Giants",
+          "type": "Victoire extérieur",
+          "odds": 2.64,
+          "market_probability_pct": 36.4,
+          "confidence_score_pct": 34.0,
+          "news_net_signal": -2.4,
+          "news_nb_articles": 5,
+          "news_hype_ratio_pct": 0.0,
+          "news_sources": "Google News"
+        }
+      ]
+    },
+    {
+      "match": "Kansas City Royals vs Athletics",
+      "sport": "baseball_mlb",
+      "country": "baseball",
+      "commence_time_gmt": "2026-08-18T23:41:00Z",
+      "nb_bookmakers": 35,
+      "best_pick": {
+        "selection": "Kansas City Royals",
+        "type": "Victoire domicile",
+        "odds": 1.61,
+        "market_probability_pct": 59.4,
+        "confidence_score_pct": 59.4,
+        "news_net_signal": 0.0,
+        "news_nb_articles": 3,
+        "news_hype_ratio_pct": 0.0,
+        "news_sources": "Google News"
+      },
+      "all_candidates": [
+        {
+          "selection": "Kansas City Royals",
+          "type": "Victoire domicile",
+          "odds": 1.61,
+          "market_probability_pct": 59.4,
+          "confidence_score_pct": 59.4,
+          "news_net_signal": 0.0,
+          "news_nb_articles": 3,
+          "news_hype_ratio_pct": 0.0,
+          "news_sources": "Google News"
+        },
+        {
+          "selection": "Athletics",
+          "type": "Victoire extérieur",
+          "odds": 2.36,
+          "market_probability_pct": 40.6,
+          "confidence_score_pct": 40.6,
+          "news_net_signal": 0.0,
+          "news_nb_articles": 10,
+          "news_hype_ratio_pct": 0.0,
+          "news_sources": "BBC Sport - Toutes disciplines, Google News"
+        }
+      ]
+    },
+    {
+      "match": "Milwaukee Brewers vs Seattle Mariners",
+      "sport": "baseball_mlb",
+      "country": "baseball",
+      "commence_time_gmt": "2026-08-18T23:41:00Z",
+      "nb_bookmakers": 36,
+      "best_pick": {
+        "selection": "Milwaukee Brewers",
+        "type": "Victoire domicile",
+        "odds": 1.56,
+        "market_probability_pct": 61.4,
+        "confidence_score_pct": 57.8,
+        "news_net_signal": -3.6,
+        "news_nb_articles": 5,
+        "news_hype_ratio_pct": 0.0,
+        "news_sources": "Google News"
+      },
+      "all_candidates": [
+        {
+          "selection": "Milwaukee Brewers",
+          "type": "Victoire domicile",
+          "odds": 1.56,
+          "market_probability_pct": 61.4,
+          "confidence_score_pct": 57.8,
+          "news_net_signal": -3.6,
+          "news_nb_articles": 5,
+          "news_hype_ratio_pct": 0.0,
+          "news_sources": "Google News"
+        },
+        {
+          "selection": "Seattle Mariners",
+          "type": "Victoire extérieur",
+          "odds": 2.48,
+          "market_probability_pct": 38.6,
+          "confidence_score_pct": 33.8,
+          "news_net_signal": -4.8,
+          "news_nb_articles": 5,
+          "news_hype_ratio_pct": 0.0,
+          "news_sources": "Google News"
+        }
+      ]
+    },
+    {
+      "match": "Tampa Bay Rays vs Toronto Blue Jays",
+      "sport": "baseball_mlb",
+      "country": "baseball",
+      "commence_time_gmt": "2026-08-18T22:41:00Z",
+      "nb_bookmakers": 38,
+      "best_pick": {
+        "selection": "Tampa Bay Rays",
+        "type": "Victoire domicile",
+        "odds": 1.73,
+        "market_probability_pct": 55.4,
+        "confidence_score_pct": 55.4,
+        "news_net_signal": 0.0,
+        "news_nb_articles": 5,
+        "news_hype_ratio_pct": 0.0,
+        "news_sources": "Google News"
+      },
+      "all_candidates": [
+        {
+          "selection": "Tampa Bay Rays",
+          "type": "Victoire domicile",
+          "odds": 1.73,
+          "market_probability_pct": 55.4,
+          "confidence_score_pct": 55.4,
+          "news_net_signal": 0.0,
+          "news_nb_articles": 5,
+          "news_hype_ratio_pct": 0.0,
+          "news_sources": "Google News"
+        },
+        {
+          "selection": "Toronto Blue Jays",
+          "type": "Victoire extérieur",
+          "odds": 2.15,
+          "market_probability_pct": 44.6,
+          "confidence_score_pct": 41.0,
+          "news_net_signal": -3.6,
+          "news_nb_articles": 5,
+          "news_hype_ratio_pct": 0.0,
+          "news_sources": "Google News"
+        }
+      ]
+    },
+    {
+      "match": "Pittsburgh Pirates vs Detroit Tigers",
+      "sport": "baseball_mlb",
+      "country": "baseball",
+      "commence_time_gmt": "2026-08-18T22:41:00Z",
+      "nb_bookmakers": 38,
+      "best_pick": {
+        "selection": "Pittsburgh Pirates",
+        "type": "Victoire domicile",
+        "odds": 1.63,
+        "market_probability_pct": 58.8,
+        "confidence_score_pct": 55.2,
+        "news_net_signal": -3.6,
+        "news_nb_articles": 5,
+        "news_hype_ratio_pct": 0.0,
+        "news_sources": "Google News"
+      },
+      "all_candidates": [
+        {
+          "selection": "Pittsburgh Pirates",
+          "type": "Victoire domicile",
+          "odds": 1.63,
+          "market_probability_pct": 58.8,
+          "confidence_score_pct": 55.2,
+          "news_net_signal": -3.6,
+          "news_nb_articles": 5,
+          "news_hype_ratio_pct": 0.0,
+          "news_sources": "Google News"
+        },
+        {
+          "selection": "Detroit Tigers",
+          "type": "Victoire extérieur",
+          "odds": 2.33,
+          "market_probability_pct": 41.2,
+          "confidence_score_pct": 41.2,
+          "news_net_signal": 0.0,
+          "news_nb_articles": 1,
+          "news_hype_ratio_pct": 0.0,
+          "news_sources": "Google News"
+        }
+      ]
+    },
+    {
+      "match": "Texas Rangers vs Washington Nationals",
+      "sport": "baseball_mlb",
+      "country": "baseball",
+      "commence_time_gmt": "2026-08-19T00:06:00Z",
+      "nb_bookmakers": 36,
+      "best_pick": {
+        "selection": "Texas Rangers",
         "type": "Victoire domicile",
         "odds": 1.65,
-        "market_probability_pct": 56.5,
-        "confidence_score_pct": 56.5,
-        "news_net_signal": 0,
-        "news_nb_articles": 4,
+        "market_probability_pct": 58.1,
+        "confidence_score_pct": 54.5,
+        "news_net_signal": -3.6,
+        "news_nb_articles": 5,
+        "news_hype_ratio_pct": 0.0,
         "news_sources": "Google News"
       },
       "all_candidates": [
         {
-          "selection": "ŠK Slovan Bratislava",
+          "selection": "Texas Rangers",
           "type": "Victoire domicile",
           "odds": 1.65,
-          "market_probability_pct": 56.5,
-          "confidence_score_pct": 56.5,
-          "news_net_signal": 0,
-          "news_nb_articles": 4,
-          "news_sources": "Google News"
-        },
-        {
-          "selection": "NK Celje",
-          "type": "Victoire extérieur",
-          "odds": 4.78,
-          "market_probability_pct": 19.5,
-          "confidence_score_pct": 19.5,
-          "news_net_signal": 0,
+          "market_probability_pct": 58.1,
+          "confidence_score_pct": 54.5,
+          "news_net_signal": -3.6,
           "news_nb_articles": 5,
+          "news_hype_ratio_pct": 0.0,
           "news_sources": "Google News"
         },
         {
-          "selection": "Match nul",
-          "type": "Nul",
-          "odds": 3.87,
-          "market_probability_pct": 24.0,
-          "confidence_score_pct": 24.0,
-          "news_net_signal": 0,
-          "news_nb_articles": 9,
-          "news_sources": "Google News"
-        }
-      ]
-    },
-    {
-      "match": "Marseille vs Strasbourg",
-      "sport": "soccer_france_ligue_one",
-      "country": "soccer",
-      "commence_time_gmt": "2026-08-21T18:45:00Z",
-      "nb_bookmakers": 41,
-      "best_pick": {
-        "selection": "Marseille",
-        "type": "Victoire domicile",
-        "odds": 1.72,
-        "market_probability_pct": 54.7,
-        "confidence_score_pct": 54.7,
-        "news_net_signal": 0,
-        "news_nb_articles": 5,
-        "news_sources": "Google News"
-      },
-      "all_candidates": [
-        {
-          "selection": "Marseille",
-          "type": "Victoire domicile",
-          "odds": 1.72,
-          "market_probability_pct": 54.7,
-          "confidence_score_pct": 54.7,
-          "news_net_signal": 0,
-          "news_nb_articles": 5,
-          "news_sources": "Google News"
-        },
-        {
-          "selection": "Strasbourg",
+          "selection": "Washington Nationals",
           "type": "Victoire extérieur",
-          "odds": 4.29,
-          "market_probability_pct": 21.9,
-          "confidence_score_pct": 26.9,
-          "news_net_signal": 6,
-          "news_nb_articles": 6,
-          "news_sources": "BBC Sport - Football, Google News"
-        },
-        {
-          "selection": "Match nul",
-          "type": "Nul",
-          "odds": 4.01,
-          "market_probability_pct": 23.4,
-          "confidence_score_pct": 23.4,
-          "news_net_signal": 0,
-          "news_nb_articles": 11,
-          "news_sources": "BBC Sport - Football, Google News"
-        }
-      ]
-    },
-    {
-      "match": "Everton vs Crystal Palace",
-      "sport": "soccer_epl",
-      "country": "soccer",
-      "commence_time_gmt": "2026-08-22T14:00:00Z",
-      "nb_bookmakers": 42,
-      "best_pick": {
-        "selection": "Everton",
-        "type": "Victoire domicile",
-        "odds": 2.17,
-        "market_probability_pct": 43.7,
-        "confidence_score_pct": 46.7,
-        "news_net_signal": 3,
-        "news_nb_articles": 6,
-        "news_sources": "BBC Sport - Football, Google News"
-      },
-      "all_candidates": [
-        {
-          "selection": "Everton",
-          "type": "Victoire domicile",
-          "odds": 2.17,
-          "market_probability_pct": 43.7,
-          "confidence_score_pct": 46.7,
-          "news_net_signal": 3,
-          "news_nb_articles": 6,
-          "news_sources": "BBC Sport - Football, Google News"
-        },
-        {
-          "selection": "Crystal Palace",
-          "type": "Victoire extérieur",
-          "odds": 3.33,
-          "market_probability_pct": 28.4,
-          "confidence_score_pct": 33.4,
-          "news_net_signal": 8,
-          "news_nb_articles": 5,
-          "news_sources": "Google News"
-        },
-        {
-          "selection": "Match nul",
-          "type": "Nul",
-          "odds": 3.39,
-          "market_probability_pct": 27.9,
-          "confidence_score_pct": 27.9,
-          "news_net_signal": 0,
-          "news_nb_articles": 11,
-          "news_sources": "BBC Sport - Football, Google News"
-        }
-      ]
-    },
-    {
-      "match": "Nottingham Forest vs Leeds United",
-      "sport": "soccer_epl",
-      "country": "soccer",
-      "commence_time_gmt": "2026-08-22T14:00:00Z",
-      "nb_bookmakers": 42,
-      "best_pick": {
-        "selection": "Nottingham Forest",
-        "type": "Victoire domicile",
-        "odds": 2.29,
-        "market_probability_pct": 41.2,
-        "confidence_score_pct": 45.2,
-        "news_net_signal": 4,
-        "news_nb_articles": 6,
-        "news_sources": "BBC Sport - Football, Google News"
-      },
-      "all_candidates": [
-        {
-          "selection": "Nottingham Forest",
-          "type": "Victoire domicile",
           "odds": 2.29,
-          "market_probability_pct": 41.2,
-          "confidence_score_pct": 45.2,
-          "news_net_signal": 4,
-          "news_nb_articles": 6,
-          "news_sources": "BBC Sport - Football, Google News"
-        },
-        {
-          "selection": "Leeds United",
-          "type": "Victoire extérieur",
-          "odds": 3.09,
-          "market_probability_pct": 30.6,
-          "confidence_score_pct": 34.6,
-          "news_net_signal": 4,
+          "market_probability_pct": 41.9,
+          "confidence_score_pct": 38.3,
+          "news_net_signal": -3.6,
           "news_nb_articles": 5,
-          "news_sources": "Google News"
-        },
-        {
-          "selection": "Match nul",
-          "type": "Nul",
-          "odds": 3.35,
-          "market_probability_pct": 28.2,
-          "confidence_score_pct": 28.2,
-          "news_net_signal": 0,
-          "news_nb_articles": 11,
-          "news_sources": "BBC Sport - Football, Google News"
-        }
-      ]
-    },
-    {
-      "match": "Nice vs Lorient",
-      "sport": "soccer_france_ligue_one",
-      "country": "soccer",
-      "commence_time_gmt": "2026-08-22T18:45:00Z",
-      "nb_bookmakers": 41,
-      "best_pick": {
-        "selection": "Nice",
-        "type": "Victoire domicile",
-        "odds": 2.11,
-        "market_probability_pct": 44.6,
-        "confidence_score_pct": 44.6,
-        "news_net_signal": 0,
-        "news_nb_articles": 5,
-        "news_sources": "Google News"
-      },
-      "all_candidates": [
-        {
-          "selection": "Nice",
-          "type": "Victoire domicile",
-          "odds": 2.11,
-          "market_probability_pct": 44.6,
-          "confidence_score_pct": 44.6,
-          "news_net_signal": 0,
-          "news_nb_articles": 5,
-          "news_sources": "Google News"
-        },
-        {
-          "selection": "Lorient",
-          "type": "Victoire extérieur",
-          "odds": 3.26,
-          "market_probability_pct": 28.9,
-          "confidence_score_pct": 33.9,
-          "news_net_signal": 8,
-          "news_nb_articles": 5,
-          "news_sources": "Google News"
-        },
-        {
-          "selection": "Match nul",
-          "type": "Nul",
-          "odds": 3.55,
-          "market_probability_pct": 26.5,
-          "confidence_score_pct": 26.5,
-          "news_net_signal": 0,
-          "news_nb_articles": 10,
+          "news_hype_ratio_pct": 0.0,
           "news_sources": "Google News"
         }
       ]
     },
     {
-      "match": "NEC Nijmegen vs Bodø/Glimt",
-      "sport": "soccer_uefa_champs_league_qualification",
-      "country": "soccer",
-      "commence_time_gmt": "2026-08-19T19:00:00Z",
-      "nb_bookmakers": 17,
+      "match": "Taner Trembley vs Roman Puga",
+      "sport": "mma_mixed_martial_arts",
+      "country": "mma",
+      "commence_time_gmt": "2026-08-18T23:15:00Z",
+      "nb_bookmakers": 4,
       "best_pick": {
-        "selection": "Bodø/Glimt",
+        "selection": "Roman Puga",
         "type": "Victoire extérieur",
-        "odds": 2.41,
-        "market_probability_pct": 38.5,
-        "confidence_score_pct": 43.5,
-        "news_net_signal": 6,
-        "news_nb_articles": 5,
+        "odds": 1.65,
+        "market_probability_pct": 58.2,
+        "confidence_score_pct": 53.8,
+        "news_net_signal": 0.0,
+        "news_nb_articles": 4,
+        "news_hype_ratio_pct": 0.0,
         "news_sources": "Google News"
       },
       "all_candidates": [
         {
-          "selection": "NEC Nijmegen",
+          "selection": "Taner Trembley",
           "type": "Victoire domicile",
-          "odds": 2.55,
-          "market_probability_pct": 36.3,
-          "confidence_score_pct": 36.3,
-          "news_net_signal": 0,
-          "news_nb_articles": 5,
-          "news_sources": "Google News"
-        },
-        {
-          "selection": "Bodø/Glimt",
-          "type": "Victoire extérieur",
-          "odds": 2.41,
-          "market_probability_pct": 38.5,
-          "confidence_score_pct": 43.5,
-          "news_net_signal": 6,
-          "news_nb_articles": 5,
-          "news_sources": "Google News"
-        },
-        {
-          "selection": "Match nul",
-          "type": "Nul",
-          "odds": 3.67,
-          "market_probability_pct": 25.2,
-          "confidence_score_pct": 25.2,
-          "news_net_signal": 0,
-          "news_nb_articles": 10,
-          "news_sources": "Google News"
-        }
-      ]
-    },
-    {
-      "match": "Hapoel Be'er Sheva vs Sabah FK",
-      "sport": "soccer_uefa_champs_league_qualification",
-      "country": "soccer",
-      "commence_time_gmt": "2026-08-19T19:00:00Z",
-      "nb_bookmakers": 18,
-      "best_pick": {
-        "selection": "Hapoel Be'er Sheva",
-        "type": "Victoire domicile",
-        "odds": 2.25,
-        "market_probability_pct": 41.5,
-        "confidence_score_pct": 41.5,
-        "news_net_signal": 0,
-        "news_nb_articles": 5,
-        "news_sources": "Google News"
-      },
-      "all_candidates": [
-        {
-          "selection": "Hapoel Be'er Sheva",
-          "type": "Victoire domicile",
-          "odds": 2.25,
-          "market_probability_pct": 41.5,
-          "confidence_score_pct": 41.5,
-          "news_net_signal": 0,
-          "news_nb_articles": 5,
-          "news_sources": "Google News"
-        },
-        {
-          "selection": "Sabah FK",
-          "type": "Victoire extérieur",
-          "odds": 3.12,
-          "market_probability_pct": 30.0,
-          "confidence_score_pct": 30.0,
-          "news_net_signal": 0,
-          "news_nb_articles": 5,
-          "news_sources": "Google News"
-        },
-        {
-          "selection": "Match nul",
-          "type": "Nul",
-          "odds": 3.27,
-          "market_probability_pct": 28.6,
-          "confidence_score_pct": 28.6,
-          "news_net_signal": 0,
-          "news_nb_articles": 10,
-          "news_sources": "Google News"
-        }
-      ]
-    },
-    {
-      "match": "Toulouse vs Lyon",
-      "sport": "soccer_france_ligue_one",
-      "country": "soccer",
-      "commence_time_gmt": "2026-08-22T18:45:00Z",
-      "nb_bookmakers": 41,
-      "best_pick": {
-        "selection": "Lyon",
-        "type": "Victoire extérieur",
-        "odds": 2.28,
-        "market_probability_pct": 41.4,
-        "confidence_score_pct": 41.4,
-        "news_net_signal": 0,
-        "news_nb_articles": 5,
-        "news_sources": "Google News"
-      },
-      "all_candidates": [
-        {
-          "selection": "Toulouse",
-          "type": "Victoire domicile",
-          "odds": 2.95,
-          "market_probability_pct": 32.0,
-          "confidence_score_pct": 37.0,
-          "news_net_signal": 6,
-          "news_nb_articles": 5,
-          "news_sources": "Google News"
-        },
-        {
-          "selection": "Lyon",
-          "type": "Victoire extérieur",
-          "odds": 2.28,
-          "market_probability_pct": 41.4,
-          "confidence_score_pct": 41.4,
-          "news_net_signal": 0,
-          "news_nb_articles": 5,
-          "news_sources": "Google News"
-        },
-        {
-          "selection": "Match nul",
-          "type": "Nul",
-          "odds": 3.53,
-          "market_probability_pct": 26.7,
-          "confidence_score_pct": 26.7,
-          "news_net_signal": 0,
-          "news_nb_articles": 10,
-          "news_sources": "Google News"
-        }
-      ]
-    },
-    {
-      "match": "Ipswich Town vs Sunderland",
-      "sport": "soccer_epl",
-      "country": "soccer",
-      "commence_time_gmt": "2026-08-22T14:00:00Z",
-      "nb_bookmakers": 42,
-      "best_pick": {
-        "selection": "Sunderland",
-        "type": "Victoire extérieur",
-        "odds": 2.6,
-        "market_probability_pct": 36.4,
-        "confidence_score_pct": 40.4,
-        "news_net_signal": 4,
-        "news_nb_articles": 5,
-        "news_sources": "Google News"
-      },
-      "all_candidates": [
-        {
-          "selection": "Ipswich Town",
-          "type": "Victoire domicile",
-          "odds": 2.7,
-          "market_probability_pct": 35.0,
-          "confidence_score_pct": 40.0,
-          "news_net_signal": 6,
-          "news_nb_articles": 6,
-          "news_sources": "BBC Sport - Football, Google News"
-        },
-        {
-          "selection": "Sunderland",
-          "type": "Victoire extérieur",
-          "odds": 2.6,
-          "market_probability_pct": 36.4,
-          "confidence_score_pct": 40.4,
-          "news_net_signal": 4,
-          "news_nb_articles": 5,
-          "news_sources": "Google News"
-        },
-        {
-          "selection": "Match nul",
-          "type": "Nul",
-          "odds": 3.3,
-          "market_probability_pct": 28.6,
-          "confidence_score_pct": 28.6,
-          "news_net_signal": 0,
-          "news_nb_articles": 11,
-          "news_sources": "BBC Sport - Football, Google News"
-        }
-      ]
-    },
-    {
-      "match": "Le Mans FC vs Brest",
-      "sport": "soccer_france_ligue_one",
-      "country": "soccer",
-      "commence_time_gmt": "2026-08-22T18:45:00Z",
-      "nb_bookmakers": 41,
-      "best_pick": {
-        "selection": "Brest",
-        "type": "Victoire extérieur",
-        "odds": 2.73,
-        "market_probability_pct": 34.4,
-        "confidence_score_pct": 39.4,
-        "news_net_signal": 6,
-        "news_nb_articles": 5,
-        "news_sources": "Google News"
-      },
-      "all_candidates": [
-        {
-          "selection": "Le Mans FC",
-          "type": "Victoire domicile",
-          "odds": 2.44,
-          "market_probability_pct": 38.6,
-          "confidence_score_pct": 38.6,
-          "news_net_signal": 0,
-          "news_nb_articles": 5,
-          "news_sources": "Google News"
-        },
-        {
-          "selection": "Brest",
-          "type": "Victoire extérieur",
-          "odds": 2.73,
-          "market_probability_pct": 34.4,
-          "confidence_score_pct": 39.4,
-          "news_net_signal": 6,
-          "news_nb_articles": 5,
-          "news_sources": "Google News"
-        },
-        {
-          "selection": "Match nul",
-          "type": "Nul",
-          "odds": 3.48,
-          "market_probability_pct": 27.0,
-          "confidence_score_pct": 27.0,
-          "news_net_signal": 0,
-          "news_nb_articles": 10,
-          "news_sources": "Google News"
-        }
-      ]
-    },
-    {
-      "match": "Brentford vs Tottenham Hotspur",
-      "sport": "soccer_epl",
-      "country": "soccer",
-      "commence_time_gmt": "2026-08-22T16:30:00Z",
-      "nb_bookmakers": 42,
-      "best_pick": {
-        "selection": "Brentford",
-        "type": "Victoire domicile",
-        "odds": 2.43,
-        "market_probability_pct": 38.9,
-        "confidence_score_pct": 38.9,
-        "news_net_signal": 0,
-        "news_nb_articles": 2,
-        "news_sources": "Google News"
-      },
-      "all_candidates": [
-        {
-          "selection": "Brentford",
-          "type": "Victoire domicile",
-          "odds": 2.43,
-          "market_probability_pct": 38.9,
-          "confidence_score_pct": 38.9,
-          "news_net_signal": 0,
+          "odds": 2.3,
+          "market_probability_pct": 41.8,
+          "confidence_score_pct": 38.7,
+          "news_net_signal": 0.0,
           "news_nb_articles": 2,
+          "news_hype_ratio_pct": 0.0,
           "news_sources": "Google News"
         },
         {
-          "selection": "Tottenham Hotspur",
+          "selection": "Roman Puga",
           "type": "Victoire extérieur",
-          "odds": 2.72,
-          "market_probability_pct": 34.7,
-          "confidence_score_pct": 36.7,
-          "news_net_signal": 2,
+          "odds": 1.65,
+          "market_probability_pct": 58.2,
+          "confidence_score_pct": 53.8,
+          "news_net_signal": 0.0,
+          "news_nb_articles": 4,
+          "news_hype_ratio_pct": 0.0,
+          "news_sources": "Google News"
+        }
+      ]
+    },
+    {
+      "match": "Minnesota Twins vs Atlanta Braves",
+      "sport": "baseball_mlb",
+      "country": "baseball",
+      "commence_time_gmt": "2026-08-18T23:40:00Z",
+      "nb_bookmakers": 36,
+      "best_pick": {
+        "selection": "Atlanta Braves",
+        "type": "Victoire extérieur",
+        "odds": 1.7,
+        "market_probability_pct": 56.5,
+        "confidence_score_pct": 52.9,
+        "news_net_signal": -3.6,
+        "news_nb_articles": 5,
+        "news_hype_ratio_pct": 0.0,
+        "news_sources": "Google News"
+      },
+      "all_candidates": [
+        {
+          "selection": "Minnesota Twins",
+          "type": "Victoire domicile",
+          "odds": 2.21,
+          "market_probability_pct": 43.5,
+          "confidence_score_pct": 42.3,
+          "news_net_signal": -1.2,
           "news_nb_articles": 5,
+          "news_hype_ratio_pct": 0.0,
           "news_sources": "Google News"
         },
         {
-          "selection": "Match nul",
-          "type": "Nul",
-          "odds": 3.58,
-          "market_probability_pct": 26.3,
-          "confidence_score_pct": 26.3,
-          "news_net_signal": 0,
-          "news_nb_articles": 7,
+          "selection": "Atlanta Braves",
+          "type": "Victoire extérieur",
+          "odds": 1.7,
+          "market_probability_pct": 56.5,
+          "confidence_score_pct": 52.9,
+          "news_net_signal": -3.6,
+          "news_nb_articles": 5,
+          "news_hype_ratio_pct": 0.0,
+          "news_sources": "Google News"
+        }
+      ]
+    },
+    {
+      "match": "Connecticut Sun vs Los Angeles Sparks",
+      "sport": "basketball_wnba",
+      "country": "basketball",
+      "commence_time_gmt": "2026-08-18T23:00:00Z",
+      "nb_bookmakers": 24,
+      "best_pick": {
+        "selection": "Los Angeles Sparks",
+        "type": "Victoire extérieur",
+        "odds": 1.72,
+        "market_probability_pct": 55.2,
+        "confidence_score_pct": 50.4,
+        "news_net_signal": -4.8,
+        "news_nb_articles": 5,
+        "news_hype_ratio_pct": 0.0,
+        "news_sources": "Google News"
+      },
+      "all_candidates": [
+        {
+          "selection": "Connecticut Sun",
+          "type": "Victoire domicile",
+          "odds": 2.12,
+          "market_probability_pct": 44.8,
+          "confidence_score_pct": 41.2,
+          "news_net_signal": -3.6,
+          "news_nb_articles": 5,
+          "news_hype_ratio_pct": 0.0,
+          "news_sources": "Google News"
+        },
+        {
+          "selection": "Los Angeles Sparks",
+          "type": "Victoire extérieur",
+          "odds": 1.72,
+          "market_probability_pct": 55.2,
+          "confidence_score_pct": 50.4,
+          "news_net_signal": -4.8,
+          "news_nb_articles": 5,
+          "news_hype_ratio_pct": 0.0,
+          "news_sources": "Google News"
+        }
+      ]
+    },
+    {
+      "match": "Cincinnati Reds vs St. Louis Cardinals",
+      "sport": "baseball_mlb",
+      "country": "baseball",
+      "commence_time_gmt": "2026-08-18T22:41:00Z",
+      "nb_bookmakers": 38,
+      "best_pick": {
+        "selection": "St. Louis Cardinals",
+        "type": "Victoire extérieur",
+        "odds": 1.84,
+        "market_probability_pct": 52.2,
+        "confidence_score_pct": 49.8,
+        "news_net_signal": -2.4,
+        "news_nb_articles": 5,
+        "news_hype_ratio_pct": 0.0,
+        "news_sources": "Google News"
+      },
+      "all_candidates": [
+        {
+          "selection": "Cincinnati Reds",
+          "type": "Victoire domicile",
+          "odds": 2.01,
+          "market_probability_pct": 47.8,
+          "confidence_score_pct": 47.8,
+          "news_net_signal": 0.0,
+          "news_nb_articles": 1,
+          "news_hype_ratio_pct": 0.0,
+          "news_sources": "Google News"
+        },
+        {
+          "selection": "St. Louis Cardinals",
+          "type": "Victoire extérieur",
+          "odds": 1.84,
+          "market_probability_pct": 52.2,
+          "confidence_score_pct": 49.8,
+          "news_net_signal": -2.4,
+          "news_nb_articles": 5,
+          "news_hype_ratio_pct": 0.0,
+          "news_sources": "Google News"
+        }
+      ]
+    },
+    {
+      "match": "New York Mets vs San Diego Padres",
+      "sport": "baseball_mlb",
+      "country": "baseball",
+      "commence_time_gmt": "2026-08-18T23:11:00Z",
+      "nb_bookmakers": 38,
+      "best_pick": {
+        "selection": "San Diego Padres",
+        "type": "Victoire extérieur",
+        "odds": 1.85,
+        "market_probability_pct": 51.8,
+        "confidence_score_pct": 48.2,
+        "news_net_signal": -3.6,
+        "news_nb_articles": 5,
+        "news_hype_ratio_pct": 0.0,
+        "news_sources": "Google News"
+      },
+      "all_candidates": [
+        {
+          "selection": "New York Mets",
+          "type": "Victoire domicile",
+          "odds": 1.99,
+          "market_probability_pct": 48.2,
+          "confidence_score_pct": 44.6,
+          "news_net_signal": -3.6,
+          "news_nb_articles": 5,
+          "news_hype_ratio_pct": 0.0,
+          "news_sources": "Google News"
+        },
+        {
+          "selection": "San Diego Padres",
+          "type": "Victoire extérieur",
+          "odds": 1.85,
+          "market_probability_pct": 51.8,
+          "confidence_score_pct": 48.2,
+          "news_net_signal": -3.6,
+          "news_nb_articles": 5,
+          "news_hype_ratio_pct": 0.0,
+          "news_sources": "Google News"
+        }
+      ]
+    },
+    {
+      "match": "Baltimore Orioles vs New York Yankees",
+      "sport": "baseball_mlb",
+      "country": "baseball",
+      "commence_time_gmt": "2026-08-18T22:36:00Z",
+      "nb_bookmakers": 38,
+      "best_pick": {
+        "selection": "Baltimore Orioles",
+        "type": "Victoire domicile",
+        "odds": 1.95,
+        "market_probability_pct": 49.1,
+        "confidence_score_pct": 47.9,
+        "news_net_signal": -1.2,
+        "news_nb_articles": 5,
+        "news_hype_ratio_pct": 0.0,
+        "news_sources": "Google News"
+      },
+      "all_candidates": [
+        {
+          "selection": "Baltimore Orioles",
+          "type": "Victoire domicile",
+          "odds": 1.95,
+          "market_probability_pct": 49.1,
+          "confidence_score_pct": 47.9,
+          "news_net_signal": -1.2,
+          "news_nb_articles": 5,
+          "news_hype_ratio_pct": 0.0,
+          "news_sources": "Google News"
+        },
+        {
+          "selection": "New York Yankees",
+          "type": "Victoire extérieur",
+          "odds": 1.88,
+          "market_probability_pct": 50.9,
+          "confidence_score_pct": 46.1,
+          "news_net_signal": -4.8,
+          "news_nb_articles": 5,
+          "news_hype_ratio_pct": 0.0,
           "news_sources": "Google News"
         }
       ]
