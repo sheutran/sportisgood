@@ -1,5 +1,5 @@
 {
-  "generated_at_utc": "2026-08-17T23:10:47.936078+00:00",
+  "generated_at_utc": "2026-08-18T07:27:08.481005+00:00",
   "disclaimer": "Score de confiance heuristique base sur les cotes du marche et l'actualite recente. Ne constitue en aucun cas une garantie de gain.",
   "picks": [
     {
@@ -7,13 +7,13 @@
       "sport": "americanfootball_cfl",
       "country": "americanfootball",
       "commence_time_gmt": "2026-08-20T23:30:00Z",
-      "nb_bookmakers": 10,
+      "nb_bookmakers": 11,
       "best_pick": {
         "selection": "Montreal Alouettes",
         "type": "Victoire domicile",
-        "odds": 1.1,
-        "market_probability_pct": 82.6,
-        "confidence_score_pct": 82.6,
+        "odds": 1.11,
+        "market_probability_pct": 83.7,
+        "confidence_score_pct": 83.7,
         "news_net_signal": 0,
         "news_nb_articles": 0
       },
@@ -21,18 +21,18 @@
         {
           "selection": "Montreal Alouettes",
           "type": "Victoire domicile",
-          "odds": 1.1,
-          "market_probability_pct": 82.6,
-          "confidence_score_pct": 82.6,
+          "odds": 1.11,
+          "market_probability_pct": 83.7,
+          "confidence_score_pct": 83.7,
           "news_net_signal": 0,
           "news_nb_articles": 0
         },
         {
           "selection": "Ottawa Redblacks",
           "type": "Victoire extérieur",
-          "odds": 5.2,
-          "market_probability_pct": 17.4,
-          "confidence_score_pct": 17.4,
+          "odds": 5.67,
+          "market_probability_pct": 16.3,
+          "confidence_score_pct": 16.3,
           "news_net_signal": 0,
           "news_nb_articles": 0
         }
@@ -43,7 +43,7 @@
       "sport": "soccer_epl",
       "country": "soccer",
       "commence_time_gmt": "2026-08-21T19:00:00Z",
-      "nb_bookmakers": 41,
+      "nb_bookmakers": 42,
       "best_pick": {
         "selection": "Arsenal",
         "type": "Victoire domicile",
@@ -66,7 +66,7 @@
         {
           "selection": "Coventry City",
           "type": "Victoire extérieur",
-          "odds": 16.06,
+          "odds": 16.02,
           "market_probability_pct": 5.9,
           "confidence_score_pct": 5.9,
           "news_net_signal": 0,
@@ -75,7 +75,7 @@
         {
           "selection": "Match nul",
           "type": "Nul",
-          "odds": 7.31,
+          "odds": 7.28,
           "market_probability_pct": 13.0,
           "confidence_score_pct": 13.0,
           "news_net_signal": 0,
@@ -93,8 +93,8 @@
         "selection": "Manchester United",
         "type": "Victoire extérieur",
         "odds": 1.38,
-        "market_probability_pct": 68.5,
-        "confidence_score_pct": 68.5,
+        "market_probability_pct": 68.6,
+        "confidence_score_pct": 68.6,
         "news_net_signal": 0,
         "news_nb_articles": 0
       },
@@ -102,9 +102,9 @@
         {
           "selection": "Hull City",
           "type": "Victoire domicile",
-          "odds": 8.18,
-          "market_probability_pct": 11.5,
-          "confidence_score_pct": 11.5,
+          "odds": 8.26,
+          "market_probability_pct": 11.4,
+          "confidence_score_pct": 11.4,
           "news_net_signal": 0,
           "news_nb_articles": 0
         },
@@ -112,15 +112,15 @@
           "selection": "Manchester United",
           "type": "Victoire extérieur",
           "odds": 1.38,
-          "market_probability_pct": 68.5,
-          "confidence_score_pct": 68.5,
+          "market_probability_pct": 68.6,
+          "confidence_score_pct": 68.6,
           "news_net_signal": 0,
           "news_nb_articles": 0
         },
         {
           "selection": "Match nul",
           "type": "Nul",
-          "odds": 4.72,
+          "odds": 4.75,
           "market_probability_pct": 20.0,
           "confidence_score_pct": 20.0,
           "news_net_signal": 0,
@@ -133,13 +133,13 @@
       "sport": "americanfootball_cfl",
       "country": "americanfootball",
       "commence_time_gmt": "2026-08-22T01:30:00Z",
-      "nb_bookmakers": 11,
+      "nb_bookmakers": 12,
       "best_pick": {
         "selection": "Edmonton Elks",
         "type": "Victoire domicile",
-        "odds": 1.31,
-        "market_probability_pct": 67.0,
-        "confidence_score_pct": 67.0,
+        "odds": 1.32,
+        "market_probability_pct": 67.2,
+        "confidence_score_pct": 67.2,
         "news_net_signal": 0,
         "news_nb_articles": 0
       },
@@ -147,18 +147,18 @@
         {
           "selection": "Edmonton Elks",
           "type": "Victoire domicile",
-          "odds": 1.31,
-          "market_probability_pct": 67.0,
-          "confidence_score_pct": 67.0,
+          "odds": 1.32,
+          "market_probability_pct": 67.2,
+          "confidence_score_pct": 67.2,
           "news_net_signal": 0,
           "news_nb_articles": 0
         },
         {
           "selection": "Winnipeg Blue Bombers",
           "type": "Victoire extérieur",
-          "odds": 2.66,
-          "market_probability_pct": 33.0,
-          "confidence_score_pct": 33.0,
+          "odds": 2.7,
+          "market_probability_pct": 32.8,
+          "confidence_score_pct": 32.8,
           "news_net_signal": 0,
           "news_nb_articles": 0
         }
@@ -237,9 +237,9 @@
         {
           "selection": "Newport County",
           "type": "Victoire extérieur",
-          "odds": 4.63,
-          "market_probability_pct": 19.8,
-          "confidence_score_pct": 19.8,
+          "odds": 4.65,
+          "market_probability_pct": 19.7,
+          "confidence_score_pct": 19.7,
           "news_net_signal": 0,
           "news_nb_articles": 0
         },
@@ -259,13 +259,13 @@
       "sport": "soccer_france_ligue_one",
       "country": "soccer",
       "commence_time_gmt": "2026-08-21T18:45:00Z",
-      "nb_bookmakers": 40,
+      "nb_bookmakers": 41,
       "best_pick": {
         "selection": "Marseille",
         "type": "Victoire domicile",
         "odds": 1.73,
-        "market_probability_pct": 54.3,
-        "confidence_score_pct": 54.3,
+        "market_probability_pct": 54.4,
+        "confidence_score_pct": 54.4,
         "news_net_signal": 0,
         "news_nb_articles": 0
       },
@@ -274,8 +274,8 @@
           "selection": "Marseille",
           "type": "Victoire domicile",
           "odds": 1.73,
-          "market_probability_pct": 54.3,
-          "confidence_score_pct": 54.3,
+          "market_probability_pct": 54.4,
+          "confidence_score_pct": 54.4,
           "news_net_signal": 0,
           "news_nb_articles": 0
         },
@@ -291,9 +291,9 @@
         {
           "selection": "Match nul",
           "type": "Nul",
-          "odds": 4.02,
-          "market_probability_pct": 23.4,
-          "confidence_score_pct": 23.4,
+          "odds": 4.03,
+          "market_probability_pct": 23.3,
+          "confidence_score_pct": 23.3,
           "news_net_signal": 0,
           "news_nb_articles": 0
         }
@@ -308,9 +308,9 @@
       "best_pick": {
         "selection": "Doncaster Rovers",
         "type": "Victoire domicile",
-        "odds": 1.95,
-        "market_probability_pct": 47.3,
-        "confidence_score_pct": 47.3,
+        "odds": 1.96,
+        "market_probability_pct": 47.1,
+        "confidence_score_pct": 47.1,
         "news_net_signal": 0,
         "news_nb_articles": 0
       },
@@ -318,9 +318,9 @@
         {
           "selection": "Doncaster Rovers",
           "type": "Victoire domicile",
-          "odds": 1.95,
-          "market_probability_pct": 47.3,
-          "confidence_score_pct": 47.3,
+          "odds": 1.96,
+          "market_probability_pct": 47.1,
+          "confidence_score_pct": 47.1,
           "news_net_signal": 0,
           "news_nb_articles": 0
         },
@@ -328,8 +328,8 @@
           "selection": "Barnsley",
           "type": "Victoire extérieur",
           "odds": 3.41,
-          "market_probability_pct": 27.0,
-          "confidence_score_pct": 27.0,
+          "market_probability_pct": 27.1,
+          "confidence_score_pct": 27.1,
           "news_net_signal": 0,
           "news_nb_articles": 0
         },
@@ -337,8 +337,8 @@
           "selection": "Match nul",
           "type": "Nul",
           "odds": 3.58,
-          "market_probability_pct": 25.7,
-          "confidence_score_pct": 25.7,
+          "market_probability_pct": 25.8,
+          "confidence_score_pct": 25.8,
           "news_net_signal": 0,
           "news_nb_articles": 0
         }
@@ -353,9 +353,9 @@
       "best_pick": {
         "selection": "Salford City",
         "type": "Victoire domicile",
-        "odds": 2.04,
-        "market_probability_pct": 44.9,
-        "confidence_score_pct": 44.9,
+        "odds": 2.03,
+        "market_probability_pct": 45.1,
+        "confidence_score_pct": 45.1,
         "news_net_signal": 0,
         "news_nb_articles": 0
       },
@@ -363,9 +363,9 @@
         {
           "selection": "Salford City",
           "type": "Victoire domicile",
-          "odds": 2.04,
-          "market_probability_pct": 44.9,
-          "confidence_score_pct": 44.9,
+          "odds": 2.03,
+          "market_probability_pct": 45.1,
+          "confidence_score_pct": 45.1,
           "news_net_signal": 0,
           "news_nb_articles": 0
         },
@@ -373,17 +373,17 @@
           "selection": "Chesterfield FC",
           "type": "Victoire extérieur",
           "odds": 3.42,
-          "market_probability_pct": 26.8,
-          "confidence_score_pct": 26.8,
+          "market_probability_pct": 26.7,
+          "confidence_score_pct": 26.7,
           "news_net_signal": 0,
           "news_nb_articles": 0
         },
         {
           "selection": "Match nul",
           "type": "Nul",
-          "odds": 3.24,
-          "market_probability_pct": 28.3,
-          "confidence_score_pct": 28.3,
+          "odds": 3.26,
+          "market_probability_pct": 28.1,
+          "confidence_score_pct": 28.1,
           "news_net_signal": 0,
           "news_nb_articles": 0
         }
@@ -394,13 +394,13 @@
       "sport": "soccer_france_ligue_two",
       "country": "soccer",
       "commence_time_gmt": "2026-08-21T18:00:00Z",
-      "nb_bookmakers": 30,
+      "nb_bookmakers": 38,
       "best_pick": {
         "selection": "Pau FC",
         "type": "Victoire domicile",
-        "odds": 2.09,
-        "market_probability_pct": 41.8,
-        "confidence_score_pct": 41.8,
+        "odds": 2.19,
+        "market_probability_pct": 41.7,
+        "confidence_score_pct": 41.7,
         "news_net_signal": 0,
         "news_nb_articles": 0
       },
@@ -408,27 +408,27 @@
         {
           "selection": "Pau FC",
           "type": "Victoire domicile",
-          "odds": 2.09,
-          "market_probability_pct": 41.8,
-          "confidence_score_pct": 41.8,
+          "odds": 2.19,
+          "market_probability_pct": 41.7,
+          "confidence_score_pct": 41.7,
           "news_net_signal": 0,
           "news_nb_articles": 0
         },
         {
           "selection": "Nancy",
           "type": "Victoire extérieur",
-          "odds": 2.9,
-          "market_probability_pct": 30.2,
-          "confidence_score_pct": 30.2,
+          "odds": 2.99,
+          "market_probability_pct": 30.5,
+          "confidence_score_pct": 30.5,
           "news_net_signal": 0,
           "news_nb_articles": 0
         },
         {
           "selection": "Match nul",
           "type": "Nul",
-          "odds": 3.12,
-          "market_probability_pct": 28.1,
-          "confidence_score_pct": 28.1,
+          "odds": 3.28,
+          "market_probability_pct": 27.8,
+          "confidence_score_pct": 27.8,
           "news_net_signal": 0,
           "news_nb_articles": 0
         }
@@ -439,13 +439,13 @@
       "sport": "soccer_france_ligue_two",
       "country": "soccer",
       "commence_time_gmt": "2026-08-21T18:00:00Z",
-      "nb_bookmakers": 28,
+      "nb_bookmakers": 36,
       "best_pick": {
         "selection": "Red Star",
         "type": "Victoire extérieur",
-        "odds": 2.21,
-        "market_probability_pct": 39.9,
-        "confidence_score_pct": 39.9,
+        "odds": 2.28,
+        "market_probability_pct": 40.0,
+        "confidence_score_pct": 40.0,
         "news_net_signal": 0,
         "news_nb_articles": 0
       },
@@ -453,25 +453,25 @@
         {
           "selection": "Boulogne",
           "type": "Victoire domicile",
-          "odds": 2.94,
-          "market_probability_pct": 30.0,
-          "confidence_score_pct": 30.0,
+          "odds": 3.03,
+          "market_probability_pct": 30.1,
+          "confidence_score_pct": 30.1,
           "news_net_signal": 0,
           "news_nb_articles": 0
         },
         {
           "selection": "Red Star",
           "type": "Victoire extérieur",
-          "odds": 2.21,
-          "market_probability_pct": 39.9,
-          "confidence_score_pct": 39.9,
+          "odds": 2.28,
+          "market_probability_pct": 40.0,
+          "confidence_score_pct": 40.0,
           "news_net_signal": 0,
           "news_nb_articles": 0
         },
         {
           "selection": "Match nul",
           "type": "Nul",
-          "odds": 2.94,
+          "odds": 3.04,
           "market_probability_pct": 30.0,
           "confidence_score_pct": 30.0,
           "news_net_signal": 0,
@@ -484,13 +484,13 @@
       "sport": "soccer_france_ligue_two",
       "country": "soccer",
       "commence_time_gmt": "2026-08-21T18:00:00Z",
-      "nb_bookmakers": 25,
+      "nb_bookmakers": 33,
       "best_pick": {
         "selection": "Guingamp",
         "type": "Victoire extérieur",
-        "odds": 2.22,
-        "market_probability_pct": 39.2,
-        "confidence_score_pct": 39.2,
+        "odds": 2.29,
+        "market_probability_pct": 38.6,
+        "confidence_score_pct": 38.6,
         "news_net_signal": 0,
         "news_nb_articles": 0
       },
@@ -499,26 +499,26 @@
           "selection": "Sochaux",
           "type": "Victoire domicile",
           "odds": 2.73,
-          "market_probability_pct": 31.9,
-          "confidence_score_pct": 31.9,
+          "market_probability_pct": 32.3,
+          "confidence_score_pct": 32.3,
           "news_net_signal": 0,
           "news_nb_articles": 0
         },
         {
           "selection": "Guingamp",
           "type": "Victoire extérieur",
-          "odds": 2.22,
-          "market_probability_pct": 39.2,
-          "confidence_score_pct": 39.2,
+          "odds": 2.29,
+          "market_probability_pct": 38.6,
+          "confidence_score_pct": 38.6,
           "news_net_signal": 0,
           "news_nb_articles": 0
         },
         {
           "selection": "Match nul",
           "type": "Nul",
-          "odds": 3.02,
-          "market_probability_pct": 28.9,
-          "confidence_score_pct": 28.9,
+          "odds": 3.03,
+          "market_probability_pct": 29.1,
+          "confidence_score_pct": 29.1,
           "news_net_signal": 0,
           "news_nb_articles": 0
         }
@@ -574,13 +574,13 @@
       "sport": "soccer_france_ligue_two",
       "country": "soccer",
       "commence_time_gmt": "2026-08-21T18:00:00Z",
-      "nb_bookmakers": 28,
+      "nb_bookmakers": 36,
       "best_pick": {
         "selection": "USL Dunkerque",
         "type": "Victoire domicile",
-        "odds": 2.36,
-        "market_probability_pct": 37.2,
-        "confidence_score_pct": 37.2,
+        "odds": 2.38,
+        "market_probability_pct": 37.3,
+        "confidence_score_pct": 37.3,
         "news_net_signal": 0,
         "news_nb_articles": 0
       },
@@ -588,27 +588,27 @@
         {
           "selection": "USL Dunkerque",
           "type": "Victoire domicile",
-          "odds": 2.36,
-          "market_probability_pct": 37.2,
-          "confidence_score_pct": 37.2,
+          "odds": 2.38,
+          "market_probability_pct": 37.3,
+          "confidence_score_pct": 37.3,
           "news_net_signal": 0,
           "news_nb_articles": 0
         },
         {
           "selection": "Montpellier",
           "type": "Victoire extérieur",
-          "odds": 2.55,
-          "market_probability_pct": 34.4,
-          "confidence_score_pct": 34.4,
+          "odds": 2.58,
+          "market_probability_pct": 34.5,
+          "confidence_score_pct": 34.5,
           "news_net_signal": 0,
           "news_nb_articles": 0
         },
         {
           "selection": "Match nul",
           "type": "Nul",
-          "odds": 3.09,
-          "market_probability_pct": 28.4,
-          "confidence_score_pct": 28.4,
+          "odds": 3.14,
+          "market_probability_pct": 28.2,
+          "confidence_score_pct": 28.2,
           "news_net_signal": 0,
           "news_nb_articles": 0
         }
@@ -619,13 +619,13 @@
       "sport": "soccer_france_ligue_two",
       "country": "soccer",
       "commence_time_gmt": "2026-08-21T18:00:00Z",
-      "nb_bookmakers": 28,
+      "nb_bookmakers": 37,
       "best_pick": {
-        "selection": "Dijon",
-        "type": "Victoire extérieur",
-        "odds": 2.4,
-        "market_probability_pct": 36.4,
-        "confidence_score_pct": 36.4,
+        "selection": "Clermont",
+        "type": "Victoire domicile",
+        "odds": 2.52,
+        "market_probability_pct": 36.3,
+        "confidence_score_pct": 36.3,
         "news_net_signal": 0,
         "news_nb_articles": 0
       },
@@ -633,27 +633,27 @@
         {
           "selection": "Clermont",
           "type": "Victoire domicile",
-          "odds": 2.44,
-          "market_probability_pct": 35.8,
-          "confidence_score_pct": 35.8,
+          "odds": 2.52,
+          "market_probability_pct": 36.3,
+          "confidence_score_pct": 36.3,
           "news_net_signal": 0,
           "news_nb_articles": 0
         },
         {
           "selection": "Dijon",
           "type": "Victoire extérieur",
-          "odds": 2.4,
-          "market_probability_pct": 36.4,
-          "confidence_score_pct": 36.4,
+          "odds": 2.52,
+          "market_probability_pct": 36.3,
+          "confidence_score_pct": 36.3,
           "news_net_signal": 0,
           "news_nb_articles": 0
         },
         {
           "selection": "Match nul",
           "type": "Nul",
-          "odds": 3.14,
-          "market_probability_pct": 27.8,
-          "confidence_score_pct": 27.8,
+          "odds": 3.35,
+          "market_probability_pct": 27.4,
+          "confidence_score_pct": 27.4,
           "news_net_signal": 0,
           "news_nb_articles": 0
         }
