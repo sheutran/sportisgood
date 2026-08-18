@@ -26,9 +26,9 @@ jobs:
           ODDS_API_KEY: ${{ secrets.ODDS_API_KEY }}
           GOOGLE_SHEET_ID: ${{ secrets.GOOGLE_SHEET_ID }}
           GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
-          SPORT_KEYS: "soccer_france_ligue_one,soccer_epl,soccer_uefa_champs_league_qualification,basketball_nba"
-          MAX_EVENTS: "15"
-          HOURS_AHEAD: "168"
+          SPORT_KEYS: "soccer_epl,soccer_france_ligue_one,soccer_spain_la_liga,soccer_italy_serie_a,soccer_germany_bundesliga,soccer_uefa_champs_league_qualification,soccer_usa_mls,basketball_nba,basketball_wnba,americanfootball_nfl,americanfootball_nfl_preseason,baseball_mlb,tennis_atp_cincinnati_open,tennis_wta_cincinnati_open,mma_mixed_martial_arts,boxing_boxing"
+          MAX_EVENTS: "20"
+          HOURS_AHEAD: "24"
           MAX_RSS_FEEDS: "15"
         run: python main.py
 

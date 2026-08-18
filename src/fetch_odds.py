@@ -71,50 +71,64 @@ def average_odds(bookmakers: list, outcome_name: str) -> float | None:
     return round(sum(values) / len(values), 2) if values else None
 
 
-def get_events(sport_keys: list, api_key: str, max_events: int = 15, hours_ahead: int = 168) -> list:
+def get_events(sport_keys: list, api_key: str, max_events: int = 15, hours_ahead: int = 24) -> list:
     """Retourne une liste d'événements normalisés, prêts pour l'étape d'analyse.
 
-    hours_ahead: fenêtre de recherche (par défaut 168h = 7 jours, pour couvrir les
-    championnats qui ne jouent qu'un week-end sur deux, ou les vacances internationales)."""
+    hours_ahead: fenêtre de recherche cible (24h par défaut). Si aucune rencontre
+    n'est trouvée dans cette fenêtre, la recherche s'élargit automatiquement
+    (48h, puis 7 jours) plutôt que de renvoyer une page vide."""
     valid_keys = get_valid_sport_keys(api_key)
     if valid_keys:
         unknown = [k for k in sport_keys if k not in valid_keys]
         if unknown:
             print(f"[fetch_odds] ATTENTION - ces sport_key sont inconnues ou hors-saison "
                   f"et seront ignorées: {unknown}")
-            print(f"[fetch_odds] Clés valides disponibles actuellement: {sorted(valid_keys)}")
         sport_keys = [k for k in sport_keys if k in valid_keys]
 
-    all_events = []
+    # On récupère les cotes brutes une seule fois par sport (coûte du quota),
+    # puis on applique différentes largeurs de fenêtre en mémoire, sans refaire d'appel API.
+    raw_by_sport = {}
     for sport_key in sport_keys:
         raw_events = fetch_odds_for_sport(sport_key, api_key)
-        kept = 0
-        next_commence_times = []
-        for ev in raw_events:
-            next_commence_times.append(ev.get("commence_time", ""))
-            if not within_window(ev.get("commence_time", ""), hours_ahead):
-                continue
-            kept += 1
-            home = ev.get("home_team")
-            away = ev.get("away_team")
-            bookmakers = ev.get("bookmakers", [])
-            all_events.append({
-                "sport": sport_key,
-                "match": f"{home} vs {away}",
-                "home_team": home,
-                "away_team": away,
-                "commence_time_gmt": ev.get("commence_time"),
-                "country": sport_key.split("_")[0] if "_" in sport_key else "N/A",
-                "odds_home": average_odds(bookmakers, home),
-                "odds_away": average_odds(bookmakers, away),
-                "odds_draw": average_odds(bookmakers, "Draw"),
-                "nb_bookmakers": len(bookmakers),
-            })
-
+        raw_by_sport[sport_key] = raw_events
         if raw_events:
-            print(f"[fetch_odds] {sport_key}: {len(raw_events)} rencontre(s) reçue(s) de l'API, "
-                  f"{kept} conservée(s) dans la fenêtre de {hours_ahead}h. "
-                  f"Prochain match toutes ligues: {min(next_commence_times) if next_commence_times else 'N/A'}")
+            times = [e.get("commence_time", "") for e in raw_events]
+            print(f"[fetch_odds] {sport_key}: {len(raw_events)} rencontre(s) reçue(s), "
+                  f"prochaine: {min(times)}")
 
-    all_events.sort(key=lambda e: e["commence_time_gmt"] or "")
-    return all_events[:max_events]
+    def build_events(window_hours: int) -> list:
+        events = []
+        for sport_key, raw_events in raw_by_sport.items():
+            for ev in raw_events:
+                if not within_window(ev.get("commence_time", ""), window_hours):
+                    continue
+                home = ev.get("home_team")
+                away = ev.get("away_team")
+                bookmakers = ev.get("bookmakers", [])
+                events.append({
+                    "sport": sport_key,
+                    "match": f"{home} vs {away}",
+                    "home_team": home,
+                    "away_team": away,
+                    "commence_time_gmt": ev.get("commence_time"),
+                    "country": sport_key.split("_")[0] if "_" in sport_key else "N/A",
+                    "odds_home": average_odds(bookmakers, home),
+                    "odds_away": average_odds(bookmakers, away),
+                    "odds_draw": average_odds(bookmakers, "Draw"),
+                    "nb_bookmakers": len(bookmakers),
+                })
+        return events
+
+    for attempt_window in [hours_ahead, 48, 168]:
+        events = build_events(attempt_window)
+        if events:
+            if attempt_window != hours_ahead:
+                print(f"[fetch_odds] Aucune rencontre dans les {hours_ahead}h demandées, "
+                      f"fenêtre élargie automatiquement à {attempt_window}h.")
+            break
+    else:
+        print(f"[fetch_odds] Aucune rencontre trouvée même en élargissant jusqu'à 7 jours.")
+        events = []
+
+    events.sort(key=lambda e: e["commence_time_gmt"] or "")
+    return events[:max_events]

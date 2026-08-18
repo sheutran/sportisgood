@@ -13,14 +13,9 @@ from datetime import datetime, timezone, timedelta
 from email.utils import parsedate_to_datetime
 from urllib.parse import quote
 
-RSS_URL = "https://news.google.com/rss/search"
+from src.sentiment import aggregate_news_signal
 
-# Mots-clés simples pour un signal de tonalité très basique (FR + EN).
-# NB: c'est une heuristique grossière, pas une vraie analyse de sentiment NLP.
-POSITIVE_WORDS = ["victoire", "forme", "retour", "titulaire", "en forme", "invaincu", "domine",
-                   "win", "form", "return", "unbeaten", "boost"]
-NEGATIVE_WORDS = ["blessé", "blessure", "suspendu", "absent", "défaite", "crise", "sanction", "incertain",
-                   "injury", "injured", "suspended", "doubt", "crisis", "banned", "defeat"]
+RSS_URL = "https://news.google.com/rss/search"
 
 TAG_RE = re.compile(r"<[^>]+>")
 
@@ -128,19 +123,6 @@ def filter_articles_for_team(articles: list, team_name: str) -> list:
 # 3. Agrégation par équipe
 # ---------------------------------------------------------------------------
 
-def news_signal(articles: list) -> dict:
-    """Calcule un score brut de tonalité à partir des titres/snippets récupérés."""
-    text = " ".join((a["title"] + " " + a["snippet"]).lower() for a in articles)
-    pos = sum(text.count(w) for w in POSITIVE_WORDS)
-    neg = sum(text.count(w) for w in NEGATIVE_WORDS)
-    return {
-        "nb_articles": len(articles),
-        "positive_hits": pos,
-        "negative_hits": neg,
-        "net_signal": pos - neg,  # >0 = plutôt favorable, <0 = plutôt défavorable
-    }
-
-
 def get_team_news(team_name: str, general_articles: list | None = None) -> dict:
     # Recherche ciblée Google News (essai FR puis EN)
     articles = search_news(f"{team_name} actualité forme équipe", lang="fr", country="FR")
@@ -157,7 +139,7 @@ def get_team_news(team_name: str, general_articles: list | None = None) -> dict:
                 articles.append(a)
                 seen_titles.add(a["title"])
 
-    signal = news_signal(articles)
+    signal = aggregate_news_signal(articles)
     signal["team"] = team_name
     signal["articles"] = articles
     signal["sources"] = sorted({a["source"] for a in articles})
