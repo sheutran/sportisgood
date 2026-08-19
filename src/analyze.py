@@ -5,6 +5,7 @@ pour produire un score de confiance heuristique (0-100).
 IMPORTANT: ce score n'est PAS une probabilité réelle de gain garanti.
 C'est une aide à la décision basée sur des heuristiques simples.
 """
+from src.head_to_head import summarize_h2h, h2h_adjustment, draw_adjustment
 
 
 def implied_probability(odds: float | None) -> float | None:
@@ -26,13 +27,16 @@ def normalize_market(prob_home, prob_away, prob_draw):
     return norm(prob_home), norm(prob_away), norm(prob_draw)
 
 
-def confidence_score(market_prob: float, news_net_signal: int, nb_bookmakers: int) -> float:
+def confidence_score(market_prob: float, news_net_signal: float, nb_bookmakers: int,
+                      h2h_adj: float = 0.0) -> float:
     """
     Score de confiance = principalement la probabilité de marché (consensus des bookmakers,
-    qui intègre déjà énormément d'information), légèrement ajusté par le signal d'actu
-    et pondéré par la fiabilité du marché (nombre de bookmakers ayant coté le match).
+    qui intègre déjà énormément d'information), légèrement ajusté par le signal d'actu et
+    par l'historique des face-à-face, et pondéré par la fiabilité du marché (nombre de
+    bookmakers ayant coté le match).
 
-    Poids volontairement conservateurs: l'actu ne doit jamais dominer le prix du marché.
+    Poids volontairement conservateurs: ni l'actu ni l'historique ne doivent jamais
+    dominer le prix du marché.
     """
     if market_prob is None:
         return 0.0
@@ -40,7 +44,7 @@ def confidence_score(market_prob: float, news_net_signal: int, nb_bookmakers: in
     news_adjustment = max(-5, min(5, news_net_signal))  # borné à +/-5 points
     reliability = min(1.0, nb_bookmakers / 8)  # marché jugé fiable à partir de ~8 bookmakers
 
-    score = market_prob + news_adjustment
+    score = market_prob + news_adjustment + h2h_adj
     score = score * (0.85 + 0.15 * reliability)  # pénalise légèrement les marchés peu couverts
     return round(max(0, min(99, score)), 1)  # plafonné à 99 : jamais de "certitude absolue"
 
@@ -67,7 +71,7 @@ def bookmaker_extremes(odds_detail: list) -> dict:
     }
 
 
-def analyze_event(event: dict, home_news: dict, away_news: dict) -> dict:
+def analyze_event(event: dict, home_news: dict, away_news: dict, h2h_events: list | None = None) -> dict:
     p_home = implied_probability(event.get("odds_home"))
     p_away = implied_probability(event.get("odds_away"))
     p_draw = implied_probability(event.get("odds_draw"))
@@ -75,15 +79,34 @@ def analyze_event(event: dict, home_news: dict, away_news: dict) -> dict:
 
     nb_bk = event.get("nb_bookmakers", 0)
 
+    # Détermine le favori du marché (home ou away, hors nul) pour orienter
+    # l'historique face-à-face de façon cohérente.
+    favorite_team = None
+    if p_home is not None and p_away is not None:
+        favorite_team = event["home_team"] if p_home >= p_away else event["away_team"]
+    elif p_home is not None:
+        favorite_team = event["home_team"]
+    elif p_away is not None:
+        favorite_team = event["away_team"]
+
+    h2h_events = h2h_events or []
+    h2h_results = summarize_h2h(h2h_events, favorite_team) if favorite_team else []
+    h2h_adj_favorite, h2h_reliability = h2h_adjustment(h2h_results)
+    h2h_adj_draw = draw_adjustment(h2h_results)
+    h2h_summary_str = "".join(h2h_results)
+
     candidates = []
     if p_home is not None:
         extremes = bookmaker_extremes(event.get("odds_home_detail", []))
+        is_favorite = event["home_team"] == favorite_team
         candidates.append({
             "selection": event["home_team"],
             "type": "Victoire domicile",
             "odds": event.get("odds_home"),
             "market_probability_pct": p_home,
-            "confidence_score_pct": confidence_score(p_home, home_news.get("net_signal", 0), nb_bk),
+            "confidence_score_pct": confidence_score(
+                p_home, home_news.get("net_signal", 0), nb_bk,
+                h2h_adj=h2h_adj_favorite if is_favorite else -h2h_adj_favorite),
             "news_net_signal": home_news.get("net_signal", 0),
             "news_nb_articles": home_news.get("nb_articles", 0),
             "news_hype_ratio_pct": home_news.get("hype_ratio_pct", 0.0),
@@ -93,12 +116,15 @@ def analyze_event(event: dict, home_news: dict, away_news: dict) -> dict:
         })
     if p_away is not None:
         extremes = bookmaker_extremes(event.get("odds_away_detail", []))
+        is_favorite = event["away_team"] == favorite_team
         candidates.append({
             "selection": event["away_team"],
             "type": "Victoire extérieur",
             "odds": event.get("odds_away"),
             "market_probability_pct": p_away,
-            "confidence_score_pct": confidence_score(p_away, away_news.get("net_signal", 0), nb_bk),
+            "confidence_score_pct": confidence_score(
+                p_away, away_news.get("net_signal", 0), nb_bk,
+                h2h_adj=h2h_adj_favorite if is_favorite else -h2h_adj_favorite),
             "news_net_signal": away_news.get("net_signal", 0),
             "news_nb_articles": away_news.get("nb_articles", 0),
             "news_hype_ratio_pct": away_news.get("hype_ratio_pct", 0.0),
@@ -113,7 +139,7 @@ def analyze_event(event: dict, home_news: dict, away_news: dict) -> dict:
             "type": "Nul",
             "odds": event.get("odds_draw"),
             "market_probability_pct": p_draw,
-            "confidence_score_pct": confidence_score(p_draw, 0, nb_bk),
+            "confidence_score_pct": confidence_score(p_draw, 0, nb_bk, h2h_adj=h2h_adj_draw),
             "news_net_signal": 0,
             "news_nb_articles": home_news.get("nb_articles", 0) + away_news.get("nb_articles", 0),
             "news_hype_ratio_pct": round(
@@ -133,4 +159,7 @@ def analyze_event(event: dict, home_news: dict, away_news: dict) -> dict:
         "nb_bookmakers": nb_bk,
         "best_pick": best,
         "all_candidates": candidates,
+        "h2h_favorite": favorite_team,
+        "h2h_nb_matches": len(h2h_results),
+        "h2h_summary": h2h_summary_str,
     }

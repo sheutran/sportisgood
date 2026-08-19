@@ -115,6 +115,25 @@
   }
   .market-above { color: var(--market-above); }
   .market-below { color: var(--market-below); }
+  .h2h-line {
+    margin-top: 0.5rem;
+    font-size: 0.75rem;
+    color: var(--muted);
+  }
+  .h2h-char {
+    display: inline-block;
+    width: 1.1rem;
+    height: 1.1rem;
+    line-height: 1.1rem;
+    text-align: center;
+    border-radius: 3px;
+    font-weight: 700;
+    font-size: 0.68rem;
+    margin-left: 0.15rem;
+  }
+  .h2h-g { background: rgba(79, 209, 197, 0.18); color: var(--accent-high); }
+  .h2h-p { background: rgba(232, 103, 79, 0.18); color: var(--accent-low); }
+  .h2h-n { background: rgba(224, 184, 79, 0.18); color: var(--accent-mid); }
   .news-line {
     margin-top: 0.5rem;
     font-size: 0.75rem;
@@ -258,6 +277,19 @@ fetch('data.json?t=' + Date.now())
           </div>`;
       }
 
+      // Ligne "Historique face-à-face" (G/N/P du point de vue du favori du marché)
+      let h2hLine = '';
+      if (p.h2h_nb_matches > 0) {
+        const chars = p.h2h_summary.split('').map(c => {
+          const cls = c === 'G' ? 'h2h-g' : (c === 'P' ? 'h2h-p' : 'h2h-n');
+          return `<span class="h2h-char ${cls}">${c}</span>`;
+        }).join('');
+        h2hLine = `
+          <div class="h2h-line">
+            Historique face-à-face (${p.h2h_nb_matches}, favori: ${p.h2h_favorite}) : ${chars}
+          </div>`;
+      }
+
       const el = document.createElement('div');
       el.className = 'pick';
       el.innerHTML = `
@@ -278,6 +310,7 @@ fetch('data.json?t=' + Date.now())
           <span>Probabilité marché : <span class="market-prob ${marketClass}">${marketProb}%</span></span>
         </div>
         ${bestOddsLine}
+        ${h2hLine}
         <div class="news-line">
           <span class="nb">${best.news_nb_articles}</span> article(s) d'actualité trouvé(s) — sources : ${sourcesLabel}
         </div>

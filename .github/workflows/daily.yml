@@ -30,6 +30,7 @@ jobs:
           MAX_EVENTS: "20"
           HOURS_AHEAD: "24"
           MAX_RSS_FEEDS: "15"
+          MAX_H2H_MATCHES: "5"
         run: python main.py
 
       - name: Commit et push du data.json

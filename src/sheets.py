@@ -11,7 +11,8 @@ SCOPES = ["https://www.googleapis.com/auth/spreadsheets",
 HEADERS = [
     "Date", "Heure GMT", "Pays/Compétition", "Match", "Sélection", "Type de pari",
     "Cote moyenne", "Probabilité marché (%)", "Signal actu (net)", "Nb articles actu",
-    "Part effets d'annonce (%)", "Sources actu", "Score de confiance (%)", "Nb bookmakers",
+    "Part effets d'annonce (%)", "Sources actu", "Nb affrontements passés",
+    "Historique (G/N/P)", "Score de confiance (%)", "Nb bookmakers",
     "Bookmaker (cote max)", "Cote max", "Bookmaker (cote min)", "Cote min",
     "Détail toutes les cotes",
 ]
@@ -52,6 +53,8 @@ def write_results(sheet_id: str, service_account_json_str: str, results: list, r
             best["news_nb_articles"],
             best["news_hype_ratio_pct"],
             best["news_sources"],
+            r["h2h_nb_matches"],
+            r["h2h_summary"] or "N/A",
             best["confidence_score_pct"],
             r["nb_bookmakers"],
             best.get("max_bookmaker") or "N/A",
@@ -63,5 +66,5 @@ def write_results(sheet_id: str, service_account_json_str: str, results: list, r
 
     # Trie par score de confiance décroissant (hors en-tête)
     header, body = rows[0], rows[1:]
-    body.sort(key=lambda row: row[12], reverse=True)
+    body.sort(key=lambda row: row[14], reverse=True)
     ws.update(values=[header] + body, range_name="A1")
