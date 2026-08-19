@@ -124,6 +124,41 @@
     color: var(--text);
     font-weight: 600;
   }
+  .odds-best-line {
+    margin-top: 0.5rem;
+    font-size: 0.78rem;
+    color: var(--muted);
+  }
+  .odds-best-line b { color: var(--text); }
+  .odds-max-value {
+    color: var(--accent-high);
+    font-weight: 700;
+    font-family: 'Space Grotesk', sans-serif;
+  }
+  .odds-detail {
+    margin-top: 0.35rem;
+  }
+  .odds-detail summary {
+    cursor: pointer;
+    color: var(--accent-high);
+    font-size: 0.72rem;
+    user-select: none;
+  }
+  .odds-detail summary:hover { opacity: 0.8; }
+  .odds-detail-list {
+    margin-top: 0.4rem;
+    background: var(--surface-2);
+    border-radius: 4px;
+    padding: 0.5rem 0.7rem;
+  }
+  .odds-row {
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.75rem;
+    padding: 0.2rem 0;
+    border-bottom: 1px solid var(--line);
+  }
+  .odds-row:last-child { border-bottom: none; }
   .gauge-wrap {
     margin-top: 0.8rem;
   }
@@ -205,6 +240,24 @@ fetch('data.json?t=' + Date.now())
 
       const sourcesLabel = best.news_sources && best.news_sources.length ? best.news_sources : 'aucune source trouvée';
 
+      // Ligne "Meilleure cote" + liste dépliable de tous les bookmakers pour cette sélection
+      let bestOddsLine = '';
+      if (best.max_bookmaker) {
+        const maxTies = best.max_ties || [best.max_bookmaker];
+        const tieNote = maxTies.length > 1 ? ` (+${maxTies.length - 1} autre(s) à égalité)` : '';
+        const detailRows = (best.odds_detail || [])
+          .map(d => `<div class="odds-row"><span>${d.bookmaker}</span><span>${d.odds}</span></div>`)
+          .join('');
+        bestOddsLine = `
+          <div class="odds-best-line">
+            Meilleure cote : <b>${best.max_bookmaker}</b> à <span class="odds-max-value">${best.max_odds}</span>${tieNote}
+            <details class="odds-detail">
+              <summary>Voir toutes les cotes (${(best.odds_detail || []).length})</summary>
+              <div class="odds-detail-list">${detailRows}</div>
+            </details>
+          </div>`;
+      }
+
       const el = document.createElement('div');
       el.className = 'pick';
       el.innerHTML = `
@@ -224,6 +277,7 @@ fetch('data.json?t=' + Date.now())
           <span>Bookmakers pris en compte : ${p.nb_bookmakers}</span>
           <span>Probabilité marché : <span class="market-prob ${marketClass}">${marketProb}%</span></span>
         </div>
+        ${bestOddsLine}
         <div class="news-line">
           <span class="nb">${best.news_nb_articles}</span> article(s) d'actualité trouvé(s) — sources : ${sourcesLabel}
         </div>

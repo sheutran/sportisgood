@@ -45,6 +45,28 @@ def confidence_score(market_prob: float, news_net_signal: int, nb_bookmakers: in
     return round(max(0, min(99, score)), 1)  # plafonné à 99 : jamais de "certitude absolue"
 
 
+def bookmaker_extremes(odds_detail: list) -> dict:
+    """À partir du détail trié (cote la plus haute en premier), extrait le bookmaker
+    proposant la cote max, celui proposant la cote min, et signale les cas d'égalité."""
+    if not odds_detail:
+        return {"max_bookmaker": None, "max_odds": None, "min_bookmaker": None, "min_odds": None,
+                "max_ties": [], "min_ties": []}
+
+    max_odds = odds_detail[0]["odds"]
+    min_odds = odds_detail[-1]["odds"]
+    max_ties = [d["bookmaker"] for d in odds_detail if d["odds"] == max_odds]
+    min_ties = [d["bookmaker"] for d in odds_detail if d["odds"] == min_odds]
+
+    return {
+        "max_bookmaker": max_ties[0],
+        "max_odds": max_odds,
+        "min_bookmaker": min_ties[0],
+        "min_odds": min_odds,
+        "max_ties": max_ties,   # tous les bookmakers à égalité sur la cote max
+        "min_ties": min_ties,   # idem pour la cote min
+    }
+
+
 def analyze_event(event: dict, home_news: dict, away_news: dict) -> dict:
     p_home = implied_probability(event.get("odds_home"))
     p_away = implied_probability(event.get("odds_away"))
@@ -55,6 +77,7 @@ def analyze_event(event: dict, home_news: dict, away_news: dict) -> dict:
 
     candidates = []
     if p_home is not None:
+        extremes = bookmaker_extremes(event.get("odds_home_detail", []))
         candidates.append({
             "selection": event["home_team"],
             "type": "Victoire domicile",
@@ -65,8 +88,11 @@ def analyze_event(event: dict, home_news: dict, away_news: dict) -> dict:
             "news_nb_articles": home_news.get("nb_articles", 0),
             "news_hype_ratio_pct": home_news.get("hype_ratio_pct", 0.0),
             "news_sources": ", ".join(home_news.get("sources", [])),
+            "odds_detail": event.get("odds_home_detail", []),
+            **extremes,
         })
     if p_away is not None:
+        extremes = bookmaker_extremes(event.get("odds_away_detail", []))
         candidates.append({
             "selection": event["away_team"],
             "type": "Victoire extérieur",
@@ -77,8 +103,11 @@ def analyze_event(event: dict, home_news: dict, away_news: dict) -> dict:
             "news_nb_articles": away_news.get("nb_articles", 0),
             "news_hype_ratio_pct": away_news.get("hype_ratio_pct", 0.0),
             "news_sources": ", ".join(away_news.get("sources", [])),
+            "odds_detail": event.get("odds_away_detail", []),
+            **extremes,
         })
     if p_draw is not None:
+        extremes = bookmaker_extremes(event.get("odds_draw_detail", []))
         candidates.append({
             "selection": "Match nul",
             "type": "Nul",
@@ -90,6 +119,8 @@ def analyze_event(event: dict, home_news: dict, away_news: dict) -> dict:
             "news_hype_ratio_pct": round(
                 (home_news.get("hype_ratio_pct", 0.0) + away_news.get("hype_ratio_pct", 0.0)) / 2, 1),
             "news_sources": ", ".join(sorted(set(home_news.get("sources", [])) | set(away_news.get("sources", [])))),
+            "odds_detail": event.get("odds_draw_detail", []),
+            **extremes,
         })
 
     best = max(candidates, key=lambda c: c["confidence_score_pct"]) if candidates else None

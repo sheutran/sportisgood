@@ -71,6 +71,21 @@ def average_odds(bookmakers: list, outcome_name: str) -> float | None:
     return round(sum(values) / len(values), 2) if values else None
 
 
+def odds_detail_by_bookmaker(bookmakers: list, outcome_name: str) -> list:
+    """Retourne le détail des cotes proposées par chaque bookmaker pour une issue
+    donnée, trié de la cote la plus haute à la plus basse: [{"bookmaker": ..., "odds": ...}, ...]"""
+    detail = []
+    for bk in bookmakers:
+        for market in bk.get("markets", []):
+            if market["key"] != "h2h":
+                continue
+            for outcome in market["outcomes"]:
+                if outcome["name"] == outcome_name:
+                    detail.append({"bookmaker": bk.get("title", "Inconnu"), "odds": outcome["price"]})
+    detail.sort(key=lambda d: d["odds"], reverse=True)
+    return detail
+
+
 def get_events(sport_keys: list, api_key: str, max_events: int = 15, hours_ahead: int = 24) -> list:
     """Retourne une liste d'événements normalisés, prêts pour l'étape d'analyse.
 
@@ -115,6 +130,9 @@ def get_events(sport_keys: list, api_key: str, max_events: int = 15, hours_ahead
                     "odds_home": average_odds(bookmakers, home),
                     "odds_away": average_odds(bookmakers, away),
                     "odds_draw": average_odds(bookmakers, "Draw"),
+                    "odds_home_detail": odds_detail_by_bookmaker(bookmakers, home),
+                    "odds_away_detail": odds_detail_by_bookmaker(bookmakers, away),
+                    "odds_draw_detail": odds_detail_by_bookmaker(bookmakers, "Draw"),
                     "nb_bookmakers": len(bookmakers),
                 })
         return events

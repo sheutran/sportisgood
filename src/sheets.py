@@ -12,7 +12,14 @@ HEADERS = [
     "Date", "Heure GMT", "Pays/Compétition", "Match", "Sélection", "Type de pari",
     "Cote moyenne", "Probabilité marché (%)", "Signal actu (net)", "Nb articles actu",
     "Part effets d'annonce (%)", "Sources actu", "Score de confiance (%)", "Nb bookmakers",
+    "Bookmaker (cote max)", "Cote max", "Bookmaker (cote min)", "Cote min",
+    "Détail toutes les cotes",
 ]
+
+
+def format_odds_detail(odds_detail: list) -> str:
+    """Ex: 'Bet365: 2.10, Winamax: 2.05, Unibet: 1.95'"""
+    return ", ".join(f"{d['bookmaker']}: {d['odds']}" for d in odds_detail)
 
 
 def get_client(service_account_json_str: str) -> gspread.Client:
@@ -47,6 +54,11 @@ def write_results(sheet_id: str, service_account_json_str: str, results: list, r
             best["news_sources"],
             best["confidence_score_pct"],
             r["nb_bookmakers"],
+            best.get("max_bookmaker") or "N/A",
+            best.get("max_odds") or "",
+            best.get("min_bookmaker") or "N/A",
+            best.get("min_odds") or "",
+            format_odds_detail(best.get("odds_detail", [])),
         ])
 
     # Trie par score de confiance décroissant (hors en-tête)
