@@ -17,6 +17,8 @@
     --accent-high: #4FD1C5;
     --accent-mid: #E0B84F;
     --accent-low: #E8674F;
+    --market-above: #E8674F;
+    --market-below: #5B9BD5;
   }
   * { box-sizing: border-box; }
   body {
@@ -47,15 +49,6 @@
     color: var(--muted);
     font-size: 0.85rem;
   }
-  .disclaimer {
-    margin-top: 1.2rem;
-    padding: 0.9rem 1rem;
-    background: var(--surface);
-    border-left: 3px solid var(--accent-low);
-    font-size: 0.8rem;
-    color: var(--muted);
-    line-height: 1.5;
-  }
   main {
     max-width: 900px;
     margin: 0 auto;
@@ -71,9 +64,8 @@
   .pick-top {
     display: flex;
     justify-content: space-between;
-    align-items: baseline;
+    align-items: flex-start;
     gap: 1rem;
-    flex-wrap: wrap;
   }
   .rank {
     color: var(--accent-high);
@@ -91,8 +83,22 @@
     color: var(--muted);
     font-size: 0.75rem;
   }
+  .when {
+    text-align: right;
+    flex-shrink: 0;
+  }
+  .when .date {
+    color: var(--muted);
+    font-size: 0.72rem;
+    text-transform: capitalize;
+  }
+  .when .time {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 1rem;
+    font-weight: 700;
+  }
   .selection {
-    margin-top: 0.5rem;
+    margin-top: 0.6rem;
     font-size: 0.9rem;
   }
   .selection b { color: var(--accent-high); }
@@ -103,6 +109,20 @@
     font-size: 0.75rem;
     color: var(--muted);
     flex-wrap: wrap;
+  }
+  .market-prob {
+    font-weight: 600;
+  }
+  .market-above { color: var(--market-above); }
+  .market-below { color: var(--market-below); }
+  .news-line {
+    margin-top: 0.5rem;
+    font-size: 0.75rem;
+    color: var(--muted);
+  }
+  .news-line .nb {
+    color: var(--text);
+    font-weight: 600;
   }
   .gauge-wrap {
     margin-top: 0.8rem;
@@ -144,18 +164,13 @@
   <div class="eyebrow">Pronostics — mise à jour quotidienne</div>
   <h1>Sélections du jour</h1>
   <div class="meta" id="generated-at">Chargement…</div>
-  <div class="disclaimer">
-    Score de confiance heuristique calculé à partir des cotes moyennes du marché et de l'actualité
-    récente des équipes. Ceci n'est ni un conseil financier ni une garantie de gain — les paris
-    sportifs comportent un risque de perte. Joue de façon responsable.
-  </div>
 </header>
 
 <main id="picks">
   <p id="status">Chargement des données…</p>
 </main>
 
-<footer>Généré automatiquement — pipeline GitHub Actions + The Odds API + Google Custom Search API.</footer>
+<footer>Généré automatiquement — pipeline GitHub Actions + The Odds API + flux RSS diversifiés.</footer>
 
 <script>
 function gaugeColor(score) {
@@ -181,6 +196,15 @@ fetch('data.json?t=' + Date.now())
     data.picks.forEach((p, idx) => {
       const best = p.best_pick;
       const score = best.confidence_score_pct;
+      const marketProb = best.market_probability_pct;
+      const marketClass = marketProb > score ? 'market-above' : (marketProb < score ? 'market-below' : '');
+
+      const dt = new Date(p.commence_time_gmt);
+      const dateLabel = dt.toLocaleDateString('fr-FR', { weekday: 'short', day: 'numeric', month: 'short', timeZone: 'UTC' });
+      const timeLabel = dt.toISOString().substring(11, 16) + ' GMT';
+
+      const sourcesLabel = best.news_sources && best.news_sources.length ? best.news_sources : 'aucune source trouvée';
+
       const el = document.createElement('div');
       el.className = 'pick';
       el.innerHTML = `
@@ -190,12 +214,18 @@ fetch('data.json?t=' + Date.now())
             <span class="match">${p.match}</span>
             <div class="comp">${p.sport} · ${p.country}</div>
           </div>
+          <div class="when">
+            <div class="date">${dateLabel}</div>
+            <div class="time">${timeLabel}</div>
+          </div>
         </div>
         <div class="selection">Sélection suggérée : <b>${best.selection}</b> — ${best.type} (cote ${best.odds})</div>
         <div class="row-details">
-          <span>Heure GMT : ${new Date(p.commence_time_gmt).toISOString().substring(11,16)}</span>
           <span>Bookmakers pris en compte : ${p.nb_bookmakers}</span>
-          <span>Probabilité marché : ${best.market_probability_pct}%</span>
+          <span>Probabilité marché : <span class="market-prob ${marketClass}">${marketProb}%</span></span>
+        </div>
+        <div class="news-line">
+          <span class="nb">${best.news_nb_articles}</span> article(s) d'actualité trouvé(s) — sources : ${sourcesLabel}
         </div>
         <div class="gauge-wrap">
           <div class="gauge-label">
