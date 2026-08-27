@@ -210,6 +210,103 @@
     color: var(--muted);
     font-size: 0.72rem;
   }
+
+  /* Onglets */
+  .tabs {
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 1.2rem;
+  }
+  .tab-btn {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    color: var(--muted);
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 0.78rem;
+    padding: 0.5rem 1rem;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  .tab-btn.active {
+    color: var(--accent-high);
+    border-color: var(--accent-high);
+  }
+  .tab-content { display: none; }
+  .tab-content.active { display: block; }
+
+  /* Historique des paris virtuels */
+  .balance-banner {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 4px;
+    padding: 1rem 1.3rem;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 0.5rem;
+  }
+  .balance-label { color: var(--muted); font-size: 0.78rem; }
+  .balance-value {
+    font-family: 'Space Grotesk', sans-serif;
+    font-size: 1.6rem;
+    font-weight: 700;
+  }
+  .day-card {
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 4px;
+    padding: 0.9rem 1.2rem;
+    margin-bottom: 0.7rem;
+  }
+  .day-top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+  }
+  .day-date {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 700;
+    font-size: 0.95rem;
+    text-transform: capitalize;
+  }
+  .day-profit {
+    font-family: 'Space Grotesk', sans-serif;
+    font-weight: 700;
+    font-size: 1.05rem;
+  }
+  .profit-positive { color: var(--accent-high); }
+  .profit-negative { color: var(--accent-low); }
+  .profit-neutral { color: var(--muted); }
+  .day-status {
+    font-size: 0.7rem;
+    color: var(--muted);
+    margin-top: 0.15rem;
+  }
+  .bets-detail summary {
+    cursor: pointer;
+    color: var(--accent-high);
+    font-size: 0.72rem;
+    margin-top: 0.5rem;
+    user-select: none;
+  }
+  .bet-row {
+    display: flex;
+    justify-content: space-between;
+    gap: 0.8rem;
+    font-size: 0.73rem;
+    padding: 0.35rem 0;
+    border-bottom: 1px solid var(--line);
+    color: var(--muted);
+  }
+  .bet-row:last-child { border-bottom: none; }
+  .bet-row .bet-match { color: var(--text); }
+  .status-won { color: var(--accent-high); }
+  .status-lost { color: var(--accent-low); }
+  .status-pending { color: var(--accent-mid); }
+  .status-unresolved { color: var(--muted); }
 </style>
 </head>
 <body>
@@ -218,13 +315,22 @@
   <div class="eyebrow">Pronostics — mise à jour quotidienne</div>
   <h1>Sélections du jour</h1>
   <div class="meta" id="generated-at">Chargement…</div>
+  <div class="tabs">
+    <button class="tab-btn active" data-tab="tab-picks">Sélections du jour</button>
+    <button class="tab-btn" data-tab="tab-history">Paris virtuels</button>
+  </div>
 </header>
 
-<main id="picks">
-  <p id="status">Chargement des données…</p>
+<main>
+  <div id="tab-picks" class="tab-content active">
+    <p id="status">Chargement des données…</p>
+  </div>
+  <div id="tab-history" class="tab-content">
+    <p id="history-status" style="color:var(--muted); font-size:0.85rem;">Chargement de l'historique…</p>
+  </div>
 </main>
 
-<footer>Généré automatiquement — pipeline GitHub Actions + The Odds API + flux RSS diversifiés.</footer>
+<footer>Généré automatiquement — pipeline GitHub Actions + The Odds API + flux RSS diversifiés. Paris virtuels, argent fictif, aucune mise réelle.</footer>
 
 <script>
 function gaugeColor(score) {
@@ -233,13 +339,23 @@ function gaugeColor(score) {
   return 'var(--accent-low)';
 }
 
+// Gestion des onglets
+document.querySelectorAll('.tab-btn').forEach(btn => {
+  btn.addEventListener('click', () => {
+    document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+    document.querySelectorAll('.tab-content').forEach(c => c.classList.remove('active'));
+    btn.classList.add('active');
+    document.getElementById(btn.dataset.tab).classList.add('active');
+  });
+});
+
 fetch('data.json?t=' + Date.now())
   .then(r => r.json())
   .then(data => {
     document.getElementById('generated-at').textContent =
       'Généré le ' + new Date(data.generated_at_utc).toLocaleString('fr-FR', { timeZone: 'UTC' }) + ' (UTC)';
 
-    const container = document.getElementById('picks');
+    const container = document.getElementById('tab-picks');
     container.innerHTML = '';
 
     if (!data.picks || data.picks.length === 0) {
@@ -328,8 +444,79 @@ fetch('data.json?t=' + Date.now())
     });
   })
   .catch(err => {
-    document.getElementById('picks').innerHTML =
+    document.getElementById('tab-picks').innerHTML =
       '<p id="status">Pas encore de données — le premier run automatique n\'a pas encore eu lieu.</p>';
+    console.error(err);
+  });
+
+// --- Onglet "Paris virtuels" ---
+fetch('betting_ledger.json?t=' + Date.now())
+  .then(r => r.json())
+  .then(data => {
+    const container = document.getElementById('tab-history');
+    const days = (data.days || []).slice().reverse(); // plus récent en premier
+
+    if (days.length === 0) {
+      container.innerHTML = '<p style="color:var(--muted); font-size:0.85rem;">Aucun pari virtuel enregistré pour le moment.</p>';
+      return;
+    }
+
+    // Solde cumulé (uniquement sur les journées réglées, dans l'ordre chronologique)
+    let cumulative = 0;
+    const chronological = data.days.slice().sort((a, b) => a.date.localeCompare(b.date));
+    chronological.forEach(d => { if (d.settled && d.day_profit !== null) cumulative += d.day_profit; });
+    const balanceClass = cumulative > 0 ? 'profit-positive' : (cumulative < 0 ? 'profit-negative' : 'profit-neutral');
+
+    let html = `
+      <div class="balance-banner">
+        <div>
+          <div class="balance-label">Solde cumulé (paris réglés)</div>
+          <div class="balance-value ${balanceClass}">${cumulative >= 0 ? '+' : ''}${cumulative.toFixed(2)} €</div>
+        </div>
+        <div class="balance-label">${chronological.filter(d => d.settled).length} journée(s) réglée(s) sur ${days.length}</div>
+      </div>
+    `;
+
+    days.forEach(day => {
+      const profit = day.day_profit;
+      const profitClass = profit > 0 ? 'profit-positive' : (profit < 0 ? 'profit-negative' : 'profit-neutral');
+      const profitLabel = day.settled
+        ? `${profit >= 0 ? '+' : ''}${profit.toFixed(2)} €`
+        : '(paris en attente de résultat)';
+      const dateLabel = new Date(day.date).toLocaleDateString('fr-FR', { weekday: 'long', day: 'numeric', month: 'long' });
+
+      const betsRows = (day.bets || []).map(b => {
+        const statusLabel = { won: 'Gagné', lost: 'Perdu', pending: 'En attente', unresolved: 'Non résolu' }[b.status] || b.status;
+        const profitTxt = b.profit !== null ? `${b.profit >= 0 ? '+' : ''}${b.profit.toFixed(2)} €` : '—';
+        return `
+          <div class="bet-row">
+            <span class="bet-match">${b.match} — ${b.selection} (${b.type})</span>
+            <span>mise ${b.stake.toFixed(2)}€ · cote ${b.odds_used} · <span class="status-${b.status}">${statusLabel}</span> · ${profitTxt}</span>
+          </div>`;
+      }).join('');
+
+      html += `
+        <div class="day-card">
+          <div class="day-top">
+            <div>
+              <div class="day-date">${dateLabel}</div>
+              <div class="day-status">${day.bets.length} pari(s) — ${day.day_total_staked.toFixed(2)} € misés</div>
+            </div>
+            <div class="day-profit ${day.settled ? profitClass : 'profit-neutral'}">${profitLabel}</div>
+          </div>
+          <details class="bets-detail">
+            <summary>Voir le détail des paris (${day.bets.length})</summary>
+            <div style="margin-top:0.5rem;">${betsRows || '<span style="color:var(--muted); font-size:0.75rem;">Aucun pari ce jour-là.</span>'}</div>
+          </details>
+        </div>
+      `;
+    });
+
+    container.innerHTML = html;
+  })
+  .catch(err => {
+    document.getElementById('tab-history').innerHTML =
+      '<p style="color:var(--muted); font-size:0.85rem;">Historique indisponible pour le moment.</p>';
     console.error(err);
   });
 </script>

@@ -152,9 +152,12 @@ def analyze_event(event: dict, home_news: dict, away_news: dict, h2h_events: lis
     best = max(candidates, key=lambda c: c["confidence_score_pct"]) if candidates else None
 
     return {
+        "event_id": event.get("event_id"),
         "match": event["match"],
         "sport": event["sport"],
         "country": event["country"],
+        "home_team": event["home_team"],
+        "away_team": event["away_team"],
         "commence_time_gmt": event["commence_time_gmt"],
         "nb_bookmakers": nb_bk,
         "best_pick": best,

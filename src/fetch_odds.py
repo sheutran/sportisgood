@@ -121,6 +121,7 @@ def get_events(sport_keys: list, api_key: str, max_events: int = 15, hours_ahead
                 away = ev.get("away_team")
                 bookmakers = ev.get("bookmakers", [])
                 events.append({
+                    "event_id": ev.get("id"),
                     "sport": sport_key,
                     "match": f"{home} vs {away}",
                     "home_team": home,
