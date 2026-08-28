@@ -1,3 +1,48 @@
 {
-  "days": []
+  "days": [
+    {
+      "date": "2026-08-28",
+      "budget": 10.0,
+      "bets": [
+        {
+          "event_id": "c006f8c7eb0093bcd146ea746609a5c1",
+          "match": "Atlanta Dream vs Portland Fire",
+          "sport": "basketball_wnba",
+          "home_team": "Atlanta Dream",
+          "away_team": "Portland Fire",
+          "commence_time_gmt": "2026-08-28T23:30:00Z",
+          "selection": "Atlanta Dream",
+          "type": "Victoire domicile",
+          "odds_used": 1.11,
+          "confidence_score_pct": 83.3,
+          "stake": 5.0,
+          "status": "pending",
+          "payout": null,
+          "profit": null,
+          "final_score": null
+        },
+        {
+          "event_id": "bf890f553715b7954a44f36770b69830",
+          "match": "Indiana Fever vs Connecticut Sun",
+          "sport": "basketball_wnba",
+          "home_team": "Indiana Fever",
+          "away_team": "Connecticut Sun",
+          "commence_time_gmt": "2026-08-28T23:30:00Z",
+          "selection": "Indiana Fever",
+          "type": "Victoire domicile",
+          "odds_used": 1.05,
+          "confidence_score_pct": 90.9,
+          "stake": 5.0,
+          "status": "pending",
+          "payout": null,
+          "profit": null,
+          "final_score": null
+        }
+      ],
+      "day_total_staked": 10.0,
+      "day_total_payout": null,
+      "day_profit": null,
+      "settled": false
+    }
+  ]
 }
