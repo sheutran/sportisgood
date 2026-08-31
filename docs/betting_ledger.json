@@ -189,6 +189,33 @@
           "odds_used": 1.08,
           "confidence_score_pct": 88.3,
           "stake": 10.0,
+          "status": "won",
+          "payout": 10.8,
+          "profit": 0.8,
+          "final_score": "4-0"
+        }
+      ],
+      "day_total_staked": 10.0,
+      "day_total_payout": 10.8,
+      "day_profit": 0.8,
+      "settled": true
+    },
+    {
+      "date": "2026-08-31",
+      "budget": 10.0,
+      "bets": [
+        {
+          "event_id": "5ab1a5278538ef69d7a84dfe2030facf",
+          "match": "Barcelona vs Rayo Vallecano",
+          "sport": "soccer_spain_la_liga",
+          "home_team": "Barcelona",
+          "away_team": "Rayo Vallecano",
+          "commence_time_gmt": "2026-08-31T19:30:00Z",
+          "selection": "Barcelona",
+          "type": "Victoire domicile",
+          "odds_used": 1.1,
+          "confidence_score_pct": 87.2,
+          "stake": 10.0,
           "status": "pending",
           "payout": null,
           "profit": null,
