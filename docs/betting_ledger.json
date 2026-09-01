@@ -216,6 +216,33 @@
           "odds_used": 1.1,
           "confidence_score_pct": 87.2,
           "stake": 10.0,
+          "status": "won",
+          "payout": 11.0,
+          "profit": 1.0,
+          "final_score": "5-2"
+        }
+      ],
+      "day_total_staked": 10.0,
+      "day_total_payout": 11.0,
+      "day_profit": 1.0,
+      "settled": true
+    },
+    {
+      "date": "2026-09-01",
+      "budget": 10.0,
+      "bets": [
+        {
+          "event_id": "221fee885c8f1ddb92f0b20ba0227bcb",
+          "match": "Adam Darby vs Patrick Rivera",
+          "sport": "mma_mixed_martial_arts",
+          "home_team": "Adam Darby",
+          "away_team": "Patrick Rivera",
+          "commence_time_gmt": "2026-09-02T00:55:00Z",
+          "selection": "Adam Darby",
+          "type": "Victoire domicile",
+          "odds_used": 1.23,
+          "confidence_score_pct": 71.6,
+          "stake": 10.0,
           "status": "pending",
           "payout": null,
           "profit": null,
