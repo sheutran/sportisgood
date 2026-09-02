@@ -60,7 +60,7 @@
           "odds_used": 1.08,
           "confidence_score_pct": 83.8,
           "stake": 1.43,
-          "status": "pending",
+          "status": "unresolved",
           "payout": null,
           "profit": null,
           "final_score": null
@@ -77,7 +77,7 @@
           "odds_used": 1.01,
           "confidence_score_pct": 86.0,
           "stake": 1.43,
-          "status": "pending",
+          "status": "unresolved",
           "payout": null,
           "profit": null,
           "final_score": null
@@ -94,7 +94,7 @@
           "odds_used": 1.19,
           "confidence_score_pct": 75.7,
           "stake": 1.43,
-          "status": "pending",
+          "status": "unresolved",
           "payout": null,
           "profit": null,
           "final_score": null
@@ -111,7 +111,7 @@
           "odds_used": 1.03,
           "confidence_score_pct": 84.5,
           "stake": 1.43,
-          "status": "pending",
+          "status": "unresolved",
           "payout": null,
           "profit": null,
           "final_score": null
@@ -128,7 +128,7 @@
           "odds_used": 1.01,
           "confidence_score_pct": 86.0,
           "stake": 1.43,
-          "status": "pending",
+          "status": "unresolved",
           "payout": null,
           "profit": null,
           "final_score": null
@@ -145,7 +145,7 @@
           "odds_used": 1.22,
           "confidence_score_pct": 73.9,
           "stake": 1.43,
-          "status": "pending",
+          "status": "unresolved",
           "payout": null,
           "profit": null,
           "final_score": null
@@ -162,16 +162,16 @@
           "odds_used": 1.09,
           "confidence_score_pct": 83.1,
           "stake": 1.42,
-          "status": "pending",
+          "status": "unresolved",
           "payout": null,
           "profit": null,
           "final_score": null
         }
       ],
       "day_total_staked": 10.0,
-      "day_total_payout": null,
-      "day_profit": null,
-      "settled": false
+      "day_total_payout": 0,
+      "day_profit": 0,
+      "settled": true
     },
     {
       "date": "2026-08-30",
@@ -253,6 +253,15 @@
       "day_total_payout": null,
       "day_profit": null,
       "settled": false
+    },
+    {
+      "date": "2026-09-02",
+      "budget": 10.0,
+      "bets": [],
+      "day_total_staked": 0,
+      "day_total_payout": null,
+      "day_profit": null,
+      "settled": true
     }
   ]
 }
