@@ -478,11 +478,16 @@ fetch('betting_ledger.json?t=' + Date.now())
     `;
 
     days.forEach(day => {
-      const profit = day.day_profit;
-      const profitClass = profit > 0 ? 'profit-positive' : (profit < 0 ? 'profit-negative' : 'profit-neutral');
-      const profitLabel = day.settled
-        ? `${profit >= 0 ? '+' : ''}${profit.toFixed(2)} €`
-        : '(paris en attente de résultat)';
+          // Défensif: si settled=true mais day_profit est absent/null (ne devrait plus
+          // arriver après le correctif Python, mais on ne fait plus jamais confiance
+          // aveuglément à cette cohérence côté affichage), on retombe sur 0 au lieu
+          // de planter sur null.toFixed().
+          const hasValidProfit = day.settled && typeof day.day_profit === 'number' && Number.isFinite(day.day_profit);
+          const profit = hasValidProfit ? day.day_profit : 0;
+          const profitClass = profit > 0 ? 'profit-positive' : (profit < 0 ? 'profit-negative' : 'profit-neutral');
+          const profitLabel = hasValidProfit
+            ? `${profit >= 0 ? '+' : ''}${profit.toFixed(2)} €`
+            : (day.settled ? '0.00 €' : '(paris en attente de résultat)');
       const dateLabel = new Date(day.date).toLocaleDateString('fr-FR', { weekday: 'long', day: 'numeric', month: 'long' });
 
       const betsRows = (day.bets || []).map(b => {

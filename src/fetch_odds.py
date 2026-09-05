@@ -1,12 +1,22 @@
 """
 Récupère les rencontres du jour et leurs cotes via The Odds API.
 Free tier: https://the-odds-api.com/ (500 requêtes/mois)
+
+IMPORTANT COÛT/QUOTA: le coût d'un appel à /odds est "nombre de marchés x nombre
+de régions", PAS 1 crédit fixe par sport. Avec regions="eu,uk" (2 régions), chaque
+sport coûte 2 crédits au lieu d'1. Par défaut on utilise donc UNE SEULE région
+("eu", qui couvre Winamax et la plupart des bookmakers européens) pour limiter
+la consommation. Ajoute "uk" (Bet365, Sky Bet...) si tu as de la marge de quota,
+au prix du double de crédits consommés pour les cotes.
 """
 import os
 import requests
 from datetime import datetime, timezone, timedelta
 
 ODDS_API_BASE = "https://api.the-odds-api.com/v4"
+
+# Configurable via la variable d'environnement ODDS_REGIONS (ex: "eu" ou "eu,uk")
+DEFAULT_REGIONS = os.environ.get("ODDS_REGIONS", "eu")
 
 
 def get_valid_sport_keys(api_key: str) -> set:
@@ -19,8 +29,10 @@ def get_valid_sport_keys(api_key: str) -> set:
     return {s["key"] for s in resp.json()}
 
 
-def fetch_odds_for_sport(sport_key: str, api_key: str, regions="eu,uk") -> list:
-    """Récupère les cotes h2h (1X2 / vainqueur) pour un sport donné."""
+def fetch_odds_for_sport(sport_key: str, api_key: str, regions: str = None) -> list:
+    """Récupère les cotes h2h (1X2 / vainqueur) pour un sport donné.
+    Coût en crédits = 1 marché (h2h) x nb de régions demandées."""
+    regions = regions or DEFAULT_REGIONS
     url = f"{ODDS_API_BASE}/sports/{sport_key}/odds"
     params = {
         "apiKey": api_key,
@@ -31,10 +43,10 @@ def fetch_odds_for_sport(sport_key: str, api_key: str, regions="eu,uk") -> list:
     }
     resp = requests.get(url, params=params, timeout=20)
 
-    # Headers utiles pour vérifier le quota restant / diagnostiquer un blocage silencieux
     remaining = resp.headers.get("x-requests-remaining")
     used = resp.headers.get("x-requests-used")
-    print(f"[fetch_odds] {sport_key}: HTTP {resp.status_code} | quota utilisé={used} restant={remaining}")
+    print(f"[fetch_odds] {sport_key} (regions={regions}): HTTP {resp.status_code} | "
+          f"quota utilisé={used} restant={remaining}")
 
     if resp.status_code != 200:
         print(f"[fetch_odds] Erreur {resp.status_code} pour {sport_key}: {resp.text[:300]}")
@@ -86,7 +98,8 @@ def odds_detail_by_bookmaker(bookmakers: list, outcome_name: str) -> list:
     return detail
 
 
-def get_events(sport_keys: list, api_key: str, max_events: int = 15, hours_ahead: int = 24) -> list:
+def get_events(sport_keys: list, api_key: str, max_events: int = 15, hours_ahead: int = 24,
+               regions: str = None) -> list:
     """Retourne une liste d'événements normalisés, prêts pour l'étape d'analyse.
 
     hours_ahead: fenêtre de recherche cible (24h par défaut). Si aucune rencontre
@@ -104,7 +117,7 @@ def get_events(sport_keys: list, api_key: str, max_events: int = 15, hours_ahead
     # puis on applique différentes largeurs de fenêtre en mémoire, sans refaire d'appel API.
     raw_by_sport = {}
     for sport_key in sport_keys:
-        raw_events = fetch_odds_for_sport(sport_key, api_key)
+        raw_events = fetch_odds_for_sport(sport_key, api_key, regions=regions)
         raw_by_sport[sport_key] = raw_events
         if raw_events:
             times = [e.get("commence_time", "") for e in raw_events]
