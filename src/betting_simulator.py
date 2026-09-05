@@ -21,16 +21,31 @@ pour le calcul des gains/pertes le lendemain), pas la meilleure cote possible,
 pour que l'avantage perçu au moment de la mise et le règlement du lendemain
 restent cohérents entre eux.
 """
+import math
+
+# The Odds API ne fournit AUCUN résultat exploitable pour ces sports via son
+# endpoint /scores (vérifié sur https://the-odds-api.com/sports-odds-data/
+# sports-apis.html - colonne "Scores & Results" vide pour Boxing et MMA,
+# même sur les plans payants). Un pari qu'on ne peut jamais régler ne doit
+# jamais recevoir de mise: on exclut ces sports de l'allocation du budget,
+# tout en les laissant apparaître normalement dans le Sheet/la page (à titre
+# informatif uniquement).
+UNSETTLEABLE_SPORTS = {"boxing_boxing", "mma_mixed_martial_arts"}
 
 
 def kelly_fraction(p: float, odds: float) -> float:
     """Fraction de Kelly f* = p - (1-p)/b, avec b = cote nette (odds - 1).
-    Négatif ou nul si aucun avantage perçu."""
+    Négatif ou nul si aucun avantage perçu. Renvoie toujours une valeur finie."""
+    if odds is None or not math.isfinite(odds) or odds <= 1:
+        return 0.0
     b = odds - 1
     if b <= 0:
         return 0.0
+    if p is None or not math.isfinite(p):
+        return 0.0
     q = 1 - p
-    return p - q / b
+    f = p - q / b
+    return f if math.isfinite(f) else 0.0
 
 
 def allocate_stakes(results: list, budget: float = 10.0, min_confidence: float = 70.0,
@@ -46,11 +61,25 @@ def allocate_stakes(results: list, budget: float = 10.0, min_confidence: float =
     la quasi-totalité du budget en cas d'avantage très marqué sur un seul match.
     """
     qualifying = []
+    excluded_unsettleable = 0
     for r in results:
         best = r.get("best_pick")
         if not best or best.get("confidence_score_pct", 0) < min_confidence:
             continue
+        if r.get("sport") in UNSETTLEABLE_SPORTS:
+            excluded_unsettleable += 1
+            continue
+        odds = best.get("odds")
+        # Garde-fou: une cote manquante/nulle/non finie exclut le pari plutôt que
+        # de risquer une division par zéro ou un NaN plus loin dans le calcul.
+        if not odds or not math.isfinite(odds) or odds <= 1:
+            print(f"[betting_simulator] Pari ignoré (cote invalide: {odds}) - {r.get('match')}")
+            continue
         qualifying.append((r, best))
+
+    if excluded_unsettleable:
+        print(f"[betting_simulator] {excluded_unsettleable} pari(s) qualifiant(s) exclu(s) car le sport "
+              f"concerné (boxe/MMA) n'a jamais de résultat exploitable via The Odds API.")
 
     if not qualifying:
         return []
@@ -64,8 +93,13 @@ def allocate_stakes(results: list, budget: float = 10.0, min_confidence: float =
         weighted.append({"r": r, "best": best, "weight": weight})
 
     total_weight = sum(w["weight"] for w in weighted)
-    for w in weighted:
-        w["share"] = w["weight"] / total_weight
+    if not math.isfinite(total_weight) or total_weight <= 0:
+        print("[betting_simulator] ATTENTION - poids total invalide, répartition égale de secours appliquée")
+        for w in weighted:
+            w["share"] = 1 / len(weighted)
+    else:
+        for w in weighted:
+            w["share"] = w["weight"] / total_weight
 
     # Plafonne chaque part et redistribue l'excédent sur les autres paris qualifiés
     for _ in range(len(weighted)):  # quelques passes suffisent, cascade rare
@@ -86,6 +120,8 @@ def allocate_stakes(results: list, budget: float = 10.0, min_confidence: float =
     for w in weighted:
         r, best = w["r"], w["best"]
         stake = round(budget * w["share"], 2)
+        if not math.isfinite(stake):
+            stake = 0.0
         running_total += stake
         stakes.append({
             "event_id": r.get("event_id"),
