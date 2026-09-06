@@ -452,6 +452,33 @@
           "odds_used": 1.3,
           "confidence_score_pct": 72.5,
           "stake": 10.0,
+          "status": "lost",
+          "payout": 0.0,
+          "profit": -10.0,
+          "final_score": "2-2"
+        }
+      ],
+      "day_total_staked": 10.0,
+      "day_total_payout": 0,
+      "day_profit": -10.0,
+      "settled": true
+    },
+    {
+      "date": "2026-09-06",
+      "budget": 10.0,
+      "bets": [
+        {
+          "event_id": "73639380311449b9494a3230cf1356ba",
+          "match": "Valencia vs Barcelona",
+          "sport": "soccer_spain_la_liga",
+          "home_team": "Valencia",
+          "away_team": "Barcelona",
+          "commence_time_gmt": "2026-09-06T14:15:00Z",
+          "selection": "Barcelona",
+          "type": "Victoire extérieur",
+          "odds_used": 1.27,
+          "confidence_score_pct": 75.2,
+          "stake": 10.0,
           "status": "pending",
           "payout": null,
           "profit": null,
