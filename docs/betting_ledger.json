@@ -534,6 +534,33 @@
       "day_total_payout": 0.0,
       "day_profit": 0.0,
       "settled": true
+    },
+    {
+      "date": "2026-09-10",
+      "budget": 10.0,
+      "bets": [
+        {
+          "event_id": "de5c4fe6a041ce8073e59e063fe7f31f",
+          "match": "New York Yankees vs Colorado Rockies",
+          "sport": "baseball_mlb",
+          "home_team": "New York Yankees",
+          "away_team": "Colorado Rockies",
+          "commence_time_gmt": "2026-09-10T23:05:00Z",
+          "selection": "New York Yankees",
+          "type": "Victoire domicile",
+          "odds_used": 1.3,
+          "confidence_score_pct": 73.5,
+          "stake": 10.0,
+          "status": "pending",
+          "payout": null,
+          "profit": null,
+          "final_score": null
+        }
+      ],
+      "day_total_staked": 10.0,
+      "day_total_payout": null,
+      "day_profit": null,
+      "settled": false
     }
   ]
 }
