@@ -570,6 +570,50 @@
       "day_total_payout": 0.0,
       "day_profit": 0.0,
       "settled": true
+    },
+    {
+      "date": "2026-09-12",
+      "budget": 10.0,
+      "bets": [
+        {
+          "event_id": "2dfdb71b06263027a0823882bf1661d8",
+          "match": "Borussia Dortmund vs SC Paderborn",
+          "sport": "soccer_germany_bundesliga",
+          "home_team": "Borussia Dortmund",
+          "away_team": "SC Paderborn",
+          "commence_time_gmt": "2026-09-12T13:30:00Z",
+          "selection": "Borussia Dortmund",
+          "type": "Victoire domicile",
+          "odds_used": 1.25,
+          "confidence_score_pct": 75.8,
+          "stake": 5.0,
+          "status": "pending",
+          "payout": null,
+          "profit": null,
+          "final_score": null
+        },
+        {
+          "event_id": "5163190733dcaaea80474e43cbe20a51",
+          "match": "Chelsea vs Hull City",
+          "sport": "soccer_epl",
+          "home_team": "Chelsea",
+          "away_team": "Hull City",
+          "commence_time_gmt": "2026-09-12T14:00:00Z",
+          "selection": "Chelsea",
+          "type": "Victoire domicile",
+          "odds_used": 1.21,
+          "confidence_score_pct": 79.0,
+          "stake": 5.0,
+          "status": "pending",
+          "payout": null,
+          "profit": null,
+          "final_score": null
+        }
+      ],
+      "day_total_staked": 10.0,
+      "day_total_payout": null,
+      "day_profit": null,
+      "settled": false
     }
   ]
 }
