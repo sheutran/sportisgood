@@ -726,10 +726,10 @@
           "odds_used": 1.22,
           "confidence_score_pct": 79.4,
           "stake": 5.0,
-          "status": "pending",
-          "payout": null,
-          "profit": null,
-          "final_score": null
+          "status": "won",
+          "payout": 6.1,
+          "profit": 1.1,
+          "final_score": "2-1"
         },
         {
           "event_id": "7ea3ea9925ae0f1d149965fb9769c7dc",
@@ -743,6 +743,33 @@
           "odds_used": 1.21,
           "confidence_score_pct": 79.8,
           "stake": 5.0,
+          "status": "won",
+          "payout": 6.05,
+          "profit": 1.05,
+          "final_score": "5-3"
+        }
+      ],
+      "day_total_staked": 10.0,
+      "day_total_payout": 12.15,
+      "day_profit": 2.15,
+      "settled": true
+    },
+    {
+      "date": "2026-09-15",
+      "budget": 10.0,
+      "bets": [
+        {
+          "event_id": "0b57607f4a514ee24df31b0c2db9ddc5",
+          "match": "Elche CF vs Real Madrid",
+          "sport": "soccer_spain_la_liga",
+          "home_team": "Elche CF",
+          "away_team": "Real Madrid",
+          "commence_time_gmt": "2026-09-15T19:30:00Z",
+          "selection": "Real Madrid",
+          "type": "Victoire extérieur",
+          "odds_used": 1.2,
+          "confidence_score_pct": 79.6,
+          "stake": 10.0,
           "status": "pending",
           "payout": null,
           "profit": null,
