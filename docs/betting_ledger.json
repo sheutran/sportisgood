@@ -770,6 +770,33 @@
           "odds_used": 1.2,
           "confidence_score_pct": 79.6,
           "stake": 10.0,
+          "status": "won",
+          "payout": 12.0,
+          "profit": 2.0,
+          "final_score": "2-3"
+        }
+      ],
+      "day_total_staked": 10.0,
+      "day_total_payout": 12.0,
+      "day_profit": 2.0,
+      "settled": true
+    },
+    {
+      "date": "2026-09-16",
+      "budget": 10.0,
+      "bets": [
+        {
+          "event_id": "4a3400b0763bcc367171537f40b27a4f",
+          "match": "Barcelona vs Real Racing Club de Santander",
+          "sport": "soccer_spain_la_liga",
+          "home_team": "Barcelona",
+          "away_team": "Real Racing Club de Santander",
+          "commence_time_gmt": "2026-09-16T19:30:00Z",
+          "selection": "Barcelona",
+          "type": "Victoire domicile",
+          "odds_used": 1.06,
+          "confidence_score_pct": 90.2,
+          "stake": 10.0,
           "status": "pending",
           "payout": null,
           "profit": null,
