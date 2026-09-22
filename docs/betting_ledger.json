@@ -982,6 +982,33 @@
           "odds_used": 1.32,
           "confidence_score_pct": 72.4,
           "stake": 10.0,
+          "status": "won",
+          "payout": 13.2,
+          "profit": 3.2,
+          "final_score": "28-6"
+        }
+      ],
+      "day_total_staked": 10.0,
+      "day_total_payout": 13.2,
+      "day_profit": 3.2,
+      "settled": true
+    },
+    {
+      "date": "2026-09-22",
+      "budget": 10.0,
+      "bets": [
+        {
+          "event_id": "359d2bf78ec7e252f167326990de77c9",
+          "match": "Washington Mystics vs Connecticut Sun",
+          "sport": "basketball_wnba",
+          "home_team": "Washington Mystics",
+          "away_team": "Connecticut Sun",
+          "commence_time_gmt": "2026-09-22T23:30:00Z",
+          "selection": "Washington Mystics",
+          "type": "Victoire domicile",
+          "odds_used": 1.07,
+          "confidence_score_pct": 89.8,
+          "stake": 10.0,
           "status": "pending",
           "payout": null,
           "profit": null,
