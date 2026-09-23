@@ -1009,6 +1009,33 @@
           "odds_used": 1.07,
           "confidence_score_pct": 89.8,
           "stake": 10.0,
+          "status": "won",
+          "payout": 10.7,
+          "profit": 0.7,
+          "final_score": "79-69"
+        }
+      ],
+      "day_total_staked": 10.0,
+      "day_total_payout": 10.7,
+      "day_profit": 0.7,
+      "settled": true
+    },
+    {
+      "date": "2026-09-23",
+      "budget": 10.0,
+      "bets": [
+        {
+          "event_id": "1101a7e33fa57b8a244de4ff8e022ec2",
+          "match": "Seattle Storm vs Dallas Wings",
+          "sport": "basketball_wnba",
+          "home_team": "Seattle Storm",
+          "away_team": "Dallas Wings",
+          "commence_time_gmt": "2026-09-24T02:00:00Z",
+          "selection": "Dallas Wings",
+          "type": "Victoire extérieur",
+          "odds_used": 1.19,
+          "confidence_score_pct": 75.7,
+          "stake": 10.0,
           "status": "pending",
           "payout": null,
           "profit": null,
