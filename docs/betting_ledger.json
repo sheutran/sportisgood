@@ -1116,6 +1116,15 @@
       "day_total_payout": 0.0,
       "day_profit": 0.0,
       "settled": true
+    },
+    {
+      "date": "2026-09-26",
+      "budget": 10.0,
+      "bets": [],
+      "day_total_staked": 0,
+      "day_total_payout": 0.0,
+      "day_profit": 0.0,
+      "settled": true
     }
   ]
 }
