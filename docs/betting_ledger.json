@@ -1142,10 +1142,10 @@
           "odds_used": 1.28,
           "confidence_score_pct": 74.9,
           "stake": 2.5,
-          "status": "pending",
-          "payout": null,
-          "profit": null,
-          "final_score": null
+          "status": "won",
+          "payout": 3.2,
+          "profit": 0.7,
+          "final_score": "24-16"
         },
         {
           "event_id": "07f552badfa8a565d1be22123713e4da",
@@ -1159,10 +1159,10 @@
           "odds_used": 1.32,
           "confidence_score_pct": 72.4,
           "stake": 2.5,
-          "status": "pending",
-          "payout": null,
-          "profit": null,
-          "final_score": null
+          "status": "won",
+          "payout": 3.3,
+          "profit": 0.8,
+          "final_score": "31-24"
         },
         {
           "event_id": "0339a0e41bcee12820eb3e64bb5fadb4",
@@ -1176,10 +1176,10 @@
           "odds_used": 1.15,
           "confidence_score_pct": 83.0,
           "stake": 2.5,
-          "status": "pending",
-          "payout": null,
-          "profit": null,
-          "final_score": null
+          "status": "won",
+          "payout": 2.88,
+          "profit": 0.38,
+          "final_score": "10-24"
         },
         {
           "event_id": "2a529c108305ffa049d8b6cfdbaa4d36",
@@ -1193,16 +1193,25 @@
           "odds_used": 1.24,
           "confidence_score_pct": 76.8,
           "stake": 2.5,
-          "status": "pending",
-          "payout": null,
-          "profit": null,
-          "final_score": null
+          "status": "lost",
+          "payout": 0.0,
+          "profit": -2.5,
+          "final_score": "33-31"
         }
       ],
       "day_total_staked": 10.0,
-      "day_total_payout": null,
-      "day_profit": null,
-      "settled": false
+      "day_total_payout": 9.38,
+      "day_profit": -0.62,
+      "settled": true
+    },
+    {
+      "date": "2026-09-28",
+      "budget": 10.0,
+      "bets": [],
+      "day_total_staked": 0,
+      "day_total_payout": 0.0,
+      "day_profit": 0.0,
+      "settled": true
     }
   ]
 }
