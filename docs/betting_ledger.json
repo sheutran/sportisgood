@@ -1380,6 +1380,33 @@
       "day_total_payout": 0.0,
       "day_profit": 0.0,
       "settled": true
+    },
+    {
+      "date": "2026-10-08",
+      "budget": 10.0,
+      "bets": [
+        {
+          "event_id": "259b5df9aa0d10257f56de78523495e0",
+          "match": "Dallas Cowboys vs Tampa Bay Buccaneers",
+          "sport": "americanfootball_nfl",
+          "home_team": "Dallas Cowboys",
+          "away_team": "Tampa Bay Buccaneers",
+          "commence_time_gmt": "2026-10-09T00:15:00Z",
+          "selection": "Dallas Cowboys",
+          "type": "Victoire domicile",
+          "odds_used": 1.2,
+          "confidence_score_pct": 79.6,
+          "stake": 10.0,
+          "status": "pending",
+          "payout": null,
+          "profit": null,
+          "final_score": null
+        }
+      ],
+      "day_total_staked": 10.0,
+      "day_total_payout": null,
+      "day_profit": null,
+      "settled": false
     }
   ]
 }
