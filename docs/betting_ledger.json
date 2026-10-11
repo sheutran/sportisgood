@@ -1441,16 +1441,16 @@
           "odds_used": 1.18,
           "confidence_score_pct": 81.1,
           "stake": 5.0,
-          "status": "pending",
-          "payout": null,
-          "profit": null,
-          "final_score": null
+          "status": "lost",
+          "payout": 0.0,
+          "profit": -5.0,
+          "final_score": "2-2"
         }
       ],
       "day_total_staked": 10.0,
-      "day_total_payout": null,
-      "day_profit": null,
-      "settled": false
+      "day_total_payout": 0,
+      "day_profit": -10.0,
+      "settled": true
     },
     {
       "date": "2026-10-10",
@@ -1468,10 +1468,10 @@
           "odds_used": 1.16,
           "confidence_score_pct": 82.2,
           "stake": 5.0,
-          "status": "pending",
-          "payout": null,
-          "profit": null,
-          "final_score": null
+          "status": "lost",
+          "payout": 0.0,
+          "profit": -5.0,
+          "final_score": "2-2"
         },
         {
           "event_id": "1a01b0611dacd334e1558a5097e05023",
@@ -1484,6 +1484,50 @@
           "type": "Victoire domicile",
           "odds_used": 1.14,
           "confidence_score_pct": 83.4,
+          "stake": 5.0,
+          "status": "won",
+          "payout": 5.7,
+          "profit": 0.7,
+          "final_score": "3-0"
+        }
+      ],
+      "day_total_staked": 10.0,
+      "day_total_payout": 5.7,
+      "day_profit": -4.3,
+      "settled": true
+    },
+    {
+      "date": "2026-10-11",
+      "budget": 10.0,
+      "bets": [
+        {
+          "event_id": "c4647ca1201e6768501877267ca8251b",
+          "match": "Miami Dolphins vs Cincinnati Bengals",
+          "sport": "americanfootball_nfl",
+          "home_team": "Miami Dolphins",
+          "away_team": "Cincinnati Bengals",
+          "commence_time_gmt": "2026-10-11T17:00:00Z",
+          "selection": "Cincinnati Bengals",
+          "type": "Victoire extérieur",
+          "odds_used": 1.28,
+          "confidence_score_pct": 76.2,
+          "stake": 5.0,
+          "status": "pending",
+          "payout": null,
+          "profit": null,
+          "final_score": null
+        },
+        {
+          "event_id": "cc52bba56e74f5cddbe9011046181c3d",
+          "match": "Tennessee Titans vs Houston Texans",
+          "sport": "americanfootball_nfl",
+          "home_team": "Tennessee Titans",
+          "away_team": "Houston Texans",
+          "commence_time_gmt": "2026-10-11T17:00:00Z",
+          "selection": "Houston Texans",
+          "type": "Victoire extérieur",
+          "odds_used": 1.27,
+          "confidence_score_pct": 75.2,
           "stake": 5.0,
           "status": "pending",
           "payout": null,
