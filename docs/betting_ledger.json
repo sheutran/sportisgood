@@ -1602,6 +1602,33 @@
       "day_total_payout": 0.0,
       "day_profit": 0.0,
       "settled": true
+    },
+    {
+      "date": "2026-10-18",
+      "budget": 10.0,
+      "bets": [
+        {
+          "event_id": "84aa9e190e625d7e9cd67e1f157a45b4",
+          "match": "Indianapolis Colts vs Tennessee Titans",
+          "sport": "americanfootball_nfl",
+          "home_team": "Indianapolis Colts",
+          "away_team": "Tennessee Titans",
+          "commence_time_gmt": "2026-10-18T17:00:00Z",
+          "selection": "Indianapolis Colts",
+          "type": "Victoire domicile",
+          "odds_used": 1.3,
+          "confidence_score_pct": 70.7,
+          "stake": 10.0,
+          "status": "pending",
+          "payout": null,
+          "profit": null,
+          "final_score": null
+        }
+      ],
+      "day_total_staked": 10.0,
+      "day_total_payout": null,
+      "day_profit": null,
+      "settled": false
     }
   ]
 }
