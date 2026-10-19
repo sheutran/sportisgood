@@ -1619,6 +1619,33 @@
           "odds_used": 1.3,
           "confidence_score_pct": 70.7,
           "stake": 10.0,
+          "status": "lost",
+          "payout": 0.0,
+          "profit": -10.0,
+          "final_score": "20-26"
+        }
+      ],
+      "day_total_staked": 10.0,
+      "day_total_payout": 0,
+      "day_profit": -10.0,
+      "settled": true
+    },
+    {
+      "date": "2026-10-19",
+      "budget": 10.0,
+      "bets": [
+        {
+          "event_id": "f122527f003276d3bca19efa48c902c1",
+          "match": "San Francisco 49ers vs Washington Commanders",
+          "sport": "americanfootball_nfl",
+          "home_team": "San Francisco 49ers",
+          "away_team": "Washington Commanders",
+          "commence_time_gmt": "2026-10-20T00:15:00Z",
+          "selection": "San Francisco 49ers",
+          "type": "Victoire domicile",
+          "odds_used": 1.22,
+          "confidence_score_pct": 78.0,
+          "stake": 10.0,
           "status": "pending",
           "payout": null,
           "profit": null,
