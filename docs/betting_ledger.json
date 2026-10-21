@@ -1665,6 +1665,50 @@
       "day_total_payout": 0.0,
       "day_profit": 0.0,
       "settled": true
+    },
+    {
+      "date": "2026-10-21",
+      "budget": 10.0,
+      "bets": [
+        {
+          "event_id": "60431a347feac3f1c7ed925b8b769ec5",
+          "match": "Toronto Raptors vs Chicago Bulls",
+          "sport": "basketball_nba",
+          "home_team": "Toronto Raptors",
+          "away_team": "Chicago Bulls",
+          "commence_time_gmt": "2026-10-21T23:40:00Z",
+          "selection": "Toronto Raptors",
+          "type": "Victoire domicile",
+          "odds_used": 1.22,
+          "confidence_score_pct": 77.9,
+          "stake": 5.0,
+          "status": "pending",
+          "payout": null,
+          "profit": null,
+          "final_score": null
+        },
+        {
+          "event_id": "af2f084075391e55ba2a596e7846bb40",
+          "match": "Houston Rockets vs Dallas Mavericks",
+          "sport": "basketball_nba",
+          "home_team": "Houston Rockets",
+          "away_team": "Dallas Mavericks",
+          "commence_time_gmt": "2026-10-22T00:40:00Z",
+          "selection": "Houston Rockets",
+          "type": "Victoire domicile",
+          "odds_used": 1.26,
+          "confidence_score_pct": 75.5,
+          "stake": 5.0,
+          "status": "pending",
+          "payout": null,
+          "profit": null,
+          "final_score": null
+        }
+      ],
+      "day_total_staked": 10.0,
+      "day_total_payout": null,
+      "day_profit": null,
+      "settled": false
     }
   ]
 }
