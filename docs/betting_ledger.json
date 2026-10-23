@@ -1726,6 +1726,33 @@
           "odds_used": 1.28,
           "confidence_score_pct": 74.5,
           "stake": 10.0,
+          "status": "won",
+          "payout": 12.8,
+          "profit": 2.8,
+          "final_score": "96-84"
+        }
+      ],
+      "day_total_staked": 10.0,
+      "day_total_payout": 12.8,
+      "day_profit": 2.8,
+      "settled": true
+    },
+    {
+      "date": "2026-10-23",
+      "budget": 10.0,
+      "bets": [
+        {
+          "event_id": "d4d56a31d8ccd432e3a6183180e093f3",
+          "match": "VfB Stuttgart vs Borussia Monchengladbach",
+          "sport": "soccer_germany_bundesliga",
+          "home_team": "VfB Stuttgart",
+          "away_team": "Borussia Monchengladbach",
+          "commence_time_gmt": "2026-10-23T18:30:00Z",
+          "selection": "VfB Stuttgart",
+          "type": "Victoire domicile",
+          "odds_used": 1.34,
+          "confidence_score_pct": 70.5,
+          "stake": 10.0,
           "status": "pending",
           "payout": null,
           "profit": null,
