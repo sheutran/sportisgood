@@ -1753,16 +1753,25 @@
           "odds_used": 1.34,
           "confidence_score_pct": 70.5,
           "stake": 10.0,
-          "status": "pending",
-          "payout": null,
-          "profit": null,
-          "final_score": null
+          "status": "lost",
+          "payout": 0.0,
+          "profit": -10.0,
+          "final_score": "2-3"
         }
       ],
       "day_total_staked": 10.0,
-      "day_total_payout": null,
-      "day_profit": null,
-      "settled": false
+      "day_total_payout": 0,
+      "day_profit": -10.0,
+      "settled": true
+    },
+    {
+      "date": "2026-10-24",
+      "budget": 10.0,
+      "bets": [],
+      "day_total_staked": 0,
+      "day_total_payout": 0.0,
+      "day_profit": 0.0,
+      "settled": true
     }
   ]
 }
