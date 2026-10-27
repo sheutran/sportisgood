@@ -1,134 +1,521 @@
 {
-  "generated_at_utc": "2026-10-26T13:47:37.715058+00:00",
+  "generated_at_utc": "2026-10-27T12:53:54.514577+00:00",
   "disclaimer": "Score de confiance heuristique base sur les cotes du marche et l'actualite recente. Ne constitue en aucun cas une garantie de gain.",
   "picks": [
     {
-      "event_id": "32ac8b94cc41f272efa96f0cf993e07a",
-      "match": "Boston Celtics vs Chicago Bulls",
+      "event_id": "7a640609d2c74cbbfd05008d0875455b",
+      "match": "San Antonio Spurs vs Sacramento Kings",
       "sport": "basketball_nba",
       "country": "basketball",
-      "home_team": "Boston Celtics",
-      "away_team": "Chicago Bulls",
-      "commence_time_gmt": "2026-10-26T23:40:00Z",
+      "home_team": "San Antonio Spurs",
+      "away_team": "Sacramento Kings",
+      "commence_time_gmt": "2026-10-28T00:10:00Z",
       "nb_bookmakers": 25,
       "best_pick": {
-        "selection": "Boston Celtics",
+        "selection": "San Antonio Spurs",
         "type": "Victoire domicile",
-        "odds": 1.13,
-        "market_probability_pct": 84.4,
-        "confidence_score_pct": 83.2,
+        "odds": 1.05,
+        "market_probability_pct": 90.4,
+        "confidence_score_pct": 89.2,
         "news_net_signal": -1.2,
         "news_nb_articles": 5,
         "news_hype_ratio_pct": 0.0,
         "news_sources": "Google News",
         "odds_detail": [
           {
-            "bookmaker": "Marathon Bet",
-            "odds": 1.16
-          },
-          {
             "bookmaker": "Matchbook",
-            "odds": 1.15
+            "odds": 1.08
           },
           {
             "bookmaker": "Betfair",
-            "odds": 1.15
-          },
-          {
-            "bookmaker": "Pinnacle",
-            "odds": 1.15
-          },
-          {
-            "bookmaker": "BetOnline.ag",
-            "odds": 1.14
-          },
-          {
-            "bookmaker": "Winamax (DE)",
-            "odds": 1.14
-          },
-          {
-            "bookmaker": "Coolbet",
-            "odds": 1.14
-          },
-          {
-            "bookmaker": "Unibet (NL)",
-            "odds": 1.14
-          },
-          {
-            "bookmaker": "Unibet (SE)",
-            "odds": 1.14
-          },
-          {
-            "bookmaker": "BetAnything",
-            "odds": 1.14
-          },
-          {
-            "bookmaker": "Everygame",
-            "odds": 1.14
-          },
-          {
-            "bookmaker": "1xBet",
-            "odds": 1.13
-          },
-          {
-            "bookmaker": "GTbets",
-            "odds": 1.13
-          },
-          {
-            "bookmaker": "MyBookie.ag",
-            "odds": 1.13
-          },
-          {
-            "bookmaker": "888sport",
-            "odds": 1.12
-          },
-          {
-            "bookmaker": "Codere (IT)",
-            "odds": 1.12
-          },
-          {
-            "bookmaker": "William Hill",
-            "odds": 1.12
-          },
-          {
-            "bookmaker": "LeoVegas (SE)",
-            "odds": 1.12
-          },
-          {
-            "bookmaker": "Betsson",
-            "odds": 1.11
+            "odds": 1.08
           },
           {
             "bookmaker": "Nordic Bet",
-            "odds": 1.11
+            "odds": 1.07
           },
           {
-            "bookmaker": "Winamax (FR)",
-            "odds": 1.11
+            "bookmaker": "Betsson",
+            "odds": 1.07
           },
           {
-            "bookmaker": "Betclic (FR)",
-            "odds": 1.11
+            "bookmaker": "Pinnacle",
+            "odds": 1.07
+          },
+          {
+            "bookmaker": "BetOnline.ag",
+            "odds": 1.06
+          },
+          {
+            "bookmaker": "888sport",
+            "odds": 1.06
+          },
+          {
+            "bookmaker": "William Hill",
+            "odds": 1.06
+          },
+          {
+            "bookmaker": "Coolbet",
+            "odds": 1.06
+          },
+          {
+            "bookmaker": "MyBookie.ag",
+            "odds": 1.06
+          },
+          {
+            "bookmaker": "Winamax (DE)",
+            "odds": 1.06
+          },
+          {
+            "bookmaker": "Unibet (SE)",
+            "odds": 1.06
+          },
+          {
+            "bookmaker": "Unibet (NL)",
+            "odds": 1.06
+          },
+          {
+            "bookmaker": "GTbets",
+            "odds": 1.06
+          },
+          {
+            "bookmaker": "BetAnything",
+            "odds": 1.06
+          },
+          {
+            "bookmaker": "Codere (IT)",
+            "odds": 1.05
+          },
+          {
+            "bookmaker": "1xBet",
+            "odds": 1.05
+          },
+          {
+            "bookmaker": "Everygame",
+            "odds": 1.05
           },
           {
             "bookmaker": "Unibet (FR)",
-            "odds": 1.1
+            "odds": 1.04
+          },
+          {
+            "bookmaker": "Winamax (FR)",
+            "odds": 1.04
+          },
+          {
+            "bookmaker": "LeoVegas (SE)",
+            "odds": 1.04
+          },
+          {
+            "bookmaker": "Betclic (FR)",
+            "odds": 1.04
+          },
+          {
+            "bookmaker": "Marathon Bet",
+            "odds": 1.04
           },
           {
             "bookmaker": "Tipico",
-            "odds": 1.1
+            "odds": 1.04
           },
           {
             "bookmaker": "PMU (FR)",
-            "odds": 1.09
+            "odds": 1.01
           }
         ],
-        "max_bookmaker": "Marathon Bet",
-        "max_odds": 1.16,
+        "max_bookmaker": "Matchbook",
+        "max_odds": 1.08,
         "min_bookmaker": "PMU (FR)",
-        "min_odds": 1.09,
+        "min_odds": 1.01,
         "max_ties": [
-          "Marathon Bet"
+          "Matchbook",
+          "Betfair"
+        ],
+        "min_ties": [
+          "PMU (FR)"
+        ]
+      },
+      "all_candidates": [
+        {
+          "selection": "San Antonio Spurs",
+          "type": "Victoire domicile",
+          "odds": 1.05,
+          "market_probability_pct": 90.4,
+          "confidence_score_pct": 89.2,
+          "news_net_signal": -1.2,
+          "news_nb_articles": 5,
+          "news_hype_ratio_pct": 0.0,
+          "news_sources": "Google News",
+          "odds_detail": [
+            {
+              "bookmaker": "Matchbook",
+              "odds": 1.08
+            },
+            {
+              "bookmaker": "Betfair",
+              "odds": 1.08
+            },
+            {
+              "bookmaker": "Nordic Bet",
+              "odds": 1.07
+            },
+            {
+              "bookmaker": "Betsson",
+              "odds": 1.07
+            },
+            {
+              "bookmaker": "Pinnacle",
+              "odds": 1.07
+            },
+            {
+              "bookmaker": "BetOnline.ag",
+              "odds": 1.06
+            },
+            {
+              "bookmaker": "888sport",
+              "odds": 1.06
+            },
+            {
+              "bookmaker": "William Hill",
+              "odds": 1.06
+            },
+            {
+              "bookmaker": "Coolbet",
+              "odds": 1.06
+            },
+            {
+              "bookmaker": "MyBookie.ag",
+              "odds": 1.06
+            },
+            {
+              "bookmaker": "Winamax (DE)",
+              "odds": 1.06
+            },
+            {
+              "bookmaker": "Unibet (SE)",
+              "odds": 1.06
+            },
+            {
+              "bookmaker": "Unibet (NL)",
+              "odds": 1.06
+            },
+            {
+              "bookmaker": "GTbets",
+              "odds": 1.06
+            },
+            {
+              "bookmaker": "BetAnything",
+              "odds": 1.06
+            },
+            {
+              "bookmaker": "Codere (IT)",
+              "odds": 1.05
+            },
+            {
+              "bookmaker": "1xBet",
+              "odds": 1.05
+            },
+            {
+              "bookmaker": "Everygame",
+              "odds": 1.05
+            },
+            {
+              "bookmaker": "Unibet (FR)",
+              "odds": 1.04
+            },
+            {
+              "bookmaker": "Winamax (FR)",
+              "odds": 1.04
+            },
+            {
+              "bookmaker": "LeoVegas (SE)",
+              "odds": 1.04
+            },
+            {
+              "bookmaker": "Betclic (FR)",
+              "odds": 1.04
+            },
+            {
+              "bookmaker": "Marathon Bet",
+              "odds": 1.04
+            },
+            {
+              "bookmaker": "Tipico",
+              "odds": 1.04
+            },
+            {
+              "bookmaker": "PMU (FR)",
+              "odds": 1.01
+            }
+          ],
+          "max_bookmaker": "Matchbook",
+          "max_odds": 1.08,
+          "min_bookmaker": "PMU (FR)",
+          "min_odds": 1.01,
+          "max_ties": [
+            "Matchbook",
+            "Betfair"
+          ],
+          "min_ties": [
+            "PMU (FR)"
+          ]
+        },
+        {
+          "selection": "Sacramento Kings",
+          "type": "Victoire extérieur",
+          "odds": 9.86,
+          "market_probability_pct": 9.6,
+          "confidence_score_pct": 8.4,
+          "news_net_signal": -1.2,
+          "news_nb_articles": 5,
+          "news_hype_ratio_pct": 0.0,
+          "news_sources": "Google News",
+          "odds_detail": [
+            {
+              "bookmaker": "Matchbook",
+              "odds": 12.5
+            },
+            {
+              "bookmaker": "Betfair",
+              "odds": 12.0
+            },
+            {
+              "bookmaker": "Marathon Bet",
+              "odds": 11.5
+            },
+            {
+              "bookmaker": "1xBet",
+              "odds": 11.3
+            },
+            {
+              "bookmaker": "GTbets",
+              "odds": 10.8
+            },
+            {
+              "bookmaker": "BetOnline.ag",
+              "odds": 10.79
+            },
+            {
+              "bookmaker": "Winamax (DE)",
+              "odds": 10.5
+            },
+            {
+              "bookmaker": "BetAnything",
+              "odds": 10.5
+            },
+            {
+              "bookmaker": "Coolbet",
+              "odds": 10.0
+            },
+            {
+              "bookmaker": "Tipico",
+              "odds": 10.0
+            },
+            {
+              "bookmaker": "Everygame",
+              "odds": 10.0
+            },
+            {
+              "bookmaker": "Pinnacle",
+              "odds": 9.8
+            },
+            {
+              "bookmaker": "Betclic (FR)",
+              "odds": 9.75
+            },
+            {
+              "bookmaker": "888sport",
+              "odds": 9.5
+            },
+            {
+              "bookmaker": "William Hill",
+              "odds": 9.5
+            },
+            {
+              "bookmaker": "MyBookie.ag",
+              "odds": 9.5
+            },
+            {
+              "bookmaker": "LeoVegas (SE)",
+              "odds": 9.5
+            },
+            {
+              "bookmaker": "Unibet (SE)",
+              "odds": 9.5
+            },
+            {
+              "bookmaker": "Unibet (NL)",
+              "odds": 9.5
+            },
+            {
+              "bookmaker": "Codere (IT)",
+              "odds": 9.0
+            },
+            {
+              "bookmaker": "PMU (FR)",
+              "odds": 9.0
+            },
+            {
+              "bookmaker": "Winamax (FR)",
+              "odds": 8.5
+            },
+            {
+              "bookmaker": "Nordic Bet",
+              "odds": 8.0
+            },
+            {
+              "bookmaker": "Betsson",
+              "odds": 8.0
+            },
+            {
+              "bookmaker": "Unibet (FR)",
+              "odds": 7.6
+            }
+          ],
+          "max_bookmaker": "Matchbook",
+          "max_odds": 12.5,
+          "min_bookmaker": "Unibet (FR)",
+          "min_odds": 7.6,
+          "max_ties": [
+            "Matchbook"
+          ],
+          "min_ties": [
+            "Unibet (FR)"
+          ]
+        }
+      ],
+      "h2h_favorite": "San Antonio Spurs",
+      "h2h_nb_matches": 0,
+      "h2h_summary": ""
+    },
+    {
+      "event_id": "9ad8cc650802c0c5c3c23a1f32c3e0f6",
+      "match": "Boston Celtics vs Brooklyn Nets",
+      "sport": "basketball_nba",
+      "country": "basketball",
+      "home_team": "Boston Celtics",
+      "away_team": "Brooklyn Nets",
+      "commence_time_gmt": "2026-10-27T23:40:00Z",
+      "nb_bookmakers": 25,
+      "best_pick": {
+        "selection": "Boston Celtics",
+        "type": "Victoire domicile",
+        "odds": 1.17,
+        "market_probability_pct": 81.1,
+        "confidence_score_pct": 79.9,
+        "news_net_signal": -1.2,
+        "news_nb_articles": 5,
+        "news_hype_ratio_pct": 0.0,
+        "news_sources": "Google News",
+        "odds_detail": [
+          {
+            "bookmaker": "Betfair",
+            "odds": 1.2
+          },
+          {
+            "bookmaker": "Matchbook",
+            "odds": 1.2
+          },
+          {
+            "bookmaker": "Unibet (NL)",
+            "odds": 1.19
+          },
+          {
+            "bookmaker": "Unibet (SE)",
+            "odds": 1.19
+          },
+          {
+            "bookmaker": "Pinnacle",
+            "odds": 1.19
+          },
+          {
+            "bookmaker": "BetOnline.ag",
+            "odds": 1.18
+          },
+          {
+            "bookmaker": "888sport",
+            "odds": 1.18
+          },
+          {
+            "bookmaker": "William Hill",
+            "odds": 1.18
+          },
+          {
+            "bookmaker": "LeoVegas (SE)",
+            "odds": 1.18
+          },
+          {
+            "bookmaker": "Coolbet",
+            "odds": 1.18
+          },
+          {
+            "bookmaker": "Winamax (DE)",
+            "odds": 1.18
+          },
+          {
+            "bookmaker": "Marathon Bet",
+            "odds": 1.18
+          },
+          {
+            "bookmaker": "Everygame",
+            "odds": 1.18
+          },
+          {
+            "bookmaker": "Codere (IT)",
+            "odds": 1.17
+          },
+          {
+            "bookmaker": "1xBet",
+            "odds": 1.17
+          },
+          {
+            "bookmaker": "MyBookie.ag",
+            "odds": 1.17
+          },
+          {
+            "bookmaker": "GTbets",
+            "odds": 1.17
+          },
+          {
+            "bookmaker": "Betclic (FR)",
+            "odds": 1.17
+          },
+          {
+            "bookmaker": "BetAnything",
+            "odds": 1.17
+          },
+          {
+            "bookmaker": "Nordic Bet",
+            "odds": 1.16
+          },
+          {
+            "bookmaker": "Betsson",
+            "odds": 1.16
+          },
+          {
+            "bookmaker": "Winamax (FR)",
+            "odds": 1.16
+          },
+          {
+            "bookmaker": "Tipico",
+            "odds": 1.16
+          },
+          {
+            "bookmaker": "Unibet (FR)",
+            "odds": 1.15
+          },
+          {
+            "bookmaker": "PMU (FR)",
+            "odds": 1.14
+          }
+        ],
+        "max_bookmaker": "Betfair",
+        "max_odds": 1.2,
+        "min_bookmaker": "PMU (FR)",
+        "min_odds": 1.14,
+        "max_ties": [
+          "Betfair",
+          "Matchbook"
         ],
         "min_ties": [
           "PMU (FR)"
@@ -138,245 +525,246 @@
         {
           "selection": "Boston Celtics",
           "type": "Victoire domicile",
-          "odds": 1.13,
-          "market_probability_pct": 84.4,
-          "confidence_score_pct": 83.2,
+          "odds": 1.17,
+          "market_probability_pct": 81.1,
+          "confidence_score_pct": 79.9,
           "news_net_signal": -1.2,
           "news_nb_articles": 5,
           "news_hype_ratio_pct": 0.0,
           "news_sources": "Google News",
           "odds_detail": [
             {
-              "bookmaker": "Marathon Bet",
-              "odds": 1.16
+              "bookmaker": "Betfair",
+              "odds": 1.2
             },
             {
               "bookmaker": "Matchbook",
-              "odds": 1.15
-            },
-            {
-              "bookmaker": "Betfair",
-              "odds": 1.15
-            },
-            {
-              "bookmaker": "Pinnacle",
-              "odds": 1.15
-            },
-            {
-              "bookmaker": "BetOnline.ag",
-              "odds": 1.14
-            },
-            {
-              "bookmaker": "Winamax (DE)",
-              "odds": 1.14
-            },
-            {
-              "bookmaker": "Coolbet",
-              "odds": 1.14
+              "odds": 1.2
             },
             {
               "bookmaker": "Unibet (NL)",
-              "odds": 1.14
+              "odds": 1.19
             },
             {
               "bookmaker": "Unibet (SE)",
-              "odds": 1.14
+              "odds": 1.19
             },
             {
-              "bookmaker": "BetAnything",
-              "odds": 1.14
+              "bookmaker": "Pinnacle",
+              "odds": 1.19
             },
             {
-              "bookmaker": "Everygame",
-              "odds": 1.14
-            },
-            {
-              "bookmaker": "1xBet",
-              "odds": 1.13
-            },
-            {
-              "bookmaker": "GTbets",
-              "odds": 1.13
-            },
-            {
-              "bookmaker": "MyBookie.ag",
-              "odds": 1.13
+              "bookmaker": "BetOnline.ag",
+              "odds": 1.18
             },
             {
               "bookmaker": "888sport",
-              "odds": 1.12
-            },
-            {
-              "bookmaker": "Codere (IT)",
-              "odds": 1.12
+              "odds": 1.18
             },
             {
               "bookmaker": "William Hill",
-              "odds": 1.12
+              "odds": 1.18
             },
             {
               "bookmaker": "LeoVegas (SE)",
-              "odds": 1.12
+              "odds": 1.18
             },
             {
-              "bookmaker": "Betsson",
-              "odds": 1.11
+              "bookmaker": "Coolbet",
+              "odds": 1.18
             },
             {
-              "bookmaker": "Nordic Bet",
-              "odds": 1.11
+              "bookmaker": "Winamax (DE)",
+              "odds": 1.18
             },
             {
-              "bookmaker": "Winamax (FR)",
-              "odds": 1.11
+              "bookmaker": "Marathon Bet",
+              "odds": 1.18
+            },
+            {
+              "bookmaker": "Everygame",
+              "odds": 1.18
+            },
+            {
+              "bookmaker": "Codere (IT)",
+              "odds": 1.17
+            },
+            {
+              "bookmaker": "1xBet",
+              "odds": 1.17
+            },
+            {
+              "bookmaker": "MyBookie.ag",
+              "odds": 1.17
+            },
+            {
+              "bookmaker": "GTbets",
+              "odds": 1.17
             },
             {
               "bookmaker": "Betclic (FR)",
-              "odds": 1.11
+              "odds": 1.17
             },
             {
-              "bookmaker": "Unibet (FR)",
-              "odds": 1.1
+              "bookmaker": "BetAnything",
+              "odds": 1.17
+            },
+            {
+              "bookmaker": "Nordic Bet",
+              "odds": 1.16
+            },
+            {
+              "bookmaker": "Betsson",
+              "odds": 1.16
+            },
+            {
+              "bookmaker": "Winamax (FR)",
+              "odds": 1.16
             },
             {
               "bookmaker": "Tipico",
-              "odds": 1.1
+              "odds": 1.16
+            },
+            {
+              "bookmaker": "Unibet (FR)",
+              "odds": 1.15
             },
             {
               "bookmaker": "PMU (FR)",
-              "odds": 1.09
+              "odds": 1.14
             }
           ],
-          "max_bookmaker": "Marathon Bet",
-          "max_odds": 1.16,
+          "max_bookmaker": "Betfair",
+          "max_odds": 1.2,
           "min_bookmaker": "PMU (FR)",
-          "min_odds": 1.09,
+          "min_odds": 1.14,
           "max_ties": [
-            "Marathon Bet"
+            "Betfair",
+            "Matchbook"
           ],
           "min_ties": [
             "PMU (FR)"
           ]
         },
         {
-          "selection": "Chicago Bulls",
+          "selection": "Brooklyn Nets",
           "type": "Victoire extérieur",
-          "odds": 6.11,
-          "market_probability_pct": 15.6,
-          "confidence_score_pct": 14.4,
+          "odds": 5.03,
+          "market_probability_pct": 18.9,
+          "confidence_score_pct": 17.7,
           "news_net_signal": -1.2,
           "news_nb_articles": 5,
           "news_hype_ratio_pct": 0.0,
           "news_sources": "Google News",
           "odds_detail": [
             {
-              "bookmaker": "Matchbook",
-              "odds": 7.2
+              "bookmaker": "Betfair",
+              "odds": 5.7
             },
             {
-              "bookmaker": "Betfair",
-              "odds": 7.2
+              "bookmaker": "Matchbook",
+              "odds": 5.7
             },
             {
               "bookmaker": "1xBet",
-              "odds": 6.54
-            },
-            {
-              "bookmaker": "Winamax (DE)",
-              "odds": 6.5
-            },
-            {
-              "bookmaker": "Tipico",
-              "odds": 6.5
-            },
-            {
-              "bookmaker": "GTbets",
-              "odds": 6.25
-            },
-            {
-              "bookmaker": "Pinnacle",
-              "odds": 6.24
-            },
-            {
-              "bookmaker": "Everygame",
-              "odds": 6.15
-            },
-            {
-              "bookmaker": "BetOnline.ag",
-              "odds": 6.11
-            },
-            {
-              "bookmaker": "Coolbet",
-              "odds": 6.1
-            },
-            {
-              "bookmaker": "Betclic (FR)",
-              "odds": 6.1
-            },
-            {
-              "bookmaker": "Unibet (NL)",
-              "odds": 6.1
-            },
-            {
-              "bookmaker": "Unibet (SE)",
-              "odds": 6.1
-            },
-            {
-              "bookmaker": "MyBookie.ag",
-              "odds": 6.1
+              "odds": 5.51
             },
             {
               "bookmaker": "BetAnything",
-              "odds": 6.1
+              "odds": 5.35
             },
             {
-              "bookmaker": "Betsson",
-              "odds": 6.0
+              "bookmaker": "Winamax (DE)",
+              "odds": 5.3
             },
             {
-              "bookmaker": "888sport",
-              "odds": 6.0
+              "bookmaker": "BetOnline.ag",
+              "odds": 5.28
             },
             {
-              "bookmaker": "William Hill",
-              "odds": 6.0
+              "bookmaker": "GTbets",
+              "odds": 5.25
             },
             {
-              "bookmaker": "Nordic Bet",
-              "odds": 6.0
+              "bookmaker": "Coolbet",
+              "odds": 5.2
             },
             {
-              "bookmaker": "LeoVegas (SE)",
-              "odds": 6.0
-            },
-            {
-              "bookmaker": "Codere (IT)",
-              "odds": 5.8
+              "bookmaker": "Everygame",
+              "odds": 5.2
             },
             {
               "bookmaker": "Marathon Bet",
-              "odds": 5.6
+              "odds": 5.1
+            },
+            {
+              "bookmaker": "MyBookie.ag",
+              "odds": 5.0
+            },
+            {
+              "bookmaker": "Tipico",
+              "odds": 5.0
+            },
+            {
+              "bookmaker": "Pinnacle",
+              "odds": 4.97
+            },
+            {
+              "bookmaker": "Codere (IT)",
+              "odds": 4.9
+            },
+            {
+              "bookmaker": "Betclic (FR)",
+              "odds": 4.9
+            },
+            {
+              "bookmaker": "888sport",
+              "odds": 4.8
+            },
+            {
+              "bookmaker": "William Hill",
+              "odds": 4.8
+            },
+            {
+              "bookmaker": "Unibet (NL)",
+              "odds": 4.8
+            },
+            {
+              "bookmaker": "LeoVegas (SE)",
+              "odds": 4.8
+            },
+            {
+              "bookmaker": "Unibet (SE)",
+              "odds": 4.8
+            },
+            {
+              "bookmaker": "Nordic Bet",
+              "odds": 4.8
+            },
+            {
+              "bookmaker": "Betsson",
+              "odds": 4.8
             },
             {
               "bookmaker": "Winamax (FR)",
-              "odds": 5.6
+              "odds": 4.7
             },
             {
               "bookmaker": "PMU (FR)",
-              "odds": 5.6
+              "odds": 4.6
             },
             {
               "bookmaker": "Unibet (FR)",
-              "odds": 4.8
+              "odds": 4.5
             }
           ],
-          "max_bookmaker": "Matchbook",
-          "max_odds": 7.2,
+          "max_bookmaker": "Betfair",
+          "max_odds": 5.7,
           "min_bookmaker": "Unibet (FR)",
-          "min_odds": 4.8,
+          "min_odds": 4.5,
           "max_ties": [
-            "Matchbook",
-            "Betfair"
+            "Betfair",
+            "Matchbook"
           ],
           "min_ties": [
             "Unibet (FR)"
@@ -388,454 +776,79 @@
       "h2h_summary": ""
     },
     {
-      "event_id": "90620ab57facf54f629af8beec468e54",
-      "match": "Oklahoma City Thunder vs Phoenix Suns",
-      "sport": "basketball_nba",
-      "country": "basketball",
-      "home_team": "Oklahoma City Thunder",
-      "away_team": "Phoenix Suns",
-      "commence_time_gmt": "2026-10-27T00:10:00Z",
-      "nb_bookmakers": 25,
+      "event_id": "7eecf109ae6a5f87441a79b0e4111982",
+      "match": "AS Roma vs Cagliari",
+      "sport": "soccer_italy_serie_a",
+      "country": "soccer",
+      "home_team": "AS Roma",
+      "away_team": "Cagliari",
+      "commence_time_gmt": "2026-10-27T19:45:00Z",
+      "nb_bookmakers": 24,
       "best_pick": {
-        "selection": "Oklahoma City Thunder",
-        "type": "Victoire domicile",
-        "odds": 1.24,
-        "market_probability_pct": 76.6,
-        "confidence_score_pct": 75.4,
-        "news_net_signal": -1.2,
-        "news_nb_articles": 5,
-        "news_hype_ratio_pct": 0.0,
-        "news_sources": "Google News",
-        "odds_detail": [
-          {
-            "bookmaker": "Matchbook",
-            "odds": 1.29
-          },
-          {
-            "bookmaker": "Betfair",
-            "odds": 1.29
-          },
-          {
-            "bookmaker": "Unibet (NL)",
-            "odds": 1.27
-          },
-          {
-            "bookmaker": "Unibet (SE)",
-            "odds": 1.27
-          },
-          {
-            "bookmaker": "1xBet",
-            "odds": 1.26
-          },
-          {
-            "bookmaker": "LeoVegas (SE)",
-            "odds": 1.26
-          },
-          {
-            "bookmaker": "Coolbet",
-            "odds": 1.25
-          },
-          {
-            "bookmaker": "Winamax (DE)",
-            "odds": 1.25
-          },
-          {
-            "bookmaker": "BetOnline.ag",
-            "odds": 1.25
-          },
-          {
-            "bookmaker": "Marathon Bet",
-            "odds": 1.25
-          },
-          {
-            "bookmaker": "BetAnything",
-            "odds": 1.25
-          },
-          {
-            "bookmaker": "Everygame",
-            "odds": 1.25
-          },
-          {
-            "bookmaker": "Pinnacle",
-            "odds": 1.25
-          },
-          {
-            "bookmaker": "MyBookie.ag",
-            "odds": 1.24
-          },
-          {
-            "bookmaker": "GTbets",
-            "odds": 1.24
-          },
-          {
-            "bookmaker": "Codere (IT)",
-            "odds": 1.23
-          },
-          {
-            "bookmaker": "888sport",
-            "odds": 1.22
-          },
-          {
-            "bookmaker": "Betclic (FR)",
-            "odds": 1.22
-          },
-          {
-            "bookmaker": "William Hill",
-            "odds": 1.22
-          },
-          {
-            "bookmaker": "Tipico",
-            "odds": 1.22
-          },
-          {
-            "bookmaker": "Winamax (FR)",
-            "odds": 1.22
-          },
-          {
-            "bookmaker": "Betsson",
-            "odds": 1.21
-          },
-          {
-            "bookmaker": "Nordic Bet",
-            "odds": 1.21
-          },
-          {
-            "bookmaker": "PMU (FR)",
-            "odds": 1.21
-          },
-          {
-            "bookmaker": "Unibet (FR)",
-            "odds": 1.2
-          }
-        ],
-        "max_bookmaker": "Matchbook",
-        "max_odds": 1.29,
-        "min_bookmaker": "Unibet (FR)",
-        "min_odds": 1.2,
-        "max_ties": [
-          "Matchbook",
-          "Betfair"
-        ],
-        "min_ties": [
-          "Unibet (FR)"
-        ]
-      },
-      "all_candidates": [
-        {
-          "selection": "Oklahoma City Thunder",
-          "type": "Victoire domicile",
-          "odds": 1.24,
-          "market_probability_pct": 76.6,
-          "confidence_score_pct": 75.4,
-          "news_net_signal": -1.2,
-          "news_nb_articles": 5,
-          "news_hype_ratio_pct": 0.0,
-          "news_sources": "Google News",
-          "odds_detail": [
-            {
-              "bookmaker": "Matchbook",
-              "odds": 1.29
-            },
-            {
-              "bookmaker": "Betfair",
-              "odds": 1.29
-            },
-            {
-              "bookmaker": "Unibet (NL)",
-              "odds": 1.27
-            },
-            {
-              "bookmaker": "Unibet (SE)",
-              "odds": 1.27
-            },
-            {
-              "bookmaker": "1xBet",
-              "odds": 1.26
-            },
-            {
-              "bookmaker": "LeoVegas (SE)",
-              "odds": 1.26
-            },
-            {
-              "bookmaker": "Coolbet",
-              "odds": 1.25
-            },
-            {
-              "bookmaker": "Winamax (DE)",
-              "odds": 1.25
-            },
-            {
-              "bookmaker": "BetOnline.ag",
-              "odds": 1.25
-            },
-            {
-              "bookmaker": "Marathon Bet",
-              "odds": 1.25
-            },
-            {
-              "bookmaker": "BetAnything",
-              "odds": 1.25
-            },
-            {
-              "bookmaker": "Everygame",
-              "odds": 1.25
-            },
-            {
-              "bookmaker": "Pinnacle",
-              "odds": 1.25
-            },
-            {
-              "bookmaker": "MyBookie.ag",
-              "odds": 1.24
-            },
-            {
-              "bookmaker": "GTbets",
-              "odds": 1.24
-            },
-            {
-              "bookmaker": "Codere (IT)",
-              "odds": 1.23
-            },
-            {
-              "bookmaker": "888sport",
-              "odds": 1.22
-            },
-            {
-              "bookmaker": "Betclic (FR)",
-              "odds": 1.22
-            },
-            {
-              "bookmaker": "William Hill",
-              "odds": 1.22
-            },
-            {
-              "bookmaker": "Tipico",
-              "odds": 1.22
-            },
-            {
-              "bookmaker": "Winamax (FR)",
-              "odds": 1.22
-            },
-            {
-              "bookmaker": "Betsson",
-              "odds": 1.21
-            },
-            {
-              "bookmaker": "Nordic Bet",
-              "odds": 1.21
-            },
-            {
-              "bookmaker": "PMU (FR)",
-              "odds": 1.21
-            },
-            {
-              "bookmaker": "Unibet (FR)",
-              "odds": 1.2
-            }
-          ],
-          "max_bookmaker": "Matchbook",
-          "max_odds": 1.29,
-          "min_bookmaker": "Unibet (FR)",
-          "min_odds": 1.2,
-          "max_ties": [
-            "Matchbook",
-            "Betfair"
-          ],
-          "min_ties": [
-            "Unibet (FR)"
-          ]
-        },
-        {
-          "selection": "Phoenix Suns",
-          "type": "Victoire extérieur",
-          "odds": 4.07,
-          "market_probability_pct": 23.4,
-          "confidence_score_pct": 23.4,
-          "news_net_signal": 0.0,
-          "news_nb_articles": 3,
-          "news_hype_ratio_pct": 0.0,
-          "news_sources": "Google News",
-          "odds_detail": [
-            {
-              "bookmaker": "Matchbook",
-              "odds": 4.4
-            },
-            {
-              "bookmaker": "Betfair",
-              "odds": 4.4
-            },
-            {
-              "bookmaker": "Pinnacle",
-              "odds": 4.29
-            },
-            {
-              "bookmaker": "888sport",
-              "odds": 4.2
-            },
-            {
-              "bookmaker": "William Hill",
-              "odds": 4.2
-            },
-            {
-              "bookmaker": "Coolbet",
-              "odds": 4.2
-            },
-            {
-              "bookmaker": "Winamax (DE)",
-              "odds": 4.2
-            },
-            {
-              "bookmaker": "GTbets",
-              "odds": 4.2
-            },
-            {
-              "bookmaker": "BetAnything",
-              "odds": 4.2
-            },
-            {
-              "bookmaker": "BetOnline.ag",
-              "odds": 4.16
-            },
-            {
-              "bookmaker": "Everygame",
-              "odds": 4.15
-            },
-            {
-              "bookmaker": "1xBet",
-              "odds": 4.13
-            },
-            {
-              "bookmaker": "Betclic (FR)",
-              "odds": 4.1
-            },
-            {
-              "bookmaker": "MyBookie.ag",
-              "odds": 4.1
-            },
-            {
-              "bookmaker": "Tipico",
-              "odds": 4.1
-            },
-            {
-              "bookmaker": "Marathon Bet",
-              "odds": 4.1
-            },
-            {
-              "bookmaker": "Codere (IT)",
-              "odds": 4.0
-            },
-            {
-              "bookmaker": "Betsson",
-              "odds": 4.0
-            },
-            {
-              "bookmaker": "Nordic Bet",
-              "odds": 4.0
-            },
-            {
-              "bookmaker": "Winamax (FR)",
-              "odds": 3.9
-            },
-            {
-              "bookmaker": "Unibet (NL)",
-              "odds": 3.85
-            },
-            {
-              "bookmaker": "Unibet (SE)",
-              "odds": 3.85
-            },
-            {
-              "bookmaker": "LeoVegas (SE)",
-              "odds": 3.8
-            },
-            {
-              "bookmaker": "PMU (FR)",
-              "odds": 3.65
-            },
-            {
-              "bookmaker": "Unibet (FR)",
-              "odds": 3.5
-            }
-          ],
-          "max_bookmaker": "Matchbook",
-          "max_odds": 4.4,
-          "min_bookmaker": "Unibet (FR)",
-          "min_odds": 3.5,
-          "max_ties": [
-            "Matchbook",
-            "Betfair"
-          ],
-          "min_ties": [
-            "Unibet (FR)"
-          ]
-        }
-      ],
-      "h2h_favorite": "Oklahoma City Thunder",
-      "h2h_nb_matches": 0,
-      "h2h_summary": ""
-    },
-    {
-      "event_id": "69aa52b674648238de10389a3d343208",
-      "match": "Miami Heat vs Dallas Mavericks",
-      "sport": "basketball_nba",
-      "country": "basketball",
-      "home_team": "Miami Heat",
-      "away_team": "Dallas Mavericks",
-      "commence_time_gmt": "2026-10-26T23:40:00Z",
-      "nb_bookmakers": 25,
-      "best_pick": {
-        "selection": "Miami Heat",
+        "selection": "AS Roma",
         "type": "Victoire domicile",
         "odds": 1.3,
-        "market_probability_pct": 73.2,
-        "confidence_score_pct": 73.2,
+        "market_probability_pct": 72.8,
+        "confidence_score_pct": 72.8,
         "news_net_signal": 0.0,
         "news_nb_articles": 5,
         "news_hype_ratio_pct": 0.0,
         "news_sources": "Google News",
         "odds_detail": [
           {
-            "bookmaker": "Betfair",
+            "bookmaker": "GTbets",
+            "odds": 1.36
+          },
+          {
+            "bookmaker": "1xBet",
             "odds": 1.35
           },
           {
             "bookmaker": "Matchbook",
-            "odds": 1.35
-          },
-          {
-            "bookmaker": "1xBet",
             "odds": 1.34
           },
           {
-            "bookmaker": "Pinnacle",
-            "odds": 1.33
+            "bookmaker": "Betfair",
+            "odds": 1.34
+          },
+          {
+            "bookmaker": "Coolbet",
+            "odds": 1.34
           },
           {
             "bookmaker": "Marathon Bet",
             "odds": 1.33
           },
           {
-            "bookmaker": "Coolbet",
-            "odds": 1.31
+            "bookmaker": "888sport",
+            "odds": 1.33
           },
           {
-            "bookmaker": "Winamax (DE)",
-            "odds": 1.31
-          },
-          {
-            "bookmaker": "MyBookie.ag",
-            "odds": 1.31
+            "bookmaker": "William Hill",
+            "odds": 1.33
           },
           {
             "bookmaker": "BetOnline.ag",
-            "odds": 1.3
+            "odds": 1.33
           },
           {
-            "bookmaker": "GTbets",
-            "odds": 1.3
+            "bookmaker": "Pinnacle",
+            "odds": 1.32
           },
           {
             "bookmaker": "BetAnything",
+            "odds": 1.32
+          },
+          {
+            "bookmaker": "Codere (IT)",
+            "odds": 1.3
+          },
+          {
+            "bookmaker": "Unibet (SE)",
+            "odds": 1.3
+          },
+          {
+            "bookmaker": "Betsson",
             "odds": 1.3
           },
           {
@@ -847,43 +860,23 @@
             "odds": 1.29
           },
           {
-            "bookmaker": "Unibet (SE)",
+            "bookmaker": "Nordic Bet",
             "odds": 1.29
-          },
-          {
-            "bookmaker": "888sport",
-            "odds": 1.29
-          },
-          {
-            "bookmaker": "William Hill",
-            "odds": 1.29
-          },
-          {
-            "bookmaker": "Codere (IT)",
-            "odds": 1.29
-          },
-          {
-            "bookmaker": "LeoVegas (SE)",
-            "odds": 1.28
-          },
-          {
-            "bookmaker": "Winamax (FR)",
-            "odds": 1.28
-          },
-          {
-            "bookmaker": "Betclic (FR)",
-            "odds": 1.28
           },
           {
             "bookmaker": "Tipico",
             "odds": 1.28
           },
           {
-            "bookmaker": "Betsson",
-            "odds": 1.26
+            "bookmaker": "Winamax (DE)",
+            "odds": 1.27
           },
           {
-            "bookmaker": "Nordic Bet",
+            "bookmaker": "LeoVegas (SE)",
+            "odds": 1.27
+          },
+          {
+            "bookmaker": "Betclic (FR)",
             "odds": 1.26
           },
           {
@@ -891,76 +884,93 @@
             "odds": 1.25
           },
           {
+            "bookmaker": "Winamax (FR)",
+            "odds": 1.25
+          },
+          {
             "bookmaker": "PMU (FR)",
-            "odds": 1.24
+            "odds": 1.25
           }
         ],
-        "max_bookmaker": "Betfair",
-        "max_odds": 1.35,
-        "min_bookmaker": "PMU (FR)",
-        "min_odds": 1.24,
+        "max_bookmaker": "GTbets",
+        "max_odds": 1.36,
+        "min_bookmaker": "Unibet (FR)",
+        "min_odds": 1.25,
         "max_ties": [
-          "Betfair",
-          "Matchbook"
+          "GTbets"
         ],
         "min_ties": [
+          "Unibet (FR)",
+          "Winamax (FR)",
           "PMU (FR)"
         ]
       },
       "all_candidates": [
         {
-          "selection": "Miami Heat",
+          "selection": "AS Roma",
           "type": "Victoire domicile",
           "odds": 1.3,
-          "market_probability_pct": 73.2,
-          "confidence_score_pct": 73.2,
+          "market_probability_pct": 72.8,
+          "confidence_score_pct": 72.8,
           "news_net_signal": 0.0,
           "news_nb_articles": 5,
           "news_hype_ratio_pct": 0.0,
           "news_sources": "Google News",
           "odds_detail": [
             {
-              "bookmaker": "Betfair",
+              "bookmaker": "GTbets",
+              "odds": 1.36
+            },
+            {
+              "bookmaker": "1xBet",
               "odds": 1.35
             },
             {
               "bookmaker": "Matchbook",
-              "odds": 1.35
-            },
-            {
-              "bookmaker": "1xBet",
               "odds": 1.34
             },
             {
-              "bookmaker": "Pinnacle",
-              "odds": 1.33
+              "bookmaker": "Betfair",
+              "odds": 1.34
+            },
+            {
+              "bookmaker": "Coolbet",
+              "odds": 1.34
             },
             {
               "bookmaker": "Marathon Bet",
               "odds": 1.33
             },
             {
-              "bookmaker": "Coolbet",
-              "odds": 1.31
+              "bookmaker": "888sport",
+              "odds": 1.33
             },
             {
-              "bookmaker": "Winamax (DE)",
-              "odds": 1.31
-            },
-            {
-              "bookmaker": "MyBookie.ag",
-              "odds": 1.31
+              "bookmaker": "William Hill",
+              "odds": 1.33
             },
             {
               "bookmaker": "BetOnline.ag",
-              "odds": 1.3
+              "odds": 1.33
             },
             {
-              "bookmaker": "GTbets",
-              "odds": 1.3
+              "bookmaker": "Pinnacle",
+              "odds": 1.32
             },
             {
               "bookmaker": "BetAnything",
+              "odds": 1.32
+            },
+            {
+              "bookmaker": "Codere (IT)",
+              "odds": 1.3
+            },
+            {
+              "bookmaker": "Unibet (SE)",
+              "odds": 1.3
+            },
+            {
+              "bookmaker": "Betsson",
               "odds": 1.3
             },
             {
@@ -972,43 +982,23 @@
               "odds": 1.29
             },
             {
-              "bookmaker": "Unibet (SE)",
+              "bookmaker": "Nordic Bet",
               "odds": 1.29
-            },
-            {
-              "bookmaker": "888sport",
-              "odds": 1.29
-            },
-            {
-              "bookmaker": "William Hill",
-              "odds": 1.29
-            },
-            {
-              "bookmaker": "Codere (IT)",
-              "odds": 1.29
-            },
-            {
-              "bookmaker": "LeoVegas (SE)",
-              "odds": 1.28
-            },
-            {
-              "bookmaker": "Winamax (FR)",
-              "odds": 1.28
-            },
-            {
-              "bookmaker": "Betclic (FR)",
-              "odds": 1.28
             },
             {
               "bookmaker": "Tipico",
               "odds": 1.28
             },
             {
-              "bookmaker": "Betsson",
-              "odds": 1.26
+              "bookmaker": "Winamax (DE)",
+              "odds": 1.27
             },
             {
-              "bookmaker": "Nordic Bet",
+              "bookmaker": "LeoVegas (SE)",
+              "odds": 1.27
+            },
+            {
+              "bookmaker": "Betclic (FR)",
               "odds": 1.26
             },
             {
@@ -1016,514 +1006,161 @@
               "odds": 1.25
             },
             {
-              "bookmaker": "PMU (FR)",
-              "odds": 1.24
-            }
-          ],
-          "max_bookmaker": "Betfair",
-          "max_odds": 1.35,
-          "min_bookmaker": "PMU (FR)",
-          "min_odds": 1.24,
-          "max_ties": [
-            "Betfair",
-            "Matchbook"
-          ],
-          "min_ties": [
-            "PMU (FR)"
-          ]
-        },
-        {
-          "selection": "Dallas Mavericks",
-          "type": "Victoire extérieur",
-          "odds": 3.56,
-          "market_probability_pct": 26.8,
-          "confidence_score_pct": 24.8,
-          "news_net_signal": -2.0,
-          "news_nb_articles": 3,
-          "news_hype_ratio_pct": 0.0,
-          "news_sources": "Google News",
-          "odds_detail": [
-            {
-              "bookmaker": "Betfair",
-              "odds": 3.75
-            },
-            {
-              "bookmaker": "Matchbook",
-              "odds": 3.75
-            },
-            {
-              "bookmaker": "Winamax (DE)",
-              "odds": 3.7
-            },
-            {
-              "bookmaker": "Everygame",
-              "odds": 3.7
-            },
-            {
-              "bookmaker": "BetOnline.ag",
-              "odds": 3.67
-            },
-            {
-              "bookmaker": "GTbets",
-              "odds": 3.65
-            },
-            {
-              "bookmaker": "Unibet (NL)",
-              "odds": 3.65
-            },
-            {
-              "bookmaker": "Unibet (SE)",
-              "odds": 3.65
-            },
-            {
-              "bookmaker": "Coolbet",
-              "odds": 3.6
-            },
-            {
-              "bookmaker": "LeoVegas (SE)",
-              "odds": 3.6
-            },
-            {
-              "bookmaker": "888sport",
-              "odds": 3.6
-            },
-            {
-              "bookmaker": "William Hill",
-              "odds": 3.6
-            },
-            {
-              "bookmaker": "Betclic (FR)",
-              "odds": 3.6
-            },
-            {
-              "bookmaker": "Tipico",
-              "odds": 3.6
-            },
-            {
-              "bookmaker": "BetAnything",
-              "odds": 3.6
-            },
-            {
-              "bookmaker": "Pinnacle",
-              "odds": 3.55
-            },
-            {
-              "bookmaker": "Betsson",
-              "odds": 3.5
-            },
-            {
-              "bookmaker": "Nordic Bet",
-              "odds": 3.5
-            },
-            {
-              "bookmaker": "Codere (IT)",
-              "odds": 3.5
-            },
-            {
-              "bookmaker": "MyBookie.ag",
-              "odds": 3.48
-            },
-            {
-              "bookmaker": "PMU (FR)",
-              "odds": 3.45
-            },
-            {
-              "bookmaker": "1xBet",
-              "odds": 3.44
-            },
-            {
-              "bookmaker": "Marathon Bet",
-              "odds": 3.42
-            },
-            {
               "bookmaker": "Winamax (FR)",
-              "odds": 3.4
+              "odds": 1.25
             },
             {
-              "bookmaker": "Unibet (FR)",
-              "odds": 3.15
+              "bookmaker": "PMU (FR)",
+              "odds": 1.25
             }
           ],
-          "max_bookmaker": "Betfair",
-          "max_odds": 3.75,
+          "max_bookmaker": "GTbets",
+          "max_odds": 1.36,
           "min_bookmaker": "Unibet (FR)",
-          "min_odds": 3.15,
+          "min_odds": 1.25,
           "max_ties": [
-            "Betfair",
-            "Matchbook"
-          ],
-          "min_ties": [
-            "Unibet (FR)"
-          ]
-        }
-      ],
-      "h2h_favorite": "Miami Heat",
-      "h2h_nb_matches": 0,
-      "h2h_summary": ""
-    },
-    {
-      "event_id": "8664b2167f22c59026d86615421463b1",
-      "match": "Paris Saint Germain vs Lyon",
-      "sport": "soccer_france_ligue_one",
-      "country": "soccer",
-      "home_team": "Paris Saint Germain",
-      "away_team": "Lyon",
-      "commence_time_gmt": "2026-10-26T19:30:00Z",
-      "nb_bookmakers": 21,
-      "best_pick": {
-        "selection": "Paris Saint Germain",
-        "type": "Victoire domicile",
-        "odds": 1.33,
-        "market_probability_pct": 71.3,
-        "confidence_score_pct": 70.1,
-        "news_net_signal": -1.2,
-        "news_nb_articles": 5,
-        "news_hype_ratio_pct": 0.0,
-        "news_sources": "Google News",
-        "odds_detail": [
-          {
-            "bookmaker": "1xBet",
-            "odds": 1.38
-          },
-          {
-            "bookmaker": "GTbets",
-            "odds": 1.38
-          },
-          {
-            "bookmaker": "Betfair",
-            "odds": 1.37
-          },
-          {
-            "bookmaker": "Marathon Bet",
-            "odds": 1.36
-          },
-          {
-            "bookmaker": "Coolbet",
-            "odds": 1.36
-          },
-          {
-            "bookmaker": "Pinnacle",
-            "odds": 1.35
-          },
-          {
-            "bookmaker": "LeoVegas (SE)",
-            "odds": 1.35
-          },
-          {
-            "bookmaker": "Unibet (SE)",
-            "odds": 1.35
-          },
-          {
-            "bookmaker": "BetOnline.ag",
-            "odds": 1.34
-          },
-          {
-            "bookmaker": "888sport",
-            "odds": 1.33
-          },
-          {
-            "bookmaker": "William Hill",
-            "odds": 1.33
-          },
-          {
-            "bookmaker": "Unibet (NL)",
-            "odds": 1.32
-          },
-          {
-            "bookmaker": "Codere (IT)",
-            "odds": 1.32
-          },
-          {
-            "bookmaker": "Nordic Bet",
-            "odds": 1.32
-          },
-          {
-            "bookmaker": "Betsson",
-            "odds": 1.32
-          },
-          {
-            "bookmaker": "Betclic (FR)",
-            "odds": 1.31
-          },
-          {
-            "bookmaker": "Tipico",
-            "odds": 1.3
-          },
-          {
-            "bookmaker": "Winamax (FR)",
-            "odds": 1.3
-          },
-          {
-            "bookmaker": "Unibet (FR)",
-            "odds": 1.3
-          },
-          {
-            "bookmaker": "Winamax (DE)",
-            "odds": 1.3
-          },
-          {
-            "bookmaker": "PMU (FR)",
-            "odds": 1.29
-          }
-        ],
-        "max_bookmaker": "1xBet",
-        "max_odds": 1.38,
-        "min_bookmaker": "PMU (FR)",
-        "min_odds": 1.29,
-        "max_ties": [
-          "1xBet",
-          "GTbets"
-        ],
-        "min_ties": [
-          "PMU (FR)"
-        ]
-      },
-      "all_candidates": [
-        {
-          "selection": "Paris Saint Germain",
-          "type": "Victoire domicile",
-          "odds": 1.33,
-          "market_probability_pct": 71.3,
-          "confidence_score_pct": 70.1,
-          "news_net_signal": -1.2,
-          "news_nb_articles": 5,
-          "news_hype_ratio_pct": 0.0,
-          "news_sources": "Google News",
-          "odds_detail": [
-            {
-              "bookmaker": "1xBet",
-              "odds": 1.38
-            },
-            {
-              "bookmaker": "GTbets",
-              "odds": 1.38
-            },
-            {
-              "bookmaker": "Betfair",
-              "odds": 1.37
-            },
-            {
-              "bookmaker": "Marathon Bet",
-              "odds": 1.36
-            },
-            {
-              "bookmaker": "Coolbet",
-              "odds": 1.36
-            },
-            {
-              "bookmaker": "Pinnacle",
-              "odds": 1.35
-            },
-            {
-              "bookmaker": "LeoVegas (SE)",
-              "odds": 1.35
-            },
-            {
-              "bookmaker": "Unibet (SE)",
-              "odds": 1.35
-            },
-            {
-              "bookmaker": "BetOnline.ag",
-              "odds": 1.34
-            },
-            {
-              "bookmaker": "888sport",
-              "odds": 1.33
-            },
-            {
-              "bookmaker": "William Hill",
-              "odds": 1.33
-            },
-            {
-              "bookmaker": "Unibet (NL)",
-              "odds": 1.32
-            },
-            {
-              "bookmaker": "Codere (IT)",
-              "odds": 1.32
-            },
-            {
-              "bookmaker": "Nordic Bet",
-              "odds": 1.32
-            },
-            {
-              "bookmaker": "Betsson",
-              "odds": 1.32
-            },
-            {
-              "bookmaker": "Betclic (FR)",
-              "odds": 1.31
-            },
-            {
-              "bookmaker": "Tipico",
-              "odds": 1.3
-            },
-            {
-              "bookmaker": "Winamax (FR)",
-              "odds": 1.3
-            },
-            {
-              "bookmaker": "Unibet (FR)",
-              "odds": 1.3
-            },
-            {
-              "bookmaker": "Winamax (DE)",
-              "odds": 1.3
-            },
-            {
-              "bookmaker": "PMU (FR)",
-              "odds": 1.29
-            }
-          ],
-          "max_bookmaker": "1xBet",
-          "max_odds": 1.38,
-          "min_bookmaker": "PMU (FR)",
-          "min_odds": 1.29,
-          "max_ties": [
-            "1xBet",
             "GTbets"
           ],
           "min_ties": [
+            "Unibet (FR)",
+            "Winamax (FR)",
             "PMU (FR)"
           ]
         },
         {
-          "selection": "Lyon",
+          "selection": "Cagliari",
           "type": "Victoire extérieur",
-          "odds": 7.78,
-          "market_probability_pct": 12.2,
-          "confidence_score_pct": 12.2,
+          "odds": 9.84,
+          "market_probability_pct": 9.7,
+          "confidence_score_pct": 9.7,
           "news_net_signal": 0.0,
           "news_nb_articles": 5,
           "news_hype_ratio_pct": 0.0,
           "news_sources": "Google News",
           "odds_detail": [
             {
-              "bookmaker": "Betfair",
-              "odds": 9.0
-            },
-            {
-              "bookmaker": "LeoVegas (SE)",
-              "odds": 8.5
-            },
-            {
               "bookmaker": "Unibet (SE)",
-              "odds": 8.5
-            },
-            {
-              "bookmaker": "BetOnline.ag",
-              "odds": 8.5
-            },
-            {
-              "bookmaker": "Pinnacle",
-              "odds": 8.49
-            },
-            {
-              "bookmaker": "Nordic Bet",
-              "odds": 8.2
+              "odds": 11.0
             },
             {
               "bookmaker": "1xBet",
-              "odds": 8.1
-            },
-            {
-              "bookmaker": "Betsson",
-              "odds": 8.1
+              "odds": 10.9
             },
             {
               "bookmaker": "Marathon Bet",
-              "odds": 8.0
+              "odds": 10.75
             },
             {
-              "bookmaker": "Codere (IT)",
-              "odds": 8.0
-            },
-            {
-              "bookmaker": "Coolbet",
-              "odds": 8.0
-            },
-            {
-              "bookmaker": "Tipico",
-              "odds": 7.8
+              "bookmaker": "BetOnline.ag",
+              "odds": 10.6
             },
             {
               "bookmaker": "Unibet (NL)",
-              "odds": 7.5
+              "odds": 10.5
             },
             {
-              "bookmaker": "GTbets",
-              "odds": 7.49
+              "bookmaker": "Matchbook",
+              "odds": 10.5
             },
             {
-              "bookmaker": "Winamax (DE)",
-              "odds": 7.25
+              "bookmaker": "Betfair",
+              "odds": 10.5
             },
             {
-              "bookmaker": "888sport",
-              "odds": 7.0
-            },
-            {
-              "bookmaker": "Winamax (FR)",
-              "odds": 7.0
+              "bookmaker": "Pinnacle",
+              "odds": 10.34
             },
             {
               "bookmaker": "Unibet (FR)",
-              "odds": 7.0
-            },
-            {
-              "bookmaker": "William Hill",
-              "odds": 7.0
+              "odds": 10.0
             },
             {
               "bookmaker": "Betclic (FR)",
-              "odds": 7.0
+              "odds": 10.0
+            },
+            {
+              "bookmaker": "Everygame",
+              "odds": 10.0
+            },
+            {
+              "bookmaker": "Coolbet",
+              "odds": 10.0
+            },
+            {
+              "bookmaker": "Betsson",
+              "odds": 9.8
+            },
+            {
+              "bookmaker": "BetAnything",
+              "odds": 9.8
+            },
+            {
+              "bookmaker": "GTbets",
+              "odds": 9.78
+            },
+            {
+              "bookmaker": "Nordic Bet",
+              "odds": 9.7
+            },
+            {
+              "bookmaker": "Tipico",
+              "odds": 9.5
+            },
+            {
+              "bookmaker": "LeoVegas (SE)",
+              "odds": 9.5
+            },
+            {
+              "bookmaker": "Codere (IT)",
+              "odds": 9.4
+            },
+            {
+              "bookmaker": "Winamax (DE)",
+              "odds": 9.0
             },
             {
               "bookmaker": "PMU (FR)",
-              "odds": 7.0
+              "odds": 9.0
+            },
+            {
+              "bookmaker": "Winamax (FR)",
+              "odds": 8.5
+            },
+            {
+              "bookmaker": "888sport",
+              "odds": 8.5
+            },
+            {
+              "bookmaker": "William Hill",
+              "odds": 8.5
             }
           ],
-          "max_bookmaker": "Betfair",
-          "max_odds": 9.0,
-          "min_bookmaker": "888sport",
-          "min_odds": 7.0,
+          "max_bookmaker": "Unibet (SE)",
+          "max_odds": 11.0,
+          "min_bookmaker": "Winamax (FR)",
+          "min_odds": 8.5,
           "max_ties": [
-            "Betfair"
+            "Unibet (SE)"
           ],
           "min_ties": [
-            "888sport",
             "Winamax (FR)",
-            "Unibet (FR)",
-            "William Hill",
-            "Betclic (FR)",
-            "PMU (FR)"
+            "888sport",
+            "William Hill"
           ]
         },
         {
           "selection": "Match nul",
           "type": "Nul",
-          "odds": 5.74,
-          "market_probability_pct": 16.5,
-          "confidence_score_pct": 16.5,
+          "odds": 5.4,
+          "market_probability_pct": 17.5,
+          "confidence_score_pct": 17.5,
           "news_net_signal": 0,
           "news_nb_articles": 10,
           "news_hype_ratio_pct": 0.0,
           "news_sources": "Google News",
           "odds_detail": [
             {
-              "bookmaker": "LeoVegas (SE)",
-              "odds": 6.25
-            },
-            {
-              "bookmaker": "Unibet (SE)",
-              "odds": 6.25
-            },
-            {
-              "bookmaker": "Winamax (DE)",
-              "odds": 6.0
-            },
-            {
-              "bookmaker": "Betclic (FR)",
+              "bookmaker": "Matchbook",
               "odds": 6.0
             },
             {
@@ -1531,51 +1168,27 @@
               "odds": 6.0
             },
             {
-              "bookmaker": "Codere (IT)",
-              "odds": 6.0
-            },
-            {
-              "bookmaker": "1xBet",
-              "odds": 5.89
-            },
-            {
-              "bookmaker": "BetOnline.ag",
-              "odds": 5.88
+              "bookmaker": "Unibet (SE)",
+              "odds": 5.8
             },
             {
               "bookmaker": "Tipico",
-              "odds": 5.8
-            },
-            {
-              "bookmaker": "Unibet (FR)",
-              "odds": 5.8
-            },
-            {
-              "bookmaker": "Marathon Bet",
-              "odds": 5.8
-            },
-            {
-              "bookmaker": "Coolbet",
-              "odds": 5.8
-            },
-            {
-              "bookmaker": "Unibet (NL)",
-              "odds": 5.75
-            },
-            {
-              "bookmaker": "Pinnacle",
               "odds": 5.7
             },
             {
-              "bookmaker": "GTbets",
-              "odds": 5.61
+              "bookmaker": "Codere (IT)",
+              "odds": 5.6
             },
             {
-              "bookmaker": "Nordic Bet",
-              "odds": 5.55
+              "bookmaker": "Unibet (NL)",
+              "odds": 5.6
             },
             {
-              "bookmaker": "Winamax (FR)",
+              "bookmaker": "Pinnacle",
+              "odds": 5.52
+            },
+            {
+              "bookmaker": "Winamax (DE)",
               "odds": 5.5
             },
             {
@@ -1583,25 +1196,73 @@
               "odds": 5.5
             },
             {
-              "bookmaker": "PMU (FR)",
+              "bookmaker": "1xBet",
+              "odds": 5.47
+            },
+            {
+              "bookmaker": "Nordic Bet",
+              "odds": 5.45
+            },
+            {
+              "bookmaker": "Marathon Bet",
               "odds": 5.4
             },
             {
+              "bookmaker": "Coolbet",
+              "odds": 5.4
+            },
+            {
+              "bookmaker": "Unibet (FR)",
+              "odds": 5.3
+            },
+            {
+              "bookmaker": "Betclic (FR)",
+              "odds": 5.25
+            },
+            {
+              "bookmaker": "LeoVegas (SE)",
+              "odds": 5.25
+            },
+            {
+              "bookmaker": "Everygame",
+              "odds": 5.25
+            },
+            {
+              "bookmaker": "BetAnything",
+              "odds": 5.25
+            },
+            {
+              "bookmaker": "BetOnline.ag",
+              "odds": 5.24
+            },
+            {
+              "bookmaker": "Winamax (FR)",
+              "odds": 5.2
+            },
+            {
+              "bookmaker": "GTbets",
+              "odds": 5.18
+            },
+            {
+              "bookmaker": "PMU (FR)",
+              "odds": 5.1
+            },
+            {
               "bookmaker": "888sport",
-              "odds": 5.0
+              "odds": 4.8
             },
             {
               "bookmaker": "William Hill",
-              "odds": 5.0
+              "odds": 4.8
             }
           ],
-          "max_bookmaker": "LeoVegas (SE)",
-          "max_odds": 6.25,
+          "max_bookmaker": "Matchbook",
+          "max_odds": 6.0,
           "min_bookmaker": "888sport",
-          "min_odds": 5.0,
+          "min_odds": 4.8,
           "max_ties": [
-            "LeoVegas (SE)",
-            "Unibet (SE)"
+            "Matchbook",
+            "Betfair"
           ],
           "min_ties": [
             "888sport",
@@ -1609,849 +1270,135 @@
           ]
         }
       ],
-      "h2h_favorite": "Paris Saint Germain",
+      "h2h_favorite": "AS Roma",
       "h2h_nb_matches": 0,
       "h2h_summary": ""
     },
     {
-      "event_id": "d7f8398941d7c90befa60f35876a3ae7",
-      "match": "Denver Nuggets vs Golden State Warriors",
+      "event_id": "bde272846214fd6cf197e14c278c12f2",
+      "match": "New York Knicks vs Detroit Pistons",
       "sport": "basketball_nba",
       "country": "basketball",
-      "home_team": "Denver Nuggets",
-      "away_team": "Golden State Warriors",
-      "commence_time_gmt": "2026-10-27T02:10:00Z",
+      "home_team": "New York Knicks",
+      "away_team": "Detroit Pistons",
+      "commence_time_gmt": "2026-10-28T00:10:00Z",
       "nb_bookmakers": 25,
       "best_pick": {
-        "selection": "Denver Nuggets",
+        "selection": "New York Knicks",
         "type": "Victoire domicile",
-        "odds": 1.34,
-        "market_probability_pct": 71.0,
-        "confidence_score_pct": 69.8,
+        "odds": 1.58,
+        "market_probability_pct": 60.4,
+        "confidence_score_pct": 59.2,
         "news_net_signal": -1.2,
         "news_nb_articles": 5,
         "news_hype_ratio_pct": 0.0,
         "news_sources": "Google News",
         "odds_detail": [
           {
-            "bookmaker": "Betfair",
-            "odds": 1.38
-          },
-          {
             "bookmaker": "Matchbook",
-            "odds": 1.38
+            "odds": 1.64
           },
           {
-            "bookmaker": "Pinnacle",
-            "odds": 1.37
+            "bookmaker": "Betfair",
+            "odds": 1.64
           },
           {
             "bookmaker": "BetOnline.ag",
-            "odds": 1.36
+            "odds": 1.61
           },
           {
-            "bookmaker": "MyBookie.ag",
-            "odds": 1.36
-          },
-          {
-            "bookmaker": "Marathon Bet",
-            "odds": 1.36
+            "bookmaker": "Coolbet",
+            "odds": 1.61
           },
           {
             "bookmaker": "BetAnything",
-            "odds": 1.36
+            "odds": 1.61
           },
           {
             "bookmaker": "Everygame",
-            "odds": 1.36
-          },
-          {
-            "bookmaker": "Winamax (DE)",
-            "odds": 1.35
-          },
-          {
-            "bookmaker": "Coolbet",
-            "odds": 1.35
-          },
-          {
-            "bookmaker": "Nordic Bet",
-            "odds": 1.34
-          },
-          {
-            "bookmaker": "Betsson",
-            "odds": 1.34
-          },
-          {
-            "bookmaker": "GTbets",
-            "odds": 1.34
-          },
-          {
-            "bookmaker": "Unibet (NL)",
-            "odds": 1.34
-          },
-          {
-            "bookmaker": "Unibet (SE)",
-            "odds": 1.34
-          },
-          {
-            "bookmaker": "Codere (IT)",
-            "odds": 1.33
+            "odds": 1.61
           },
           {
             "bookmaker": "1xBet",
-            "odds": 1.33
-          },
-          {
-            "bookmaker": "888sport",
-            "odds": 1.33
-          },
-          {
-            "bookmaker": "William Hill",
-            "odds": 1.33
-          },
-          {
-            "bookmaker": "Winamax (FR)",
-            "odds": 1.33
-          },
-          {
-            "bookmaker": "Betclic (FR)",
-            "odds": 1.33
-          },
-          {
-            "bookmaker": "LeoVegas (SE)",
-            "odds": 1.32
-          },
-          {
-            "bookmaker": "Tipico",
-            "odds": 1.32
-          },
-          {
-            "bookmaker": "Unibet (FR)",
-            "odds": 1.3
-          },
-          {
-            "bookmaker": "PMU (FR)",
-            "odds": 1.27
-          }
-        ],
-        "max_bookmaker": "Betfair",
-        "max_odds": 1.38,
-        "min_bookmaker": "PMU (FR)",
-        "min_odds": 1.27,
-        "max_ties": [
-          "Betfair",
-          "Matchbook"
-        ],
-        "min_ties": [
-          "PMU (FR)"
-        ]
-      },
-      "all_candidates": [
-        {
-          "selection": "Denver Nuggets",
-          "type": "Victoire domicile",
-          "odds": 1.34,
-          "market_probability_pct": 71.0,
-          "confidence_score_pct": 69.8,
-          "news_net_signal": -1.2,
-          "news_nb_articles": 5,
-          "news_hype_ratio_pct": 0.0,
-          "news_sources": "Google News",
-          "odds_detail": [
-            {
-              "bookmaker": "Betfair",
-              "odds": 1.38
-            },
-            {
-              "bookmaker": "Matchbook",
-              "odds": 1.38
-            },
-            {
-              "bookmaker": "Pinnacle",
-              "odds": 1.37
-            },
-            {
-              "bookmaker": "BetOnline.ag",
-              "odds": 1.36
-            },
-            {
-              "bookmaker": "MyBookie.ag",
-              "odds": 1.36
-            },
-            {
-              "bookmaker": "Marathon Bet",
-              "odds": 1.36
-            },
-            {
-              "bookmaker": "BetAnything",
-              "odds": 1.36
-            },
-            {
-              "bookmaker": "Everygame",
-              "odds": 1.36
-            },
-            {
-              "bookmaker": "Winamax (DE)",
-              "odds": 1.35
-            },
-            {
-              "bookmaker": "Coolbet",
-              "odds": 1.35
-            },
-            {
-              "bookmaker": "Nordic Bet",
-              "odds": 1.34
-            },
-            {
-              "bookmaker": "Betsson",
-              "odds": 1.34
-            },
-            {
-              "bookmaker": "GTbets",
-              "odds": 1.34
-            },
-            {
-              "bookmaker": "Unibet (NL)",
-              "odds": 1.34
-            },
-            {
-              "bookmaker": "Unibet (SE)",
-              "odds": 1.34
-            },
-            {
-              "bookmaker": "Codere (IT)",
-              "odds": 1.33
-            },
-            {
-              "bookmaker": "1xBet",
-              "odds": 1.33
-            },
-            {
-              "bookmaker": "888sport",
-              "odds": 1.33
-            },
-            {
-              "bookmaker": "William Hill",
-              "odds": 1.33
-            },
-            {
-              "bookmaker": "Winamax (FR)",
-              "odds": 1.33
-            },
-            {
-              "bookmaker": "Betclic (FR)",
-              "odds": 1.33
-            },
-            {
-              "bookmaker": "LeoVegas (SE)",
-              "odds": 1.32
-            },
-            {
-              "bookmaker": "Tipico",
-              "odds": 1.32
-            },
-            {
-              "bookmaker": "Unibet (FR)",
-              "odds": 1.3
-            },
-            {
-              "bookmaker": "PMU (FR)",
-              "odds": 1.27
-            }
-          ],
-          "max_bookmaker": "Betfair",
-          "max_odds": 1.38,
-          "min_bookmaker": "PMU (FR)",
-          "min_odds": 1.27,
-          "max_ties": [
-            "Betfair",
-            "Matchbook"
-          ],
-          "min_ties": [
-            "PMU (FR)"
-          ]
-        },
-        {
-          "selection": "Golden State Warriors",
-          "type": "Victoire extérieur",
-          "odds": 3.29,
-          "market_probability_pct": 29.0,
-          "confidence_score_pct": 26.6,
-          "news_net_signal": -2.4,
-          "news_nb_articles": 5,
-          "news_hype_ratio_pct": 0.0,
-          "news_sources": "Google News",
-          "odds_detail": [
-            {
-              "bookmaker": "Betfair",
-              "odds": 3.55
-            },
-            {
-              "bookmaker": "Matchbook",
-              "odds": 3.55
-            },
-            {
-              "bookmaker": "1xBet",
-              "odds": 3.52
-            },
-            {
-              "bookmaker": "Unibet (NL)",
-              "odds": 3.4
-            },
-            {
-              "bookmaker": "Unibet (SE)",
-              "odds": 3.4
-            },
-            {
-              "bookmaker": "Everygame",
-              "odds": 3.4
-            },
-            {
-              "bookmaker": "Pinnacle",
-              "odds": 3.35
-            },
-            {
-              "bookmaker": "Coolbet",
-              "odds": 3.35
-            },
-            {
-              "bookmaker": "GTbets",
-              "odds": 3.35
-            },
-            {
-              "bookmaker": "LeoVegas (SE)",
-              "odds": 3.35
-            },
-            {
-              "bookmaker": "888sport",
-              "odds": 3.3
-            },
-            {
-              "bookmaker": "William Hill",
-              "odds": 3.3
-            },
-            {
-              "bookmaker": "BetOnline.ag",
-              "odds": 3.3
-            },
-            {
-              "bookmaker": "Tipico",
-              "odds": 3.3
-            },
-            {
-              "bookmaker": "BetAnything",
-              "odds": 3.3
-            },
-            {
-              "bookmaker": "Winamax (DE)",
-              "odds": 3.25
-            },
-            {
-              "bookmaker": "Betclic (FR)",
-              "odds": 3.25
-            },
-            {
-              "bookmaker": "Marathon Bet",
-              "odds": 3.24
-            },
-            {
-              "bookmaker": "PMU (FR)",
-              "odds": 3.2
-            },
-            {
-              "bookmaker": "MyBookie.ag",
-              "odds": 3.2
-            },
-            {
-              "bookmaker": "Codere (IT)",
-              "odds": 3.15
-            },
-            {
-              "bookmaker": "Winamax (FR)",
-              "odds": 3.1
-            },
-            {
-              "bookmaker": "Nordic Bet",
-              "odds": 3.1
-            },
-            {
-              "bookmaker": "Betsson",
-              "odds": 3.1
-            },
-            {
-              "bookmaker": "Unibet (FR)",
-              "odds": 2.95
-            }
-          ],
-          "max_bookmaker": "Betfair",
-          "max_odds": 3.55,
-          "min_bookmaker": "Unibet (FR)",
-          "min_odds": 2.95,
-          "max_ties": [
-            "Betfair",
-            "Matchbook"
-          ],
-          "min_ties": [
-            "Unibet (FR)"
-          ]
-        }
-      ],
-      "h2h_favorite": "Denver Nuggets",
-      "h2h_nb_matches": 0,
-      "h2h_summary": ""
-    },
-    {
-      "event_id": "4853610e63c246f2027a6a248e642c9a",
-      "match": "Philadelphia Eagles vs Dallas Cowboys",
-      "sport": "americanfootball_nfl",
-      "country": "americanfootball",
-      "home_team": "Philadelphia Eagles",
-      "away_team": "Dallas Cowboys",
-      "commence_time_gmt": "2026-10-27T00:15:00Z",
-      "nb_bookmakers": 20,
-      "best_pick": {
-        "selection": "Dallas Cowboys",
-        "type": "Victoire extérieur",
-        "odds": 1.45,
-        "market_probability_pct": 65.8,
-        "confidence_score_pct": 65.8,
-        "news_net_signal": 0.0,
-        "news_nb_articles": 4,
-        "news_hype_ratio_pct": 0.0,
-        "news_sources": "Google News",
-        "odds_detail": [
-          {
-            "bookmaker": "Betfair",
-            "odds": 1.49
-          },
-          {
-            "bookmaker": "Matchbook",
-            "odds": 1.49
+            "odds": 1.6
           },
           {
             "bookmaker": "Pinnacle",
-            "odds": 1.48
+            "odds": 1.6
           },
           {
-            "bookmaker": "Unibet (SE)",
-            "odds": 1.47
-          },
-          {
-            "bookmaker": "Unibet (NL)",
-            "odds": 1.47
-          },
-          {
-            "bookmaker": "MyBookie.ag",
-            "odds": 1.46
+            "bookmaker": "Tipico",
+            "odds": 1.6
           },
           {
             "bookmaker": "Marathon Bet",
-            "odds": 1.46
-          },
-          {
-            "bookmaker": "Coolbet",
-            "odds": 1.46
+            "odds": 1.59
           },
           {
             "bookmaker": "GTbets",
-            "odds": 1.45
-          },
-          {
-            "bookmaker": "LeoVegas (SE)",
-            "odds": 1.45
-          },
-          {
-            "bookmaker": "Nordic Bet",
-            "odds": 1.45
-          },
-          {
-            "bookmaker": "Betsson",
-            "odds": 1.45
-          },
-          {
-            "bookmaker": "Tipico",
-            "odds": 1.45
-          },
-          {
-            "bookmaker": "BetAnything",
-            "odds": 1.45
-          },
-          {
-            "bookmaker": "888sport",
-            "odds": 1.44
-          },
-          {
-            "bookmaker": "William Hill",
-            "odds": 1.44
-          },
-          {
-            "bookmaker": "Codere (IT)",
-            "odds": 1.44
-          },
-          {
-            "bookmaker": "BetOnline.ag",
-            "odds": 1.43
-          },
-          {
-            "bookmaker": "Betclic (FR)",
-            "odds": 1.42
-          },
-          {
-            "bookmaker": "PMU (FR)",
-            "odds": 1.3
-          }
-        ],
-        "max_bookmaker": "Betfair",
-        "max_odds": 1.49,
-        "min_bookmaker": "PMU (FR)",
-        "min_odds": 1.3,
-        "max_ties": [
-          "Betfair",
-          "Matchbook"
-        ],
-        "min_ties": [
-          "PMU (FR)"
-        ]
-      },
-      "all_candidates": [
-        {
-          "selection": "Philadelphia Eagles",
-          "type": "Victoire domicile",
-          "odds": 2.79,
-          "market_probability_pct": 34.2,
-          "confidence_score_pct": 33.0,
-          "news_net_signal": -1.2,
-          "news_nb_articles": 5,
-          "news_hype_ratio_pct": 0.0,
-          "news_sources": "Google News",
-          "odds_detail": [
-            {
-              "bookmaker": "Betfair",
-              "odds": 3.0
-            },
-            {
-              "bookmaker": "Matchbook",
-              "odds": 3.0
-            },
-            {
-              "bookmaker": "BetOnline.ag",
-              "odds": 2.92
-            },
-            {
-              "bookmaker": "Pinnacle",
-              "odds": 2.86
-            },
-            {
-              "bookmaker": "Unibet (SE)",
-              "odds": 2.85
-            },
-            {
-              "bookmaker": "Unibet (NL)",
-              "odds": 2.85
-            },
-            {
-              "bookmaker": "MyBookie.ag",
-              "odds": 2.82
-            },
-            {
-              "bookmaker": "Coolbet",
-              "odds": 2.82
-            },
-            {
-              "bookmaker": "GTbets",
-              "odds": 2.8
-            },
-            {
-              "bookmaker": "LeoVegas (SE)",
-              "odds": 2.8
-            },
-            {
-              "bookmaker": "BetAnything",
-              "odds": 2.8
-            },
-            {
-              "bookmaker": "Nordic Bet",
-              "odds": 2.75
-            },
-            {
-              "bookmaker": "Betsson",
-              "odds": 2.75
-            },
-            {
-              "bookmaker": "888sport",
-              "odds": 2.75
-            },
-            {
-              "bookmaker": "William Hill",
-              "odds": 2.75
-            },
-            {
-              "bookmaker": "Codere (IT)",
-              "odds": 2.75
-            },
-            {
-              "bookmaker": "Betclic (FR)",
-              "odds": 2.7
-            },
-            {
-              "bookmaker": "Tipico",
-              "odds": 2.7
-            },
-            {
-              "bookmaker": "Marathon Bet",
-              "odds": 2.68
-            },
-            {
-              "bookmaker": "PMU (FR)",
-              "odds": 2.5
-            }
-          ],
-          "max_bookmaker": "Betfair",
-          "max_odds": 3.0,
-          "min_bookmaker": "PMU (FR)",
-          "min_odds": 2.5,
-          "max_ties": [
-            "Betfair",
-            "Matchbook"
-          ],
-          "min_ties": [
-            "PMU (FR)"
-          ]
-        },
-        {
-          "selection": "Dallas Cowboys",
-          "type": "Victoire extérieur",
-          "odds": 1.45,
-          "market_probability_pct": 65.8,
-          "confidence_score_pct": 65.8,
-          "news_net_signal": 0.0,
-          "news_nb_articles": 4,
-          "news_hype_ratio_pct": 0.0,
-          "news_sources": "Google News",
-          "odds_detail": [
-            {
-              "bookmaker": "Betfair",
-              "odds": 1.49
-            },
-            {
-              "bookmaker": "Matchbook",
-              "odds": 1.49
-            },
-            {
-              "bookmaker": "Pinnacle",
-              "odds": 1.48
-            },
-            {
-              "bookmaker": "Unibet (SE)",
-              "odds": 1.47
-            },
-            {
-              "bookmaker": "Unibet (NL)",
-              "odds": 1.47
-            },
-            {
-              "bookmaker": "MyBookie.ag",
-              "odds": 1.46
-            },
-            {
-              "bookmaker": "Marathon Bet",
-              "odds": 1.46
-            },
-            {
-              "bookmaker": "Coolbet",
-              "odds": 1.46
-            },
-            {
-              "bookmaker": "GTbets",
-              "odds": 1.45
-            },
-            {
-              "bookmaker": "LeoVegas (SE)",
-              "odds": 1.45
-            },
-            {
-              "bookmaker": "Nordic Bet",
-              "odds": 1.45
-            },
-            {
-              "bookmaker": "Betsson",
-              "odds": 1.45
-            },
-            {
-              "bookmaker": "Tipico",
-              "odds": 1.45
-            },
-            {
-              "bookmaker": "BetAnything",
-              "odds": 1.45
-            },
-            {
-              "bookmaker": "888sport",
-              "odds": 1.44
-            },
-            {
-              "bookmaker": "William Hill",
-              "odds": 1.44
-            },
-            {
-              "bookmaker": "Codere (IT)",
-              "odds": 1.44
-            },
-            {
-              "bookmaker": "BetOnline.ag",
-              "odds": 1.43
-            },
-            {
-              "bookmaker": "Betclic (FR)",
-              "odds": 1.42
-            },
-            {
-              "bookmaker": "PMU (FR)",
-              "odds": 1.3
-            }
-          ],
-          "max_bookmaker": "Betfair",
-          "max_odds": 1.49,
-          "min_bookmaker": "PMU (FR)",
-          "min_odds": 1.3,
-          "max_ties": [
-            "Betfair",
-            "Matchbook"
-          ],
-          "min_ties": [
-            "PMU (FR)"
-          ]
-        }
-      ],
-      "h2h_favorite": "Dallas Cowboys",
-      "h2h_nb_matches": 0,
-      "h2h_summary": ""
-    },
-    {
-      "event_id": "b57695c11301fc8264db6b94a5ea2485",
-      "match": "Houston Rockets vs Atlanta Hawks",
-      "sport": "basketball_nba",
-      "country": "basketball",
-      "home_team": "Houston Rockets",
-      "away_team": "Atlanta Hawks",
-      "commence_time_gmt": "2026-10-27T00:40:00Z",
-      "nb_bookmakers": 25,
-      "best_pick": {
-        "selection": "Houston Rockets",
-        "type": "Victoire domicile",
-        "odds": 1.48,
-        "market_probability_pct": 64.5,
-        "confidence_score_pct": 64.5,
-        "news_net_signal": 0.0,
-        "news_nb_articles": 3,
-        "news_hype_ratio_pct": 0.0,
-        "news_sources": "Google News",
-        "odds_detail": [
-          {
-            "bookmaker": "Matchbook",
-            "odds": 1.52
-          },
-          {
-            "bookmaker": "Betfair",
-            "odds": 1.52
-          },
-          {
-            "bookmaker": "Pinnacle",
-            "odds": 1.51
-          },
-          {
-            "bookmaker": "Coolbet",
-            "odds": 1.5
-          },
-          {
-            "bookmaker": "888sport",
-            "odds": 1.5
-          },
-          {
-            "bookmaker": "BetOnline.ag",
-            "odds": 1.5
-          },
-          {
-            "bookmaker": "William Hill",
-            "odds": 1.5
-          },
-          {
-            "bookmaker": "MyBookie.ag",
-            "odds": 1.5
-          },
-          {
-            "bookmaker": "BetAnything",
-            "odds": 1.5
-          },
-          {
-            "bookmaker": "Codere (IT)",
-            "odds": 1.49
+            "odds": 1.59
           },
           {
             "bookmaker": "Winamax (DE)",
-            "odds": 1.49
-          },
-          {
-            "bookmaker": "Everygame",
-            "odds": 1.49
-          },
-          {
-            "bookmaker": "1xBet",
-            "odds": 1.48
-          },
-          {
-            "bookmaker": "Betsson",
-            "odds": 1.48
+            "odds": 1.58
           },
           {
             "bookmaker": "Nordic Bet",
-            "odds": 1.48
+            "odds": 1.58
           },
           {
-            "bookmaker": "GTbets",
-            "odds": 1.48
+            "bookmaker": "MyBookie.ag",
+            "odds": 1.58
           },
           {
-            "bookmaker": "Marathon Bet",
-            "odds": 1.48
+            "bookmaker": "Betsson",
+            "odds": 1.58
           },
           {
-            "bookmaker": "Betclic (FR)",
-            "odds": 1.47
+            "bookmaker": "888sport",
+            "odds": 1.57
           },
           {
-            "bookmaker": "Unibet (NL)",
-            "odds": 1.45
+            "bookmaker": "William Hill",
+            "odds": 1.57
+          },
+          {
+            "bookmaker": "Codere (IT)",
+            "odds": 1.57
           },
           {
             "bookmaker": "Unibet (SE)",
-            "odds": 1.45
+            "odds": 1.56
           },
           {
-            "bookmaker": "Tipico",
-            "odds": 1.45
+            "bookmaker": "Unibet (NL)",
+            "odds": 1.56
           },
           {
-            "bookmaker": "Winamax (FR)",
-            "odds": 1.44
+            "bookmaker": "Betclic (FR)",
+            "odds": 1.55
           },
           {
             "bookmaker": "Unibet (FR)",
-            "odds": 1.43
+            "odds": 1.54
+          },
+          {
+            "bookmaker": "Winamax (FR)",
+            "odds": 1.54
           },
           {
             "bookmaker": "LeoVegas (SE)",
-            "odds": 1.43
+            "odds": 1.54
           },
           {
             "bookmaker": "PMU (FR)",
-            "odds": 1.38
+            "odds": 1.49
           }
         ],
         "max_bookmaker": "Matchbook",
-        "max_odds": 1.52,
+        "max_odds": 1.64,
         "min_bookmaker": "PMU (FR)",
-        "min_odds": 1.38,
+        "min_odds": 1.49,
         "max_ties": [
           "Matchbook",
           "Betfair"
@@ -2462,121 +1409,121 @@
       },
       "all_candidates": [
         {
-          "selection": "Houston Rockets",
+          "selection": "New York Knicks",
           "type": "Victoire domicile",
-          "odds": 1.48,
-          "market_probability_pct": 64.5,
-          "confidence_score_pct": 64.5,
-          "news_net_signal": 0.0,
-          "news_nb_articles": 3,
+          "odds": 1.58,
+          "market_probability_pct": 60.4,
+          "confidence_score_pct": 59.2,
+          "news_net_signal": -1.2,
+          "news_nb_articles": 5,
           "news_hype_ratio_pct": 0.0,
           "news_sources": "Google News",
           "odds_detail": [
             {
               "bookmaker": "Matchbook",
-              "odds": 1.52
+              "odds": 1.64
             },
             {
               "bookmaker": "Betfair",
-              "odds": 1.52
-            },
-            {
-              "bookmaker": "Pinnacle",
-              "odds": 1.51
-            },
-            {
-              "bookmaker": "Coolbet",
-              "odds": 1.5
-            },
-            {
-              "bookmaker": "888sport",
-              "odds": 1.5
+              "odds": 1.64
             },
             {
               "bookmaker": "BetOnline.ag",
-              "odds": 1.5
+              "odds": 1.61
             },
             {
-              "bookmaker": "William Hill",
-              "odds": 1.5
-            },
-            {
-              "bookmaker": "MyBookie.ag",
-              "odds": 1.5
+              "bookmaker": "Coolbet",
+              "odds": 1.61
             },
             {
               "bookmaker": "BetAnything",
-              "odds": 1.5
-            },
-            {
-              "bookmaker": "Codere (IT)",
-              "odds": 1.49
-            },
-            {
-              "bookmaker": "Winamax (DE)",
-              "odds": 1.49
+              "odds": 1.61
             },
             {
               "bookmaker": "Everygame",
-              "odds": 1.49
+              "odds": 1.61
             },
             {
               "bookmaker": "1xBet",
-              "odds": 1.48
+              "odds": 1.6
             },
             {
-              "bookmaker": "Betsson",
-              "odds": 1.48
-            },
-            {
-              "bookmaker": "Nordic Bet",
-              "odds": 1.48
-            },
-            {
-              "bookmaker": "GTbets",
-              "odds": 1.48
-            },
-            {
-              "bookmaker": "Marathon Bet",
-              "odds": 1.48
-            },
-            {
-              "bookmaker": "Betclic (FR)",
-              "odds": 1.47
-            },
-            {
-              "bookmaker": "Unibet (NL)",
-              "odds": 1.45
-            },
-            {
-              "bookmaker": "Unibet (SE)",
-              "odds": 1.45
+              "bookmaker": "Pinnacle",
+              "odds": 1.6
             },
             {
               "bookmaker": "Tipico",
-              "odds": 1.45
+              "odds": 1.6
             },
             {
-              "bookmaker": "Winamax (FR)",
-              "odds": 1.44
+              "bookmaker": "Marathon Bet",
+              "odds": 1.59
+            },
+            {
+              "bookmaker": "GTbets",
+              "odds": 1.59
+            },
+            {
+              "bookmaker": "Winamax (DE)",
+              "odds": 1.58
+            },
+            {
+              "bookmaker": "Nordic Bet",
+              "odds": 1.58
+            },
+            {
+              "bookmaker": "MyBookie.ag",
+              "odds": 1.58
+            },
+            {
+              "bookmaker": "Betsson",
+              "odds": 1.58
+            },
+            {
+              "bookmaker": "888sport",
+              "odds": 1.57
+            },
+            {
+              "bookmaker": "William Hill",
+              "odds": 1.57
+            },
+            {
+              "bookmaker": "Codere (IT)",
+              "odds": 1.57
+            },
+            {
+              "bookmaker": "Unibet (SE)",
+              "odds": 1.56
+            },
+            {
+              "bookmaker": "Unibet (NL)",
+              "odds": 1.56
+            },
+            {
+              "bookmaker": "Betclic (FR)",
+              "odds": 1.55
             },
             {
               "bookmaker": "Unibet (FR)",
-              "odds": 1.43
+              "odds": 1.54
+            },
+            {
+              "bookmaker": "Winamax (FR)",
+              "odds": 1.54
             },
             {
               "bookmaker": "LeoVegas (SE)",
-              "odds": 1.43
+              "odds": 1.54
             },
             {
               "bookmaker": "PMU (FR)",
-              "odds": 1.38
+              "odds": 1.49
             }
           ],
           "max_bookmaker": "Matchbook",
-          "max_odds": 1.52,
+          "max_odds": 1.64,
           "min_bookmaker": "PMU (FR)",
-          "min_odds": 1.38,
+          "min_odds": 1.49,
           "max_ties": [
             "Matchbook",
             "Betfair"
@@ -2586,664 +1533,397 @@
           ]
         },
         {
-          "selection": "Atlanta Hawks",
+          "selection": "Detroit Pistons",
           "type": "Victoire extérieur",
-          "odds": 2.69,
-          "market_probability_pct": 35.5,
-          "confidence_score_pct": 35.5,
-          "news_net_signal": 0.0,
+          "odds": 2.41,
+          "market_probability_pct": 39.6,
+          "confidence_score_pct": 37.2,
+          "news_net_signal": -2.4,
           "news_nb_articles": 5,
           "news_hype_ratio_pct": 0.0,
           "news_sources": "Google News",
           "odds_detail": [
             {
               "bookmaker": "Betfair",
-              "odds": 2.86
+              "odds": 2.54
             },
             {
               "bookmaker": "Matchbook",
-              "odds": 2.84
-            },
-            {
-              "bookmaker": "Unibet (NL)",
-              "odds": 2.8
+              "odds": 2.52
             },
             {
               "bookmaker": "Unibet (SE)",
-              "odds": 2.8
-            },
-            {
-              "bookmaker": "1xBet",
-              "odds": 2.76
-            },
-            {
-              "bookmaker": "Pinnacle",
-              "odds": 2.75
-            },
-            {
-              "bookmaker": "BetOnline.ag",
-              "odds": 2.75
-            },
-            {
-              "bookmaker": "GTbets",
-              "odds": 2.75
-            },
-            {
-              "bookmaker": "Winamax (DE)",
-              "odds": 2.75
-            },
-            {
-              "bookmaker": "LeoVegas (SE)",
-              "odds": 2.75
-            },
-            {
-              "bookmaker": "Everygame",
-              "odds": 2.75
-            },
-            {
-              "bookmaker": "Marathon Bet",
-              "odds": 2.71
-            },
-            {
-              "bookmaker": "Coolbet",
-              "odds": 2.7
-            },
-            {
-              "bookmaker": "Tipico",
-              "odds": 2.7
-            },
-            {
-              "bookmaker": "BetAnything",
-              "odds": 2.7
-            },
-            {
-              "bookmaker": "PMU (FR)",
-              "odds": 2.65
-            },
-            {
-              "bookmaker": "Betclic (FR)",
-              "odds": 2.63
-            },
-            {
-              "bookmaker": "MyBookie.ag",
-              "odds": 2.62
-            },
-            {
-              "bookmaker": "888sport",
-              "odds": 2.6
-            },
-            {
-              "bookmaker": "Codere (IT)",
-              "odds": 2.6
-            },
-            {
-              "bookmaker": "William Hill",
-              "odds": 2.6
-            },
-            {
-              "bookmaker": "Winamax (FR)",
-              "odds": 2.6
-            },
-            {
-              "bookmaker": "Betsson",
-              "odds": 2.58
-            },
-            {
-              "bookmaker": "Nordic Bet",
-              "odds": 2.58
-            },
-            {
-              "bookmaker": "Unibet (FR)",
-              "odds": 2.4
-            }
-          ],
-          "max_bookmaker": "Betfair",
-          "max_odds": 2.86,
-          "min_bookmaker": "Unibet (FR)",
-          "min_odds": 2.4,
-          "max_ties": [
-            "Betfair"
-          ],
-          "min_ties": [
-            "Unibet (FR)"
-          ]
-        }
-      ],
-      "h2h_favorite": "Houston Rockets",
-      "h2h_nb_matches": 0,
-      "h2h_summary": ""
-    },
-    {
-      "event_id": "a423c3941aa43179ca93caf6b689a0ce",
-      "match": "Milwaukee Bucks vs Indiana Pacers",
-      "sport": "basketball_nba",
-      "country": "basketball",
-      "home_team": "Milwaukee Bucks",
-      "away_team": "Indiana Pacers",
-      "commence_time_gmt": "2026-10-27T00:10:00Z",
-      "nb_bookmakers": 25,
-      "best_pick": {
-        "selection": "Indiana Pacers",
-        "type": "Victoire extérieur",
-        "odds": 1.57,
-        "market_probability_pct": 60.7,
-        "confidence_score_pct": 60.7,
-        "news_net_signal": 0.0,
-        "news_nb_articles": 5,
-        "news_hype_ratio_pct": 0.0,
-        "news_sources": "Google News",
-        "odds_detail": [
-          {
-            "bookmaker": "BetOnline.ag",
-            "odds": 1.62
-          },
-          {
-            "bookmaker": "BetAnything",
-            "odds": 1.62
-          },
-          {
-            "bookmaker": "Everygame",
-            "odds": 1.62
-          },
-          {
-            "bookmaker": "Matchbook",
-            "odds": 1.61
-          },
-          {
-            "bookmaker": "Betfair",
-            "odds": 1.61
-          },
-          {
-            "bookmaker": "Marathon Bet",
-            "odds": 1.61
-          },
-          {
-            "bookmaker": "1xBet",
-            "odds": 1.6
-          },
-          {
-            "bookmaker": "Winamax (DE)",
-            "odds": 1.6
-          },
-          {
-            "bookmaker": "Coolbet",
-            "odds": 1.59
-          },
-          {
-            "bookmaker": "GTbets",
-            "odds": 1.59
-          },
-          {
-            "bookmaker": "Pinnacle",
-            "odds": 1.58
-          },
-          {
-            "bookmaker": "Unibet (SE)",
-            "odds": 1.56
-          },
-          {
-            "bookmaker": "Unibet (NL)",
-            "odds": 1.56
-          },
-          {
-            "bookmaker": "Winamax (FR)",
-            "odds": 1.56
-          },
-          {
-            "bookmaker": "MyBookie.ag",
-            "odds": 1.55
-          },
-          {
-            "bookmaker": "Nordic Bet",
-            "odds": 1.55
-          },
-          {
-            "bookmaker": "Betsson",
-            "odds": 1.55
-          },
-          {
-            "bookmaker": "LeoVegas (SE)",
-            "odds": 1.55
-          },
-          {
-            "bookmaker": "Codere (IT)",
-            "odds": 1.54
-          },
-          {
-            "bookmaker": "888sport",
-            "odds": 1.53
-          },
-          {
-            "bookmaker": "William Hill",
-            "odds": 1.53
-          },
-          {
-            "bookmaker": "Betclic (FR)",
-            "odds": 1.52
-          },
-          {
-            "bookmaker": "Tipico",
-            "odds": 1.52
-          },
-          {
-            "bookmaker": "PMU (FR)",
-            "odds": 1.5
-          },
-          {
-            "bookmaker": "Unibet (FR)",
-            "odds": 1.47
-          }
-        ],
-        "max_bookmaker": "BetOnline.ag",
-        "max_odds": 1.62,
-        "min_bookmaker": "Unibet (FR)",
-        "min_odds": 1.47,
-        "max_ties": [
-          "BetOnline.ag",
-          "BetAnything",
-          "Everygame"
-        ],
-        "min_ties": [
-          "Unibet (FR)"
-        ]
-      },
-      "all_candidates": [
-        {
-          "selection": "Milwaukee Bucks",
-          "type": "Victoire domicile",
-          "odds": 2.43,
-          "market_probability_pct": 39.3,
-          "confidence_score_pct": 39.3,
-          "news_net_signal": 0.0,
-          "news_nb_articles": 5,
-          "news_hype_ratio_pct": 0.0,
-          "news_sources": "Google News",
-          "odds_detail": [
-            {
-              "bookmaker": "Matchbook",
-              "odds": 2.6
-            },
-            {
-              "bookmaker": "Betfair",
-              "odds": 2.6
-            },
-            {
-              "bookmaker": "Pinnacle",
-              "odds": 2.55
-            },
-            {
-              "bookmaker": "888sport",
-              "odds": 2.5
-            },
-            {
-              "bookmaker": "William Hill",
-              "odds": 2.5
-            },
-            {
-              "bookmaker": "Tipico",
-              "odds": 2.5
-            },
-            {
-              "bookmaker": "Betclic (FR)",
               "odds": 2.48
             },
             {
-              "bookmaker": "MyBookie.ag",
+              "bookmaker": "Unibet (NL)",
+              "odds": 2.48
+            },
+            {
+              "bookmaker": "Pinnacle",
               "odds": 2.47
+            },
+            {
+              "bookmaker": "BetOnline.ag",
+              "odds": 2.45
             },
             {
               "bookmaker": "GTbets",
               "odds": 2.45
             },
             {
-              "bookmaker": "Codere (IT)",
-              "odds": 2.44
+              "bookmaker": "BetAnything",
+              "odds": 2.45
             },
             {
-              "bookmaker": "Coolbet",
+              "bookmaker": "Everygame",
+              "odds": 2.45
+            },
+            {
+              "bookmaker": "LeoVegas (SE)",
               "odds": 2.43
             },
             {
-              "bookmaker": "Unibet (SE)",
-              "odds": 2.43
-            },
-            {
-              "bookmaker": "Unibet (NL)",
-              "odds": 2.43
+              "bookmaker": "Betclic (FR)",
+              "odds": 2.42
             },
             {
               "bookmaker": "1xBet",
               "odds": 2.42
             },
             {
-              "bookmaker": "Nordic Bet",
-              "odds": 2.4
-            },
-            {
-              "bookmaker": "Betsson",
-              "odds": 2.4
-            },
-            {
-              "bookmaker": "LeoVegas (SE)",
-              "odds": 2.4
-            },
-            {
-              "bookmaker": "BetOnline.ag",
-              "odds": 2.4
+              "bookmaker": "Marathon Bet",
+              "odds": 2.41
             },
             {
               "bookmaker": "Winamax (DE)",
               "odds": 2.4
             },
             {
-              "bookmaker": "BetAnything",
+              "bookmaker": "MyBookie.ag",
               "odds": 2.4
             },
             {
-              "bookmaker": "Everygame",
+              "bookmaker": "Coolbet",
               "odds": 2.4
             },
             {
-              "bookmaker": "Marathon Bet",
-              "odds": 2.36
+              "bookmaker": "888sport",
+              "odds": 2.38
+            },
+            {
+              "bookmaker": "William Hill",
+              "odds": 2.38
+            },
+            {
+              "bookmaker": "Codere (IT)",
+              "odds": 2.37
             },
             {
               "bookmaker": "PMU (FR)",
+              "odds": 2.35
+            },
+            {
+              "bookmaker": "Nordic Bet",
               "odds": 2.33
+            },
+            {
+              "bookmaker": "Betsson",
+              "odds": 2.33
+            },
+            {
+              "bookmaker": "Unibet (FR)",
+              "odds": 2.3
             },
             {
               "bookmaker": "Winamax (FR)",
               "odds": 2.3
             },
             {
-              "bookmaker": "Unibet (FR)",
-              "odds": 2.25
+              "bookmaker": "Tipico",
+              "odds": 2.3
             }
           ],
-          "max_bookmaker": "Matchbook",
-          "max_odds": 2.6,
+          "max_bookmaker": "Betfair",
+          "max_odds": 2.54,
           "min_bookmaker": "Unibet (FR)",
-          "min_odds": 2.25,
+          "min_odds": 2.3,
           "max_ties": [
-            "Matchbook",
             "Betfair"
           ],
           "min_ties": [
-            "Unibet (FR)"
-          ]
-        },
-        {
-          "selection": "Indiana Pacers",
-          "type": "Victoire extérieur",
-          "odds": 1.57,
-          "market_probability_pct": 60.7,
-          "confidence_score_pct": 60.7,
-          "news_net_signal": 0.0,
-          "news_nb_articles": 5,
-          "news_hype_ratio_pct": 0.0,
-          "news_sources": "Google News",
-          "odds_detail": [
-            {
-              "bookmaker": "BetOnline.ag",
-              "odds": 1.62
-            },
-            {
-              "bookmaker": "BetAnything",
-              "odds": 1.62
-            },
-            {
-              "bookmaker": "Everygame",
-              "odds": 1.62
-            },
-            {
-              "bookmaker": "Matchbook",
-              "odds": 1.61
-            },
-            {
-              "bookmaker": "Betfair",
-              "odds": 1.61
-            },
-            {
-              "bookmaker": "Marathon Bet",
-              "odds": 1.61
-            },
-            {
-              "bookmaker": "1xBet",
-              "odds": 1.6
-            },
-            {
-              "bookmaker": "Winamax (DE)",
-              "odds": 1.6
-            },
-            {
-              "bookmaker": "Coolbet",
-              "odds": 1.59
-            },
-            {
-              "bookmaker": "GTbets",
-              "odds": 1.59
-            },
-            {
-              "bookmaker": "Pinnacle",
-              "odds": 1.58
-            },
-            {
-              "bookmaker": "Unibet (SE)",
-              "odds": 1.56
-            },
-            {
-              "bookmaker": "Unibet (NL)",
-              "odds": 1.56
-            },
-            {
-              "bookmaker": "Winamax (FR)",
-              "odds": 1.56
-            },
-            {
-              "bookmaker": "MyBookie.ag",
-              "odds": 1.55
-            },
-            {
-              "bookmaker": "Nordic Bet",
-              "odds": 1.55
-            },
-            {
-              "bookmaker": "Betsson",
-              "odds": 1.55
-            },
-            {
-              "bookmaker": "LeoVegas (SE)",
-              "odds": 1.55
-            },
-            {
-              "bookmaker": "Codere (IT)",
-              "odds": 1.54
-            },
-            {
-              "bookmaker": "888sport",
-              "odds": 1.53
-            },
-            {
-              "bookmaker": "William Hill",
-              "odds": 1.53
-            },
-            {
-              "bookmaker": "Betclic (FR)",
-              "odds": 1.52
-            },
-            {
-              "bookmaker": "Tipico",
-              "odds": 1.52
-            },
-            {
-              "bookmaker": "PMU (FR)",
-              "odds": 1.5
-            },
-            {
-              "bookmaker": "Unibet (FR)",
-              "odds": 1.47
-            }
-          ],
-          "max_bookmaker": "BetOnline.ag",
-          "max_odds": 1.62,
-          "min_bookmaker": "Unibet (FR)",
-          "min_odds": 1.47,
-          "max_ties": [
-            "BetOnline.ag",
-            "BetAnything",
-            "Everygame"
-          ],
-          "min_ties": [
-            "Unibet (FR)"
+            "Unibet (FR)",
+            "Winamax (FR)",
+            "Tipico"
           ]
         }
       ],
-      "h2h_favorite": "Indiana Pacers",
+      "h2h_favorite": "New York Knicks",
       "h2h_nb_matches": 0,
       "h2h_summary": ""
     },
     {
-      "event_id": "d639f79210d0b4b17c8f293c53c8c5aa",
-      "match": "Cleveland Cavaliers vs Minnesota Timberwolves",
+      "event_id": "82afe4e028b0fbbd9f6cf92697bec6fc",
+      "match": "Los Angeles Lakers vs Portland Trail Blazers",
       "sport": "basketball_nba",
       "country": "basketball",
-      "home_team": "Cleveland Cavaliers",
-      "away_team": "Minnesota Timberwolves",
-      "commence_time_gmt": "2026-10-26T23:10:00Z",
+      "home_team": "Los Angeles Lakers",
+      "away_team": "Portland Trail Blazers",
+      "commence_time_gmt": "2026-10-28T03:10:00Z",
       "nb_bookmakers": 25,
       "best_pick": {
-        "selection": "Cleveland Cavaliers",
+        "selection": "Los Angeles Lakers",
         "type": "Victoire domicile",
-        "odds": 1.57,
-        "market_probability_pct": 60.7,
-        "confidence_score_pct": 59.5,
-        "news_net_signal": -1.2,
+        "odds": 1.67,
+        "market_probability_pct": 57.2,
+        "confidence_score_pct": 54.8,
+        "news_net_signal": -2.4,
         "news_nb_articles": 5,
         "news_hype_ratio_pct": 0.0,
         "news_sources": "Google News",
         "odds_detail": [
           {
-            "bookmaker": "Betfair",
-            "odds": 1.64
-          },
-          {
-            "bookmaker": "Unibet (SE)",
-            "odds": 1.64
-          },
-          {
-            "bookmaker": "Unibet (NL)",
-            "odds": 1.64
-          },
-          {
             "bookmaker": "Matchbook",
-            "odds": 1.64
+            "odds": 1.73
           },
           {
-            "bookmaker": "1xBet",
-            "odds": 1.63
-          },
-          {
-            "bookmaker": "LeoVegas (SE)",
-            "odds": 1.62
-          },
-          {
-            "bookmaker": "Pinnacle",
-            "odds": 1.61
-          },
-          {
-            "bookmaker": "Tipico",
-            "odds": 1.6
-          },
-          {
-            "bookmaker": "BetOnline.ag",
-            "odds": 1.59
-          },
-          {
-            "bookmaker": "BetAnything",
-            "odds": 1.59
-          },
-          {
-            "bookmaker": "Coolbet",
-            "odds": 1.58
-          },
-          {
-            "bookmaker": "PMU (FR)",
-            "odds": 1.56
-          },
-          {
-            "bookmaker": "GTbets",
-            "odds": 1.56
-          },
-          {
-            "bookmaker": "Winamax (DE)",
-            "odds": 1.56
-          },
-          {
-            "bookmaker": "Everygame",
-            "odds": 1.56
-          },
-          {
-            "bookmaker": "Betsson",
-            "odds": 1.55
-          },
-          {
-            "bookmaker": "Nordic Bet",
-            "odds": 1.55
-          },
-          {
-            "bookmaker": "Codere (IT)",
-            "odds": 1.54
-          },
-          {
-            "bookmaker": "MyBookie.ag",
-            "odds": 1.54
-          },
-          {
-            "bookmaker": "Marathon Bet",
-            "odds": 1.54
-          },
-          {
-            "bookmaker": "Betclic (FR)",
-            "odds": 1.53
+            "bookmaker": "Betfair",
+            "odds": 1.72
           },
           {
             "bookmaker": "888sport",
-            "odds": 1.53
+            "odds": 1.7
           },
           {
             "bookmaker": "William Hill",
-            "odds": 1.53
+            "odds": 1.7
+          },
+          {
+            "bookmaker": "Coolbet",
+            "odds": 1.7
+          },
+          {
+            "bookmaker": "BetOnline.ag",
+            "odds": 1.69
+          },
+          {
+            "bookmaker": "Pinnacle",
+            "odds": 1.69
+          },
+          {
+            "bookmaker": "GTbets",
+            "odds": 1.69
+          },
+          {
+            "bookmaker": "BetAnything",
+            "odds": 1.69
+          },
+          {
+            "bookmaker": "Everygame",
+            "odds": 1.69
+          },
+          {
+            "bookmaker": "Winamax (DE)",
+            "odds": 1.68
+          },
+          {
+            "bookmaker": "Betsson",
+            "odds": 1.68
+          },
+          {
+            "bookmaker": "Nordic Bet",
+            "odds": 1.68
+          },
+          {
+            "bookmaker": "1xBet",
+            "odds": 1.67
+          },
+          {
+            "bookmaker": "MyBookie.ag",
+            "odds": 1.66
+          },
+          {
+            "bookmaker": "Marathon Bet",
+            "odds": 1.66
+          },
+          {
+            "bookmaker": "Codere (IT)",
+            "odds": 1.65
+          },
+          {
+            "bookmaker": "Betclic (FR)",
+            "odds": 1.65
           },
           {
             "bookmaker": "Winamax (FR)",
-            "odds": 1.52
+            "odds": 1.64
           },
           {
             "bookmaker": "Unibet (FR)",
-            "odds": 1.48
+            "odds": 1.63
+          },
+          {
+            "bookmaker": "Unibet (SE)",
+            "odds": 1.63
+          },
+          {
+            "bookmaker": "Unibet (NL)",
+            "odds": 1.63
+          },
+          {
+            "bookmaker": "Tipico",
+            "odds": 1.62
+          },
+          {
+            "bookmaker": "LeoVegas (SE)",
+            "odds": 1.61
+          },
+          {
+            "bookmaker": "PMU (FR)",
+            "odds": 1.55
           }
         ],
-        "max_bookmaker": "Betfair",
-        "max_odds": 1.64,
-        "min_bookmaker": "Unibet (FR)",
-        "min_odds": 1.48,
+        "max_bookmaker": "Matchbook",
+        "max_odds": 1.73,
+        "min_bookmaker": "PMU (FR)",
+        "min_odds": 1.55,
         "max_ties": [
-          "Betfair",
-          "Unibet (SE)",
-          "Unibet (NL)",
           "Matchbook"
         ],
         "min_ties": [
-          "Unibet (FR)"
+          "PMU (FR)"
         ]
       },
       "all_candidates": [
         {
-          "selection": "Cleveland Cavaliers",
+          "selection": "Los Angeles Lakers",
           "type": "Victoire domicile",
-          "odds": 1.57,
-          "market_probability_pct": 60.7,
-          "confidence_score_pct": 59.5,
+          "odds": 1.67,
+          "market_probability_pct": 57.2,
+          "confidence_score_pct": 54.8,
+          "news_net_signal": -2.4,
+          "news_nb_articles": 5,
+          "news_hype_ratio_pct": 0.0,
+          "news_sources": "Google News",
+          "odds_detail": [
+            {
+              "bookmaker": "Matchbook",
+              "odds": 1.73
+            },
+            {
+              "bookmaker": "Betfair",
+              "odds": 1.72
+            },
+            {
+              "bookmaker": "888sport",
+              "odds": 1.7
+            },
+            {
+              "bookmaker": "William Hill",
+              "odds": 1.7
+            },
+            {
+              "bookmaker": "Coolbet",
+              "odds": 1.7
+            },
+            {
+              "bookmaker": "BetOnline.ag",
+              "odds": 1.69
+            },
+            {
+              "bookmaker": "Pinnacle",
+              "odds": 1.69
+            },
+            {
+              "bookmaker": "GTbets",
+              "odds": 1.69
+            },
+            {
+              "bookmaker": "BetAnything",
+              "odds": 1.69
+            },
+            {
+              "bookmaker": "Everygame",
+              "odds": 1.69
+            },
+            {
+              "bookmaker": "Winamax (DE)",
+              "odds": 1.68
+            },
+            {
+              "bookmaker": "Betsson",
+              "odds": 1.68
+            },
+            {
+              "bookmaker": "Nordic Bet",
+              "odds": 1.68
+            },
+            {
+              "bookmaker": "1xBet",
+              "odds": 1.67
+            },
+            {
+              "bookmaker": "MyBookie.ag",
+              "odds": 1.66
+            },
+            {
+              "bookmaker": "Marathon Bet",
+              "odds": 1.66
+            },
+            {
+              "bookmaker": "Codere (IT)",
+              "odds": 1.65
+            },
+            {
+              "bookmaker": "Betclic (FR)",
+              "odds": 1.65
+            },
+            {
+              "bookmaker": "Winamax (FR)",
+              "odds": 1.64
+            },
+            {
+              "bookmaker": "Unibet (FR)",
+              "odds": 1.63
+            },
+            {
+              "bookmaker": "Unibet (SE)",
+              "odds": 1.63
+            },
+            {
+              "bookmaker": "Unibet (NL)",
+              "odds": 1.63
+            },
+            {
+              "bookmaker": "Tipico",
+              "odds": 1.62
+            },
+            {
+              "bookmaker": "LeoVegas (SE)",
+              "odds": 1.61
+            },
+            {
+              "bookmaker": "PMU (FR)",
+              "odds": 1.55
+            }
+          ],
+          "max_bookmaker": "Matchbook",
+          "max_odds": 1.73,
+          "min_bookmaker": "PMU (FR)",
+          "min_odds": 1.55,
+          "max_ties": [
+            "Matchbook"
+          ],
+          "min_ties": [
+            "PMU (FR)"
+          ]
+        },
+        {
+          "selection": "Portland Trail Blazers",
+          "type": "Victoire extérieur",
+          "odds": 2.23,
+          "market_probability_pct": 42.8,
+          "confidence_score_pct": 41.6,
           "news_net_signal": -1.2,
           "news_nb_articles": 5,
           "news_hype_ratio_pct": 0.0,
@@ -3251,730 +1931,732 @@
           "odds_detail": [
             {
               "bookmaker": "Betfair",
-              "odds": 1.64
-            },
-            {
-              "bookmaker": "Unibet (SE)",
-              "odds": 1.64
-            },
-            {
-              "bookmaker": "Unibet (NL)",
-              "odds": 1.64
+              "odds": 2.34
             },
             {
               "bookmaker": "Matchbook",
-              "odds": 1.64
-            },
-            {
-              "bookmaker": "1xBet",
-              "odds": 1.63
-            },
-            {
-              "bookmaker": "LeoVegas (SE)",
-              "odds": 1.62
-            },
-            {
-              "bookmaker": "Pinnacle",
-              "odds": 1.61
-            },
-            {
-              "bookmaker": "Tipico",
-              "odds": 1.6
-            },
-            {
-              "bookmaker": "BetOnline.ag",
-              "odds": 1.59
-            },
-            {
-              "bookmaker": "BetAnything",
-              "odds": 1.59
-            },
-            {
-              "bookmaker": "Coolbet",
-              "odds": 1.58
-            },
-            {
-              "bookmaker": "PMU (FR)",
-              "odds": 1.56
-            },
-            {
-              "bookmaker": "GTbets",
-              "odds": 1.56
-            },
-            {
-              "bookmaker": "Winamax (DE)",
-              "odds": 1.56
-            },
-            {
-              "bookmaker": "Everygame",
-              "odds": 1.56
-            },
-            {
-              "bookmaker": "Betsson",
-              "odds": 1.55
-            },
-            {
-              "bookmaker": "Nordic Bet",
-              "odds": 1.55
-            },
-            {
-              "bookmaker": "Codere (IT)",
-              "odds": 1.54
-            },
-            {
-              "bookmaker": "MyBookie.ag",
-              "odds": 1.54
-            },
-            {
-              "bookmaker": "Marathon Bet",
-              "odds": 1.54
-            },
-            {
-              "bookmaker": "Betclic (FR)",
-              "odds": 1.53
-            },
-            {
-              "bookmaker": "888sport",
-              "odds": 1.53
-            },
-            {
-              "bookmaker": "William Hill",
-              "odds": 1.53
-            },
-            {
-              "bookmaker": "Winamax (FR)",
-              "odds": 1.52
-            },
-            {
-              "bookmaker": "Unibet (FR)",
-              "odds": 1.48
-            }
-          ],
-          "max_bookmaker": "Betfair",
-          "max_odds": 1.64,
-          "min_bookmaker": "Unibet (FR)",
-          "min_odds": 1.48,
-          "max_ties": [
-            "Betfair",
-            "Unibet (SE)",
-            "Unibet (NL)",
-            "Matchbook"
-          ],
-          "min_ties": [
-            "Unibet (FR)"
-          ]
-        },
-        {
-          "selection": "Minnesota Timberwolves",
-          "type": "Victoire extérieur",
-          "odds": 2.42,
-          "market_probability_pct": 39.3,
-          "confidence_score_pct": 39.3,
-          "news_net_signal": 0.0,
-          "news_nb_articles": 5,
-          "news_hype_ratio_pct": 0.0,
-          "news_sources": "Google News",
-          "odds_detail": [
-            {
-              "bookmaker": "Everygame",
-              "odds": 2.6
-            },
-            {
-              "bookmaker": "Marathon Bet",
-              "odds": 2.53
-            },
-            {
-              "bookmaker": "Betfair",
-              "odds": 2.52
-            },
-            {
-              "bookmaker": "Matchbook",
-              "odds": 2.52
-            },
-            {
-              "bookmaker": "888sport",
-              "odds": 2.5
-            },
-            {
-              "bookmaker": "William Hill",
-              "odds": 2.5
-            },
-            {
-              "bookmaker": "MyBookie.ag",
-              "odds": 2.5
-            },
-            {
-              "bookmaker": "GTbets",
-              "odds": 2.5
-            },
-            {
-              "bookmaker": "Winamax (DE)",
-              "odds": 2.5
-            },
-            {
-              "bookmaker": "BetAnything",
-              "odds": 2.5
-            },
-            {
-              "bookmaker": "BetOnline.ag",
-              "odds": 2.49
-            },
-            {
-              "bookmaker": "Betclic (FR)",
-              "odds": 2.47
-            },
-            {
-              "bookmaker": "Coolbet",
-              "odds": 2.45
-            },
-            {
-              "bookmaker": "Pinnacle",
-              "odds": 2.44
-            },
-            {
-              "bookmaker": "Codere (IT)",
-              "odds": 2.43
-            },
-            {
-              "bookmaker": "Betsson",
-              "odds": 2.4
-            },
-            {
-              "bookmaker": "Nordic Bet",
-              "odds": 2.4
-            },
-            {
-              "bookmaker": "1xBet",
-              "odds": 2.37
-            },
-            {
-              "bookmaker": "Winamax (FR)",
-              "odds": 2.35
-            },
-            {
-              "bookmaker": "Tipico",
-              "odds": 2.3
+              "odds": 2.34
             },
             {
               "bookmaker": "Unibet (SE)",
-              "odds": 2.3
+              "odds": 2.33
             },
             {
               "bookmaker": "Unibet (NL)",
-              "odds": 2.3
+              "odds": 2.33
             },
             {
               "bookmaker": "LeoVegas (SE)",
+              "odds": 2.3
+            },
+            {
+              "bookmaker": "1xBet",
               "odds": 2.28
             },
             {
-              "bookmaker": "Unibet (FR)",
+              "bookmaker": "Pinnacle",
+              "odds": 2.28
+            },
+            {
+              "bookmaker": "Marathon Bet",
+              "odds": 2.26
+            },
+            {
+              "bookmaker": "BetOnline.ag",
               "odds": 2.25
             },
             {
+              "bookmaker": "GTbets",
+              "odds": 2.25
+            },
+            {
+              "bookmaker": "BetAnything",
+              "odds": 2.25
+            },
+            {
+              "bookmaker": "Tipico",
+              "odds": 2.25
+            },
+            {
+              "bookmaker": "Everygame",
+              "odds": 2.25
+            },
+            {
+              "bookmaker": "MyBookie.ag",
+              "odds": 2.23
+            },
+            {
+              "bookmaker": "Coolbet",
+              "odds": 2.21
+            },
+            {
+              "bookmaker": "Winamax (DE)",
+              "odds": 2.2
+            },
+            {
+              "bookmaker": "Betclic (FR)",
+              "odds": 2.2
+            },
+            {
               "bookmaker": "PMU (FR)",
-              "odds": 2.18
+              "odds": 2.2
+            },
+            {
+              "bookmaker": "888sport",
+              "odds": 2.15
+            },
+            {
+              "bookmaker": "William Hill",
+              "odds": 2.15
+            },
+            {
+              "bookmaker": "Codere (IT)",
+              "odds": 2.15
+            },
+            {
+              "bookmaker": "Betsson",
+              "odds": 2.15
+            },
+            {
+              "bookmaker": "Nordic Bet",
+              "odds": 2.15
+            },
+            {
+              "bookmaker": "Unibet (FR)",
+              "odds": 2.1
+            },
+            {
+              "bookmaker": "Winamax (FR)",
+              "odds": 2.1
             }
           ],
-          "max_bookmaker": "Everygame",
-          "max_odds": 2.6,
-          "min_bookmaker": "PMU (FR)",
-          "min_odds": 2.18,
+          "max_bookmaker": "Betfair",
+          "max_odds": 2.34,
+          "min_bookmaker": "Unibet (FR)",
+          "min_odds": 2.1,
           "max_ties": [
-            "Everygame"
+            "Betfair",
+            "Matchbook"
           ],
           "min_ties": [
-            "PMU (FR)"
+            "Unibet (FR)",
+            "Winamax (FR)"
           ]
         }
       ],
-      "h2h_favorite": "Cleveland Cavaliers",
+      "h2h_favorite": "Los Angeles Lakers",
       "h2h_nb_matches": 0,
       "h2h_summary": ""
     },
     {
-      "event_id": "3354649681943139cafc0049d42d9c8c",
-      "match": "Charlotte Hornets vs Washington Wizards",
-      "sport": "basketball_nba",
-      "country": "basketball",
-      "home_team": "Charlotte Hornets",
-      "away_team": "Washington Wizards",
-      "commence_time_gmt": "2026-10-26T23:10:00Z",
+      "event_id": "7d989a0a7bae47eb957731e97c5bd9c1",
+      "match": "Torino vs Como",
+      "sport": "soccer_italy_serie_a",
+      "country": "soccer",
+      "home_team": "Torino",
+      "away_team": "Como",
+      "commence_time_gmt": "2026-10-27T19:45:00Z",
       "nb_bookmakers": 24,
       "best_pick": {
-        "selection": "Charlotte Hornets",
-        "type": "Victoire domicile",
-        "odds": 1.76,
-        "market_probability_pct": 54.0,
-        "confidence_score_pct": 54.0,
+        "selection": "Como",
+        "type": "Victoire extérieur",
+        "odds": 1.73,
+        "market_probability_pct": 54.7,
+        "confidence_score_pct": 54.7,
         "news_net_signal": 0.0,
         "news_nb_articles": 5,
         "news_hype_ratio_pct": 0.0,
         "news_sources": "Google News",
         "odds_detail": [
           {
-            "bookmaker": "Betfair",
-            "odds": 1.81
+            "bookmaker": "1xBet",
+            "odds": 1.82
           },
           {
             "bookmaker": "Matchbook",
-            "odds": 1.81
-          },
-          {
-            "bookmaker": "William Hill",
-            "odds": 1.8
-          },
-          {
-            "bookmaker": "888sport",
-            "odds": 1.8
-          },
-          {
-            "bookmaker": "Unibet (NL)",
             "odds": 1.79
           },
           {
-            "bookmaker": "Unibet (SE)",
+            "bookmaker": "Betfair",
+            "odds": 1.79
+          },
+          {
+            "bookmaker": "Coolbet",
             "odds": 1.79
           },
           {
             "bookmaker": "Pinnacle",
-            "odds": 1.79
-          },
-          {
-            "bookmaker": "Winamax (DE)",
             "odds": 1.78
           },
           {
-            "bookmaker": "BetOnline.ag",
-            "odds": 1.77
-          },
-          {
-            "bookmaker": "1xBet",
-            "odds": 1.77
-          },
-          {
-            "bookmaker": "GTbets",
-            "odds": 1.77
-          },
-          {
-            "bookmaker": "LeoVegas (SE)",
-            "odds": 1.77
-          },
-          {
-            "bookmaker": "Tipico",
-            "odds": 1.77
-          },
-          {
-            "bookmaker": "BetAnything",
-            "odds": 1.77
-          },
-          {
-            "bookmaker": "Everygame",
-            "odds": 1.77
-          },
-          {
             "bookmaker": "Marathon Bet",
-            "odds": 1.76
-          },
-          {
-            "bookmaker": "MyBookie.ag",
-            "odds": 1.76
+            "odds": 1.77
           },
           {
             "bookmaker": "Codere (IT)",
+            "odds": 1.76
+          },
+          {
+            "bookmaker": "Unibet (SE)",
+            "odds": 1.76
+          },
+          {
+            "bookmaker": "888sport",
             "odds": 1.75
           },
           {
-            "bookmaker": "Betclic (FR)",
-            "odds": 1.73
+            "bookmaker": "William Hill",
+            "odds": 1.75
           },
           {
-            "bookmaker": "Betsson",
+            "bookmaker": "Everygame",
+            "odds": 1.75
+          },
+          {
+            "bookmaker": "BetOnline.ag",
+            "odds": 1.75
+          },
+          {
+            "bookmaker": "BetAnything",
+            "odds": 1.75
+          },
+          {
+            "bookmaker": "Unibet (NL)",
             "odds": 1.72
+          },
+          {
+            "bookmaker": "Winamax (DE)",
+            "odds": 1.7
+          },
+          {
+            "bookmaker": "Tipico",
+            "odds": 1.7
           },
           {
             "bookmaker": "Nordic Bet",
-            "odds": 1.72
-          },
-          {
-            "bookmaker": "Winamax (FR)",
-            "odds": 1.72
-          },
-          {
-            "bookmaker": "PMU (FR)",
             "odds": 1.7
+          },
+          {
+            "bookmaker": "Betsson",
+            "odds": 1.7
+          },
+          {
+            "bookmaker": "Betclic (FR)",
+            "odds": 1.69
+          },
+          {
+            "bookmaker": "GTbets",
+            "odds": 1.69
+          },
+          {
+            "bookmaker": "LeoVegas (SE)",
+            "odds": 1.68
           },
           {
             "bookmaker": "Unibet (FR)",
             "odds": 1.66
+          },
+          {
+            "bookmaker": "Winamax (FR)",
+            "odds": 1.66
+          },
+          {
+            "bookmaker": "PMU (FR)",
+            "odds": 1.66
           }
         ],
-        "max_bookmaker": "Betfair",
-        "max_odds": 1.81,
+        "max_bookmaker": "1xBet",
+        "max_odds": 1.82,
         "min_bookmaker": "Unibet (FR)",
         "min_odds": 1.66,
         "max_ties": [
-          "Betfair",
-          "Matchbook"
+          "1xBet"
         ],
         "min_ties": [
-          "Unibet (FR)"
+          "Unibet (FR)",
+          "Winamax (FR)",
+          "PMU (FR)"
         ]
       },
       "all_candidates": [
         {
-          "selection": "Charlotte Hornets",
+          "selection": "Torino",
           "type": "Victoire domicile",
-          "odds": 1.76,
-          "market_probability_pct": 54.0,
-          "confidence_score_pct": 54.0,
+          "odds": 4.69,
+          "market_probability_pct": 20.2,
+          "confidence_score_pct": 20.2,
           "news_net_signal": 0.0,
           "news_nb_articles": 5,
           "news_hype_ratio_pct": 0.0,
           "news_sources": "Google News",
           "odds_detail": [
             {
-              "bookmaker": "Betfair",
-              "odds": 1.81
-            },
-            {
               "bookmaker": "Matchbook",
-              "odds": 1.81
+              "odds": 5.2
             },
             {
-              "bookmaker": "William Hill",
-              "odds": 1.8
-            },
-            {
-              "bookmaker": "888sport",
-              "odds": 1.8
-            },
-            {
-              "bookmaker": "Unibet (NL)",
-              "odds": 1.79
+              "bookmaker": "Betfair",
+              "odds": 5.2
             },
             {
               "bookmaker": "Unibet (SE)",
+              "odds": 5.0
+            },
+            {
+              "bookmaker": "Betsson",
+              "odds": 4.95
+            },
+            {
+              "bookmaker": "Nordic Bet",
+              "odds": 4.9
+            },
+            {
+              "bookmaker": "Pinnacle",
+              "odds": 4.83
+            },
+            {
+              "bookmaker": "Tipico",
+              "odds": 4.8
+            },
+            {
+              "bookmaker": "Unibet (NL)",
+              "odds": 4.8
+            },
+            {
+              "bookmaker": "BetOnline.ag",
+              "odds": 4.8
+            },
+            {
+              "bookmaker": "Coolbet",
+              "odds": 4.8
+            },
+            {
+              "bookmaker": "BetAnything",
+              "odds": 4.8
+            },
+            {
+              "bookmaker": "1xBet",
+              "odds": 4.78
+            },
+            {
+              "bookmaker": "Everygame",
+              "odds": 4.75
+            },
+            {
+              "bookmaker": "Marathon Bet",
+              "odds": 4.65
+            },
+            {
+              "bookmaker": "Codere (IT)",
+              "odds": 4.6
+            },
+            {
+              "bookmaker": "LeoVegas (SE)",
+              "odds": 4.6
+            },
+            {
+              "bookmaker": "GTbets",
+              "odds": 4.52
+            },
+            {
+              "bookmaker": "PMU (FR)",
+              "odds": 4.5
+            },
+            {
+              "bookmaker": "Betclic (FR)",
+              "odds": 4.4
+            },
+            {
+              "bookmaker": "Winamax (DE)",
+              "odds": 4.4
+            },
+            {
+              "bookmaker": "888sport",
+              "odds": 4.4
+            },
+            {
+              "bookmaker": "William Hill",
+              "odds": 4.4
+            },
+            {
+              "bookmaker": "Unibet (FR)",
+              "odds": 4.3
+            },
+            {
+              "bookmaker": "Winamax (FR)",
+              "odds": 4.3
+            }
+          ],
+          "max_bookmaker": "Matchbook",
+          "max_odds": 5.2,
+          "min_bookmaker": "Unibet (FR)",
+          "min_odds": 4.3,
+          "max_ties": [
+            "Matchbook",
+            "Betfair"
+          ],
+          "min_ties": [
+            "Unibet (FR)",
+            "Winamax (FR)"
+          ]
+        },
+        {
+          "selection": "Como",
+          "type": "Victoire extérieur",
+          "odds": 1.73,
+          "market_probability_pct": 54.7,
+          "confidence_score_pct": 54.7,
+          "news_net_signal": 0.0,
+          "news_nb_articles": 5,
+          "news_hype_ratio_pct": 0.0,
+          "news_sources": "Google News",
+          "odds_detail": [
+            {
+              "bookmaker": "1xBet",
+              "odds": 1.82
+            },
+            {
+              "bookmaker": "Matchbook",
+              "odds": 1.79
+            },
+            {
+              "bookmaker": "Betfair",
+              "odds": 1.79
+            },
+            {
+              "bookmaker": "Coolbet",
               "odds": 1.79
             },
             {
               "bookmaker": "Pinnacle",
-              "odds": 1.79
-            },
-            {
-              "bookmaker": "Winamax (DE)",
               "odds": 1.78
             },
             {
-              "bookmaker": "BetOnline.ag",
-              "odds": 1.77
-            },
-            {
-              "bookmaker": "1xBet",
-              "odds": 1.77
-            },
-            {
-              "bookmaker": "GTbets",
-              "odds": 1.77
-            },
-            {
-              "bookmaker": "LeoVegas (SE)",
-              "odds": 1.77
-            },
-            {
-              "bookmaker": "Tipico",
-              "odds": 1.77
-            },
-            {
-              "bookmaker": "BetAnything",
-              "odds": 1.77
-            },
-            {
-              "bookmaker": "Everygame",
-              "odds": 1.77
-            },
-            {
               "bookmaker": "Marathon Bet",
-              "odds": 1.76
-            },
-            {
-              "bookmaker": "MyBookie.ag",
-              "odds": 1.76
+              "odds": 1.77
             },
             {
               "bookmaker": "Codere (IT)",
+              "odds": 1.76
+            },
+            {
+              "bookmaker": "Unibet (SE)",
+              "odds": 1.76
+            },
+            {
+              "bookmaker": "888sport",
               "odds": 1.75
             },
             {
-              "bookmaker": "Betclic (FR)",
-              "odds": 1.73
+              "bookmaker": "William Hill",
+              "odds": 1.75
             },
             {
-              "bookmaker": "Betsson",
+              "bookmaker": "Everygame",
+              "odds": 1.75
+            },
+            {
+              "bookmaker": "BetOnline.ag",
+              "odds": 1.75
+            },
+            {
+              "bookmaker": "BetAnything",
+              "odds": 1.75
+            },
+            {
+              "bookmaker": "Unibet (NL)",
               "odds": 1.72
+            },
+            {
+              "bookmaker": "Winamax (DE)",
+              "odds": 1.7
+            },
+            {
+              "bookmaker": "Tipico",
+              "odds": 1.7
             },
             {
               "bookmaker": "Nordic Bet",
-              "odds": 1.72
-            },
-            {
-              "bookmaker": "Winamax (FR)",
-              "odds": 1.72
-            },
-            {
-              "bookmaker": "PMU (FR)",
               "odds": 1.7
+            },
+            {
+              "bookmaker": "Betsson",
+              "odds": 1.7
+            },
+            {
+              "bookmaker": "Betclic (FR)",
+              "odds": 1.69
+            },
+            {
+              "bookmaker": "GTbets",
+              "odds": 1.69
+            },
+            {
+              "bookmaker": "LeoVegas (SE)",
+              "odds": 1.68
             },
             {
               "bookmaker": "Unibet (FR)",
               "odds": 1.66
+            },
+            {
+              "bookmaker": "Winamax (FR)",
+              "odds": 1.66
+            },
+            {
+              "bookmaker": "PMU (FR)",
+              "odds": 1.66
             }
           ],
-          "max_bookmaker": "Betfair",
-          "max_odds": 1.81,
+          "max_bookmaker": "1xBet",
+          "max_odds": 1.82,
           "min_bookmaker": "Unibet (FR)",
           "min_odds": 1.66,
           "max_ties": [
-            "Betfair",
-            "Matchbook"
+            "1xBet"
           ],
           "min_ties": [
-            "Unibet (FR)"
+            "Unibet (FR)",
+            "Winamax (FR)",
+            "PMU (FR)"
           ]
         },
         {
-          "selection": "Washington Wizards",
-          "type": "Victoire extérieur",
-          "odds": 2.07,
-          "market_probability_pct": 46.0,
-          "confidence_score_pct": 46.0,
-          "news_net_signal": 0.0,
-          "news_nb_articles": 5,
+          "selection": "Match nul",
+          "type": "Nul",
+          "odds": 3.77,
+          "market_probability_pct": 25.1,
+          "confidence_score_pct": 25.1,
+          "news_net_signal": 0,
+          "news_nb_articles": 10,
           "news_hype_ratio_pct": 0.0,
           "news_sources": "Google News",
           "odds_detail": [
             {
+              "bookmaker": "Unibet (SE)",
+              "odds": 3.95
+            },
+            {
               "bookmaker": "Matchbook",
-              "odds": 2.22
+              "odds": 3.95
             },
             {
               "bookmaker": "Betfair",
-              "odds": 2.2
-            },
-            {
-              "bookmaker": "Pinnacle",
-              "odds": 2.15
-            },
-            {
-              "bookmaker": "1xBet",
-              "odds": 2.12
-            },
-            {
-              "bookmaker": "Marathon Bet",
-              "odds": 2.1
-            },
-            {
-              "bookmaker": "Winamax (DE)",
-              "odds": 2.1
-            },
-            {
-              "bookmaker": "BetOnline.ag",
-              "odds": 2.1
-            },
-            {
-              "bookmaker": "Betsson",
-              "odds": 2.1
-            },
-            {
-              "bookmaker": "Nordic Bet",
-              "odds": 2.1
+              "odds": 3.95
             },
             {
               "bookmaker": "GTbets",
-              "odds": 2.1
+              "odds": 3.91
+            },
+            {
+              "bookmaker": "BetOnline.ag",
+              "odds": 3.9
             },
             {
               "bookmaker": "BetAnything",
-              "odds": 2.1
+              "odds": 3.9
             },
             {
-              "bookmaker": "Everygame",
-              "odds": 2.1
+              "bookmaker": "1xBet",
+              "odds": 3.88
             },
             {
-              "bookmaker": "Betclic (FR)",
-              "odds": 2.08
-            },
-            {
-              "bookmaker": "MyBookie.ag",
-              "odds": 2.07
-            },
-            {
-              "bookmaker": "Unibet (NL)",
-              "odds": 2.06
-            },
-            {
-              "bookmaker": "Unibet (SE)",
-              "odds": 2.06
+              "bookmaker": "Pinnacle",
+              "odds": 3.81
             },
             {
               "bookmaker": "Codere (IT)",
-              "odds": 2.05
+              "odds": 3.8
             },
             {
-              "bookmaker": "LeoVegas (SE)",
-              "odds": 2.04
-            },
-            {
-              "bookmaker": "William Hill",
-              "odds": 2.0
-            },
-            {
-              "bookmaker": "888sport",
-              "odds": 2.0
-            },
-            {
-              "bookmaker": "Winamax (FR)",
-              "odds": 2.0
+              "bookmaker": "Winamax (DE)",
+              "odds": 3.8
             },
             {
               "bookmaker": "Tipico",
-              "odds": 2.0
+              "odds": 3.8
             },
             {
-              "bookmaker": "PMU (FR)",
-              "odds": 1.95
+              "bookmaker": "Unibet (NL)",
+              "odds": 3.8
+            },
+            {
+              "bookmaker": "Betsson",
+              "odds": 3.8
+            },
+            {
+              "bookmaker": "Coolbet",
+              "odds": 3.8
+            },
+            {
+              "bookmaker": "Marathon Bet",
+              "odds": 3.78
+            },
+            {
+              "bookmaker": "Nordic Bet",
+              "odds": 3.75
+            },
+            {
+              "bookmaker": "Everygame",
+              "odds": 3.75
+            },
+            {
+              "bookmaker": "Betclic (FR)",
+              "odds": 3.68
+            },
+            {
+              "bookmaker": "Winamax (FR)",
+              "odds": 3.65
+            },
+            {
+              "bookmaker": "LeoVegas (SE)",
+              "odds": 3.65
             },
             {
               "bookmaker": "Unibet (FR)",
-              "odds": 1.93
+              "odds": 3.6
+            },
+            {
+              "bookmaker": "PMU (FR)",
+              "odds": 3.55
+            },
+            {
+              "bookmaker": "888sport",
+              "odds": 3.5
+            },
+            {
+              "bookmaker": "William Hill",
+              "odds": 3.5
             }
           ],
-          "max_bookmaker": "Matchbook",
-          "max_odds": 2.22,
-          "min_bookmaker": "Unibet (FR)",
-          "min_odds": 1.93,
+          "max_bookmaker": "Unibet (SE)",
+          "max_odds": 3.95,
+          "min_bookmaker": "888sport",
+          "min_odds": 3.5,
           "max_ties": [
-            "Matchbook"
+            "Unibet (SE)",
+            "Matchbook",
+            "Betfair"
           ],
           "min_ties": [
-            "Unibet (FR)"
+            "888sport",
+            "William Hill"
           ]
         }
       ],
-      "h2h_favorite": "Charlotte Hornets",
+      "h2h_favorite": "Como",
       "h2h_nb_matches": 0,
       "h2h_summary": ""
     },
     {
-      "event_id": "82812d5c946d4e055002fcb42673a38b",
+      "event_id": "e03ea0f98bdd5fa277a34fbfe1a47efa",
       "match": "Tampa Bay Rays vs Milwaukee Brewers",
       "sport": "baseball_mlb",
       "country": "baseball",
       "home_team": "Tampa Bay Rays",
       "away_team": "Milwaukee Brewers",
-      "commence_time_gmt": "2026-10-27T00:10:00Z",
+      "commence_time_gmt": "2026-10-28T00:00:00Z",
       "nb_bookmakers": 21,
       "best_pick": {
-        "selection": "Tampa Bay Rays",
-        "type": "Victoire domicile",
-        "odds": 1.83,
-        "market_probability_pct": 52.2,
-        "confidence_score_pct": 52.2,
-        "news_net_signal": 0.0,
-        "news_nb_articles": 1,
+        "selection": "Milwaukee Brewers",
+        "type": "Victoire extérieur",
+        "odds": 1.71,
+        "market_probability_pct": 55.9,
+        "confidence_score_pct": 52.3,
+        "news_net_signal": -3.6,
+        "news_nb_articles": 5,
         "news_hype_ratio_pct": 0.0,
         "news_sources": "Google News",
         "odds_detail": [
           {
             "bookmaker": "Betfair",
-            "odds": 1.9
+            "odds": 1.79
           },
           {
             "bookmaker": "Matchbook",
-            "odds": 1.9
+            "odds": 1.79
           },
           {
             "bookmaker": "1xBet",
-            "odds": 1.88
+            "odds": 1.78
           },
           {
             "bookmaker": "Pinnacle",
-            "odds": 1.88
+            "odds": 1.75
           },
           {
             "bookmaker": "BetOnline.ag",
-            "odds": 1.87
-          },
-          {
-            "bookmaker": "GTbets",
-            "odds": 1.87
-          },
-          {
-            "bookmaker": "BetAnything",
-            "odds": 1.85
-          },
-          {
-            "bookmaker": "MyBookie.ag",
-            "odds": 1.84
-          },
-          {
-            "bookmaker": "Nordic Bet",
-            "odds": 1.83
-          },
-          {
-            "bookmaker": "Betsson",
-            "odds": 1.83
-          },
-          {
-            "bookmaker": "Coolbet",
-            "odds": 1.82
-          },
-          {
-            "bookmaker": "Unibet (NL)",
-            "odds": 1.82
-          },
-          {
-            "bookmaker": "LeoVegas (SE)",
-            "odds": 1.82
-          },
-          {
-            "bookmaker": "Unibet (SE)",
-            "odds": 1.82
-          },
-          {
-            "bookmaker": "Marathon Bet",
-            "odds": 1.82
-          },
-          {
-            "bookmaker": "Winamax (DE)",
-            "odds": 1.82
-          },
-          {
-            "bookmaker": "Betclic (FR)",
-            "odds": 1.81
-          },
-          {
-            "bookmaker": "William Hill",
-            "odds": 1.8
-          },
-          {
-            "bookmaker": "Tipico",
-            "odds": 1.8
-          },
-          {
-            "bookmaker": "Winamax (FR)",
             "odds": 1.74
           },
           {
-            "bookmaker": "Unibet (FR)",
+            "bookmaker": "GTbets",
+            "odds": 1.74
+          },
+          {
+            "bookmaker": "BetAnything",
+            "odds": 1.74
+          },
+          {
+            "bookmaker": "William Hill",
+            "odds": 1.73
+          },
+          {
+            "bookmaker": "Marathon Bet",
+            "odds": 1.73
+          },
+          {
+            "bookmaker": "Nordic Bet",
+            "odds": 1.72
+          },
+          {
+            "bookmaker": "Betsson",
+            "odds": 1.72
+          },
+          {
+            "bookmaker": "Coolbet",
+            "odds": 1.71
+          },
+          {
+            "bookmaker": "MyBookie.ag",
+            "odds": 1.71
+          },
+          {
+            "bookmaker": "Winamax (DE)",
+            "odds": 1.7
+          },
+          {
+            "bookmaker": "Betclic (FR)",
             "odds": 1.69
+          },
+          {
+            "bookmaker": "Unibet (SE)",
+            "odds": 1.68
+          },
+          {
+            "bookmaker": "Unibet (NL)",
+            "odds": 1.68
+          },
+          {
+            "bookmaker": "LeoVegas (SE)",
+            "odds": 1.68
+          },
+          {
+            "bookmaker": "Winamax (FR)",
+            "odds": 1.66
+          },
+          {
+            "bookmaker": "Tipico",
+            "odds": 1.65
+          },
+          {
+            "bookmaker": "Unibet (FR)",
+            "odds": 1.59
           }
         ],
         "max_bookmaker": "Betfair",
-        "max_odds": 1.9,
+        "max_odds": 1.79,
         "min_bookmaker": "Unibet (FR)",
-        "min_odds": 1.69,
+        "min_odds": 1.59,
         "max_ties": [
           "Betfair",
           "Matchbook"
@@ -3987,106 +2669,105 @@
         {
           "selection": "Tampa Bay Rays",
           "type": "Victoire domicile",
-          "odds": 1.83,
-          "market_probability_pct": 52.2,
-          "confidence_score_pct": 52.2,
+          "odds": 2.17,
+          "market_probability_pct": 44.1,
+          "confidence_score_pct": 44.1,
           "news_net_signal": 0.0,
           "news_nb_articles": 1,
           "news_hype_ratio_pct": 0.0,
           "news_sources": "Google News",
           "odds_detail": [
             {
+              "bookmaker": "GTbets",
+              "odds": 2.25
+            },
+            {
               "bookmaker": "Betfair",
-              "odds": 1.9
+              "odds": 2.24
             },
             {
               "bookmaker": "Matchbook",
-              "odds": 1.9
-            },
-            {
-              "bookmaker": "1xBet",
-              "odds": 1.88
-            },
-            {
-              "bookmaker": "Pinnacle",
-              "odds": 1.88
-            },
-            {
-              "bookmaker": "BetOnline.ag",
-              "odds": 1.87
-            },
-            {
-              "bookmaker": "GTbets",
-              "odds": 1.87
-            },
-            {
-              "bookmaker": "BetAnything",
-              "odds": 1.85
-            },
-            {
-              "bookmaker": "MyBookie.ag",
-              "odds": 1.84
-            },
-            {
-              "bookmaker": "Nordic Bet",
-              "odds": 1.83
-            },
-            {
-              "bookmaker": "Betsson",
-              "odds": 1.83
-            },
-            {
-              "bookmaker": "Coolbet",
-              "odds": 1.82
-            },
-            {
-              "bookmaker": "Unibet (NL)",
-              "odds": 1.82
-            },
-            {
-              "bookmaker": "LeoVegas (SE)",
-              "odds": 1.82
+              "odds": 2.24
             },
             {
               "bookmaker": "Unibet (SE)",
-              "odds": 1.82
+              "odds": 2.23
             },
             {
-              "bookmaker": "Marathon Bet",
-              "odds": 1.82
+              "bookmaker": "Unibet (NL)",
+              "odds": 2.23
             },
             {
-              "bookmaker": "Winamax (DE)",
-              "odds": 1.82
+              "bookmaker": "LeoVegas (SE)",
+              "odds": 2.23
             },
             {
-              "bookmaker": "Betclic (FR)",
-              "odds": 1.81
+              "bookmaker": "Pinnacle",
+              "odds": 2.23
             },
             {
-              "bookmaker": "William Hill",
-              "odds": 1.8
+              "bookmaker": "BetOnline.ag",
+              "odds": 2.22
+            },
+            {
+              "bookmaker": "BetAnything",
+              "odds": 2.21
             },
             {
               "bookmaker": "Tipico",
-              "odds": 1.8
+              "odds": 2.2
+            },
+            {
+              "bookmaker": "MyBookie.ag",
+              "odds": 2.19
+            },
+            {
+              "bookmaker": "1xBet",
+              "odds": 2.18
+            },
+            {
+              "bookmaker": "Coolbet",
+              "odds": 2.15
+            },
+            {
+              "bookmaker": "Winamax (DE)",
+              "odds": 2.15
+            },
+            {
+              "bookmaker": "Betclic (FR)",
+              "odds": 2.14
+            },
+            {
+              "bookmaker": "Nordic Bet",
+              "odds": 2.12
+            },
+            {
+              "bookmaker": "Betsson",
+              "odds": 2.12
+            },
+            {
+              "bookmaker": "Marathon Bet",
+              "odds": 2.11
+            },
+            {
+              "bookmaker": "William Hill",
+              "odds": 2.1
             },
             {
               "bookmaker": "Winamax (FR)",
-              "odds": 1.74
+              "odds": 2.05
             },
             {
               "bookmaker": "Unibet (FR)",
-              "odds": 1.69
+              "odds": 1.96
             }
           ],
-          "max_bookmaker": "Betfair",
-          "max_odds": 1.9,
+          "max_bookmaker": "GTbets",
+          "max_odds": 2.25,
           "min_bookmaker": "Unibet (FR)",
-          "min_odds": 1.69,
+          "min_odds": 1.96,
           "max_ties": [
-            "Betfair",
-            "Matchbook"
+            "GTbets"
           ],
           "min_ties": [
             "Unibet (FR)"
@@ -4095,9 +2776,9 @@
         {
           "selection": "Milwaukee Brewers",
           "type": "Victoire extérieur",
-          "odds": 2.0,
-          "market_probability_pct": 47.8,
-          "confidence_score_pct": 44.2,
+          "odds": 1.71,
+          "market_probability_pct": 55.9,
+          "confidence_score_pct": 52.3,
           "news_net_signal": -3.6,
           "news_nb_articles": 5,
           "news_hype_ratio_pct": 0.0,
@@ -4105,93 +2786,93 @@
           "odds_detail": [
             {
               "bookmaker": "Betfair",
-              "odds": 2.08
+              "odds": 1.79
             },
             {
               "bookmaker": "Matchbook",
-              "odds": 2.08
-            },
-            {
-              "bookmaker": "Pinnacle",
-              "odds": 2.06
-            },
-            {
-              "bookmaker": "GTbets",
-              "odds": 2.05
+              "odds": 1.79
             },
             {
               "bookmaker": "1xBet",
-              "odds": 2.05
+              "odds": 1.78
+            },
+            {
+              "bookmaker": "Pinnacle",
+              "odds": 1.75
             },
             {
               "bookmaker": "BetOnline.ag",
-              "odds": 2.04
+              "odds": 1.74
+            },
+            {
+              "bookmaker": "GTbets",
+              "odds": 1.74
             },
             {
               "bookmaker": "BetAnything",
-              "odds": 2.04
-            },
-            {
-              "bookmaker": "Unibet (NL)",
-              "odds": 2.02
-            },
-            {
-              "bookmaker": "LeoVegas (SE)",
-              "odds": 2.02
-            },
-            {
-              "bookmaker": "Unibet (SE)",
-              "odds": 2.02
-            },
-            {
-              "bookmaker": "MyBookie.ag",
-              "odds": 2.01
-            },
-            {
-              "bookmaker": "Coolbet",
-              "odds": 2.0
+              "odds": 1.74
             },
             {
               "bookmaker": "William Hill",
-              "odds": 2.0
+              "odds": 1.73
             },
             {
               "bookmaker": "Marathon Bet",
-              "odds": 1.99
+              "odds": 1.73
             },
             {
               "bookmaker": "Nordic Bet",
-              "odds": 1.98
+              "odds": 1.72
             },
             {
               "bookmaker": "Betsson",
-              "odds": 1.98
+              "odds": 1.72
+            },
+            {
+              "bookmaker": "Coolbet",
+              "odds": 1.71
+            },
+            {
+              "bookmaker": "MyBookie.ag",
+              "odds": 1.71
             },
             {
               "bookmaker": "Winamax (DE)",
-              "odds": 1.98
+              "odds": 1.7
             },
             {
               "bookmaker": "Betclic (FR)",
-              "odds": 1.97
+              "odds": 1.69
             },
             {
-              "bookmaker": "Tipico",
-              "odds": 1.97
+              "bookmaker": "Unibet (SE)",
+              "odds": 1.68
+            },
+            {
+              "bookmaker": "Unibet (NL)",
+              "odds": 1.68
+            },
+            {
+              "bookmaker": "LeoVegas (SE)",
+              "odds": 1.68
             },
             {
               "bookmaker": "Winamax (FR)",
-              "odds": 1.88
+              "odds": 1.66
+            },
+            {
+              "bookmaker": "Tipico",
+              "odds": 1.65
             },
             {
               "bookmaker": "Unibet (FR)",
-              "odds": 1.82
+              "odds": 1.59
             }
           ],
           "max_bookmaker": "Betfair",
-          "max_odds": 2.08,
+          "max_odds": 1.79,
           "min_bookmaker": "Unibet (FR)",
-          "min_odds": 1.82,
+          "min_odds": 1.59,
           "max_ties": [
             "Betfair",
             "Matchbook"
@@ -4201,25 +2882,25 @@
           ]
         }
       ],
-      "h2h_favorite": "Tampa Bay Rays",
+      "h2h_favorite": "Milwaukee Brewers",
       "h2h_nb_matches": 0,
       "h2h_summary": ""
     },
     {
-      "event_id": "85e464708d03287f24590e1478aeca31",
-      "match": "Sevilla vs CA Osasuna",
-      "sport": "soccer_spain_la_liga",
+      "event_id": "c7445242bf16a8f37afef7863af45a78",
+      "match": "Sassuolo vs Lazio",
+      "sport": "soccer_italy_serie_a",
       "country": "soccer",
-      "home_team": "Sevilla",
-      "away_team": "CA Osasuna",
-      "commence_time_gmt": "2026-10-26T20:00:00Z",
-      "nb_bookmakers": 20,
+      "home_team": "Sassuolo",
+      "away_team": "Lazio",
+      "commence_time_gmt": "2026-10-27T17:30:00Z",
+      "nb_bookmakers": 24,
       "best_pick": {
-        "selection": "Sevilla",
-        "type": "Victoire domicile",
-        "odds": 1.84,
-        "market_probability_pct": 51.6,
-        "confidence_score_pct": 51.6,
+        "selection": "Lazio",
+        "type": "Victoire extérieur",
+        "odds": 2.07,
+        "market_probability_pct": 45.7,
+        "confidence_score_pct": 46.1,
         "news_net_signal": 0.0,
         "news_nb_articles": 5,
         "news_hype_ratio_pct": 0.0,
@@ -4227,210 +2908,122 @@
         "odds_detail": [
           {
             "bookmaker": "1xBet",
-            "odds": 1.92
-          },
-          {
-            "bookmaker": "Coolbet",
-            "odds": 1.91
+            "odds": 2.16
           },
           {
             "bookmaker": "Betfair",
-            "odds": 1.91
+            "odds": 2.16
           },
           {
             "bookmaker": "Matchbook",
-            "odds": 1.91
+            "odds": 2.16
           },
           {
-            "bookmaker": "BetOnline.ag",
-            "odds": 1.91
-          },
-          {
-            "bookmaker": "Marathon Bet",
-            "odds": 1.89
+            "bookmaker": "Coolbet",
+            "odds": 2.15
           },
           {
             "bookmaker": "Pinnacle",
-            "odds": 1.88
+            "odds": 2.13
           },
           {
-            "bookmaker": "Unibet (NL)",
-            "odds": 1.87
+            "bookmaker": "BetOnline.ag",
+            "odds": 2.12
           },
           {
-            "bookmaker": "Unibet (SE)",
-            "odds": 1.87
+            "bookmaker": "Marathon Bet",
+            "odds": 2.1
+          },
+          {
+            "bookmaker": "888sport",
+            "odds": 2.1
           },
           {
             "bookmaker": "William Hill",
-            "odds": 1.85
+            "odds": 2.1
+          },
+          {
+            "bookmaker": "Everygame",
+            "odds": 2.1
+          },
+          {
+            "bookmaker": "BetAnything",
+            "odds": 2.1
           },
           {
             "bookmaker": "Codere (IT)",
-            "odds": 1.85
+            "odds": 2.09
           },
           {
-            "bookmaker": "Nordic Bet",
-            "odds": 1.82
+            "bookmaker": "Unibet (SE)",
+            "odds": 2.08
           },
           {
             "bookmaker": "Betsson",
-            "odds": 1.82
+            "odds": 2.08
           },
           {
-            "bookmaker": "Winamax (DE)",
-            "odds": 1.8
+            "bookmaker": "Nordic Bet",
+            "odds": 2.08
           },
           {
-            "bookmaker": "Betclic (FR)",
-            "odds": 1.79
-          },
-          {
-            "bookmaker": "LeoVegas (SE)",
-            "odds": 1.78
+            "bookmaker": "GTbets",
+            "odds": 2.07
           },
           {
             "bookmaker": "Tipico",
-            "odds": 1.77
+            "odds": 2.05
           },
           {
-            "bookmaker": "Unibet (FR)",
-            "odds": 1.76
+            "bookmaker": "Unibet (NL)",
+            "odds": 2.05
+          },
+          {
+            "bookmaker": "Betclic (FR)",
+            "odds": 2.0
+          },
+          {
+            "bookmaker": "Winamax (DE)",
+            "odds": 2.0
+          },
+          {
+            "bookmaker": "LeoVegas (SE)",
+            "odds": 2.0
           },
           {
             "bookmaker": "Winamax (FR)",
-            "odds": 1.76
+            "odds": 1.98
+          },
+          {
+            "bookmaker": "Unibet (FR)",
+            "odds": 1.95
           },
           {
             "bookmaker": "PMU (FR)",
-            "odds": 1.76
+            "odds": 1.95
           }
         ],
         "max_bookmaker": "1xBet",
-        "max_odds": 1.92,
+        "max_odds": 2.16,
         "min_bookmaker": "Unibet (FR)",
-        "min_odds": 1.76,
+        "min_odds": 1.95,
         "max_ties": [
-          "1xBet"
+          "1xBet",
+          "Betfair",
+          "Matchbook"
         ],
         "min_ties": [
           "Unibet (FR)",
-          "Winamax (FR)",
           "PMU (FR)"
         ]
       },
       "all_candidates": [
         {
-          "selection": "Sevilla",
+          "selection": "Sassuolo",
           "type": "Victoire domicile",
-          "odds": 1.84,
-          "market_probability_pct": 51.6,
-          "confidence_score_pct": 51.6,
-          "news_net_signal": 0.0,
-          "news_nb_articles": 5,
-          "news_hype_ratio_pct": 0.0,
-          "news_sources": "Google News",
-          "odds_detail": [
-            {
-              "bookmaker": "1xBet",
-              "odds": 1.92
-            },
-            {
-              "bookmaker": "Coolbet",
-              "odds": 1.91
-            },
-            {
-              "bookmaker": "Betfair",
-              "odds": 1.91
-            },
-            {
-              "bookmaker": "Matchbook",
-              "odds": 1.91
-            },
-            {
-              "bookmaker": "BetOnline.ag",
-              "odds": 1.91
-            },
-            {
-              "bookmaker": "Marathon Bet",
-              "odds": 1.89
-            },
-            {
-              "bookmaker": "Pinnacle",
-              "odds": 1.88
-            },
-            {
-              "bookmaker": "Unibet (NL)",
-              "odds": 1.87
-            },
-            {
-              "bookmaker": "Unibet (SE)",
-              "odds": 1.87
-            },
-            {
-              "bookmaker": "William Hill",
-              "odds": 1.85
-            },
-            {
-              "bookmaker": "Codere (IT)",
-              "odds": 1.85
-            },
-            {
-              "bookmaker": "Nordic Bet",
-              "odds": 1.82
-            },
-            {
-              "bookmaker": "Betsson",
-              "odds": 1.82
-            },
-            {
-              "bookmaker": "Winamax (DE)",
-              "odds": 1.8
-            },
-            {
-              "bookmaker": "Betclic (FR)",
-              "odds": 1.79
-            },
-            {
-              "bookmaker": "LeoVegas (SE)",
-              "odds": 1.78
-            },
-            {
-              "bookmaker": "Tipico",
-              "odds": 1.77
-            },
-            {
-              "bookmaker": "Unibet (FR)",
-              "odds": 1.76
-            },
-            {
-              "bookmaker": "Winamax (FR)",
-              "odds": 1.76
-            },
-            {
-              "bookmaker": "PMU (FR)",
-              "odds": 1.76
-            }
-          ],
-          "max_bookmaker": "1xBet",
-          "max_odds": 1.92,
-          "min_bookmaker": "Unibet (FR)",
-          "min_odds": 1.76,
-          "max_ties": [
-            "1xBet"
-          ],
-          "min_ties": [
-            "Unibet (FR)",
-            "Winamax (FR)",
-            "PMU (FR)"
-          ]
-        },
-        {
-          "selection": "CA Osasuna",
-          "type": "Victoire extérieur",
-          "odds": 4.6,
-          "market_probability_pct": 20.6,
-          "confidence_score_pct": 20.6,
+          "odds": 3.46,
+          "market_probability_pct": 27.3,
+          "confidence_score_pct": 26.9,
           "news_net_signal": 0.0,
           "news_nb_articles": 5,
           "news_hype_ratio_pct": 0.0,
@@ -4438,130 +3031,42 @@
           "odds_detail": [
             {
               "bookmaker": "Betfair",
-              "odds": 5.0
+              "odds": 3.7
             },
             {
               "bookmaker": "Matchbook",
-              "odds": 5.0
-            },
-            {
-              "bookmaker": "Unibet (NL)",
-              "odds": 4.9
-            },
-            {
-              "bookmaker": "Unibet (SE)",
-              "odds": 4.9
+              "odds": 3.7
             },
             {
               "bookmaker": "Pinnacle",
-              "odds": 4.83
-            },
-            {
-              "bookmaker": "Tipico",
-              "odds": 4.8
-            },
-            {
-              "bookmaker": "1xBet",
-              "odds": 4.72
-            },
-            {
-              "bookmaker": "Marathon Bet",
-              "odds": 4.65
-            },
-            {
-              "bookmaker": "Nordic Bet",
-              "odds": 4.65
-            },
-            {
-              "bookmaker": "Betsson",
-              "odds": 4.65
-            },
-            {
-              "bookmaker": "Coolbet",
-              "odds": 4.6
-            },
-            {
-              "bookmaker": "Codere (IT)",
-              "odds": 4.6
-            },
-            {
-              "bookmaker": "BetOnline.ag",
-              "odds": 4.5
-            },
-            {
-              "bookmaker": "William Hill",
-              "odds": 4.4
-            },
-            {
-              "bookmaker": "LeoVegas (SE)",
-              "odds": 4.4
-            },
-            {
-              "bookmaker": "Betclic (FR)",
-              "odds": 4.35
-            },
-            {
-              "bookmaker": "Unibet (FR)",
-              "odds": 4.3
-            },
-            {
-              "bookmaker": "Winamax (DE)",
-              "odds": 4.3
-            },
-            {
-              "bookmaker": "PMU (FR)",
-              "odds": 4.3
-            },
-            {
-              "bookmaker": "Winamax (FR)",
-              "odds": 4.2
-            }
-          ],
-          "max_bookmaker": "Betfair",
-          "max_odds": 5.0,
-          "min_bookmaker": "Winamax (FR)",
-          "min_odds": 4.2,
-          "max_ties": [
-            "Betfair",
-            "Matchbook"
-          ],
-          "min_ties": [
-            "Winamax (FR)"
-          ]
-        },
-        {
-          "selection": "Match nul",
-          "type": "Nul",
-          "odds": 3.42,
-          "market_probability_pct": 27.8,
-          "confidence_score_pct": 27.8,
-          "news_net_signal": 0,
-          "news_nb_articles": 10,
-          "news_hype_ratio_pct": 0.0,
-          "news_sources": "Google News",
-          "odds_detail": [
-            {
-              "bookmaker": "Unibet (NL)",
-              "odds": 3.55
+              "odds": 3.65
             },
             {
               "bookmaker": "Unibet (SE)",
-              "odds": 3.55
-            },
-            {
-              "bookmaker": "Betfair",
-              "odds": 3.55
-            },
-            {
-              "bookmaker": "Matchbook",
-              "odds": 3.55
+              "odds": 3.65
             },
             {
               "bookmaker": "1xBet",
-              "odds": 3.54
+              "odds": 3.58
             },
             {
               "bookmaker": "Tipico",
+              "odds": 3.5
+            },
+            {
+              "bookmaker": "Unibet (NL)",
+              "odds": 3.5
+            },
+            {
+              "bookmaker": "Everygame",
+              "odds": 3.5
+            },
+            {
+              "bookmaker": "BetOnline.ag",
+              "odds": 3.5
+            },
+            {
+              "bookmaker": "Coolbet",
               "odds": 3.5
             },
             {
@@ -4569,19 +3074,19 @@
               "odds": 3.48
             },
             {
-              "bookmaker": "Pinnacle",
-              "odds": 3.46
-            },
-            {
-              "bookmaker": "BetOnline.ag",
-              "odds": 3.46
-            },
-            {
-              "bookmaker": "Coolbet",
+              "bookmaker": "Codere (IT)",
               "odds": 3.45
             },
             {
-              "bookmaker": "Codere (IT)",
+              "bookmaker": "Betsson",
+              "odds": 3.45
+            },
+            {
+              "bookmaker": "Nordic Bet",
+              "odds": 3.45
+            },
+            {
+              "bookmaker": "BetAnything",
               "odds": 3.45
             },
             {
@@ -4589,733 +3094,300 @@
               "odds": 3.4
             },
             {
-              "bookmaker": "Nordic Bet",
-              "odds": 3.4
+              "bookmaker": "GTbets",
+              "odds": 3.36
             },
             {
-              "bookmaker": "Betsson",
-              "odds": 3.4
+              "bookmaker": "Betclic (FR)",
+              "odds": 3.35
+            },
+            {
+              "bookmaker": "LeoVegas (SE)",
+              "odds": 3.35
+            },
+            {
+              "bookmaker": "Unibet (FR)",
+              "odds": 3.3
             },
             {
               "bookmaker": "Winamax (FR)",
               "odds": 3.3
             },
             {
-              "bookmaker": "Betclic (FR)",
-              "odds": 3.3
-            },
-            {
-              "bookmaker": "LeoVegas (SE)",
+              "bookmaker": "888sport",
               "odds": 3.3
             },
             {
               "bookmaker": "William Hill",
-              "odds": 3.25
+              "odds": 3.3
             },
             {
               "bookmaker": "PMU (FR)",
-              "odds": 3.25
-            },
-            {
-              "bookmaker": "Unibet (FR)",
-              "odds": 3.2
+              "odds": 3.3
             }
           ],
-          "max_bookmaker": "Unibet (NL)",
-          "max_odds": 3.55,
+          "max_bookmaker": "Betfair",
+          "max_odds": 3.7,
           "min_bookmaker": "Unibet (FR)",
-          "min_odds": 3.2,
+          "min_odds": 3.3,
           "max_ties": [
-            "Unibet (NL)",
-            "Unibet (SE)",
             "Betfair",
             "Matchbook"
           ],
           "min_ties": [
-            "Unibet (FR)"
+            "Unibet (FR)",
+            "Winamax (FR)",
+            "888sport",
+            "William Hill",
+            "PMU (FR)"
           ]
-        }
-      ],
-      "h2h_favorite": "Sevilla",
-      "h2h_nb_matches": 0,
-      "h2h_summary": ""
-    },
-    {
-      "event_id": "08bda2a9513ed888c66e834f88ddd65f",
-      "match": "Golden State Valkyries vs Atlanta Dream",
-      "sport": "basketball_wnba",
-      "country": "basketball",
-      "home_team": "Golden State Valkyries",
-      "away_team": "Atlanta Dream",
-      "commence_time_gmt": "2026-10-27T00:10:00Z",
-      "nb_bookmakers": 17,
-      "best_pick": {
-        "selection": "Golden State Valkyries",
-        "type": "Victoire domicile",
-        "odds": 1.85,
-        "market_probability_pct": 51.3,
-        "confidence_score_pct": 51.3,
-        "news_net_signal": 0.0,
-        "news_nb_articles": 5,
-        "news_hype_ratio_pct": 0.0,
-        "news_sources": "Google News",
-        "odds_detail": [
-          {
-            "bookmaker": "Betfair",
-            "odds": 1.92
-          },
-          {
-            "bookmaker": "Matchbook",
-            "odds": 1.92
-          },
-          {
-            "bookmaker": "BetOnline.ag",
-            "odds": 1.87
-          },
-          {
-            "bookmaker": "GTbets",
-            "odds": 1.87
-          },
-          {
-            "bookmaker": "Unibet (NL)",
-            "odds": 1.87
-          },
-          {
-            "bookmaker": "Unibet (SE)",
-            "odds": 1.87
-          },
-          {
-            "bookmaker": "LeoVegas (SE)",
-            "odds": 1.87
-          },
-          {
-            "bookmaker": "Pinnacle",
-            "odds": 1.87
-          },
-          {
-            "bookmaker": "BetAnything",
-            "odds": 1.87
-          },
-          {
-            "bookmaker": "1xBet",
-            "odds": 1.86
-          },
-          {
-            "bookmaker": "MyBookie.ag",
-            "odds": 1.85
-          },
-          {
-            "bookmaker": "Nordic Bet",
-            "odds": 1.82
-          },
-          {
-            "bookmaker": "Betsson",
-            "odds": 1.82
-          },
-          {
-            "bookmaker": "Coolbet",
-            "odds": 1.82
-          },
-          {
-            "bookmaker": "888sport",
-            "odds": 1.8
-          },
-          {
-            "bookmaker": "PMU (FR)",
-            "odds": 1.75
-          },
-          {
-            "bookmaker": "Unibet (FR)",
-            "odds": 1.73
-          }
-        ],
-        "max_bookmaker": "Betfair",
-        "max_odds": 1.92,
-        "min_bookmaker": "Unibet (FR)",
-        "min_odds": 1.73,
-        "max_ties": [
-          "Betfair",
-          "Matchbook"
-        ],
-        "min_ties": [
-          "Unibet (FR)"
-        ]
-      },
-      "all_candidates": [
+        },
         {
-          "selection": "Golden State Valkyries",
-          "type": "Victoire domicile",
-          "odds": 1.85,
-          "market_probability_pct": 51.3,
-          "confidence_score_pct": 51.3,
+          "selection": "Lazio",
+          "type": "Victoire extérieur",
+          "odds": 2.07,
+          "market_probability_pct": 45.7,
+          "confidence_score_pct": 46.1,
           "news_net_signal": 0.0,
           "news_nb_articles": 5,
           "news_hype_ratio_pct": 0.0,
           "news_sources": "Google News",
           "odds_detail": [
             {
+              "bookmaker": "1xBet",
+              "odds": 2.16
+            },
+            {
               "bookmaker": "Betfair",
-              "odds": 1.92
+              "odds": 2.16
             },
             {
               "bookmaker": "Matchbook",
-              "odds": 1.92
-            },
-            {
-              "bookmaker": "BetOnline.ag",
-              "odds": 1.87
-            },
-            {
-              "bookmaker": "GTbets",
-              "odds": 1.87
-            },
-            {
-              "bookmaker": "Unibet (NL)",
-              "odds": 1.87
-            },
-            {
-              "bookmaker": "Unibet (SE)",
-              "odds": 1.87
-            },
-            {
-              "bookmaker": "LeoVegas (SE)",
-              "odds": 1.87
-            },
-            {
-              "bookmaker": "Pinnacle",
-              "odds": 1.87
-            },
-            {
-              "bookmaker": "BetAnything",
-              "odds": 1.87
-            },
-            {
-              "bookmaker": "1xBet",
-              "odds": 1.86
-            },
-            {
-              "bookmaker": "MyBookie.ag",
-              "odds": 1.85
-            },
-            {
-              "bookmaker": "Nordic Bet",
-              "odds": 1.82
-            },
-            {
-              "bookmaker": "Betsson",
-              "odds": 1.82
+              "odds": 2.16
             },
             {
               "bookmaker": "Coolbet",
-              "odds": 1.82
-            },
-            {
-              "bookmaker": "888sport",
-              "odds": 1.8
-            },
-            {
-              "bookmaker": "PMU (FR)",
-              "odds": 1.75
-            },
-            {
-              "bookmaker": "Unibet (FR)",
-              "odds": 1.73
-            }
-          ],
-          "max_bookmaker": "Betfair",
-          "max_odds": 1.92,
-          "min_bookmaker": "Unibet (FR)",
-          "min_odds": 1.73,
-          "max_ties": [
-            "Betfair",
-            "Matchbook"
-          ],
-          "min_ties": [
-            "Unibet (FR)"
-          ]
-        },
-        {
-          "selection": "Atlanta Dream",
-          "type": "Victoire extérieur",
-          "odds": 1.95,
-          "market_probability_pct": 48.7,
-          "confidence_score_pct": 45.1,
-          "news_net_signal": -3.6,
-          "news_nb_articles": 5,
-          "news_hype_ratio_pct": 0.0,
-          "news_sources": "Google News",
-          "odds_detail": [
-            {
-              "bookmaker": "Betfair",
-              "odds": 2.04
-            },
-            {
-              "bookmaker": "Matchbook",
-              "odds": 2.04
-            },
-            {
-              "bookmaker": "888sport",
-              "odds": 2.0
-            },
-            {
-              "bookmaker": "MyBookie.ag",
-              "odds": 2.0
+              "odds": 2.15
             },
             {
               "bookmaker": "Pinnacle",
-              "odds": 1.99
-            },
-            {
-              "bookmaker": "1xBet",
-              "odds": 1.98
-            },
-            {
-              "bookmaker": "Coolbet",
-              "odds": 1.96
+              "odds": 2.13
             },
             {
               "bookmaker": "BetOnline.ag",
-              "odds": 1.95
-            },
-            {
-              "bookmaker": "Nordic Bet",
-              "odds": 1.95
-            },
-            {
-              "bookmaker": "Betsson",
-              "odds": 1.95
-            },
-            {
-              "bookmaker": "GTbets",
-              "odds": 1.95
-            },
-            {
-              "bookmaker": "BetAnything",
-              "odds": 1.95
-            },
-            {
-              "bookmaker": "Unibet (NL)",
-              "odds": 1.94
-            },
-            {
-              "bookmaker": "Unibet (SE)",
-              "odds": 1.94
-            },
-            {
-              "bookmaker": "LeoVegas (SE)",
-              "odds": 1.94
-            },
-            {
-              "bookmaker": "Unibet (FR)",
-              "odds": 1.84
-            },
-            {
-              "bookmaker": "PMU (FR)",
-              "odds": 1.81
-            }
-          ],
-          "max_bookmaker": "Betfair",
-          "max_odds": 2.04,
-          "min_bookmaker": "PMU (FR)",
-          "min_odds": 1.81,
-          "max_ties": [
-            "Betfair",
-            "Matchbook"
-          ],
-          "min_ties": [
-            "PMU (FR)"
-          ]
-        }
-      ],
-      "h2h_favorite": "Golden State Valkyries",
-      "h2h_nb_matches": 0,
-      "h2h_summary": ""
-    },
-    {
-      "event_id": "fe453388be0a3bc6a39c847479cac46b",
-      "match": "Utah Jazz vs Memphis Grizzlies",
-      "sport": "basketball_nba",
-      "country": "basketball",
-      "home_team": "Utah Jazz",
-      "away_team": "Memphis Grizzlies",
-      "commence_time_gmt": "2026-10-27T01:10:00Z",
-      "nb_bookmakers": 25,
-      "best_pick": {
-        "selection": "Utah Jazz",
-        "type": "Victoire domicile",
-        "odds": 1.87,
-        "market_probability_pct": 51.0,
-        "confidence_score_pct": 49.8,
-        "news_net_signal": -1.2,
-        "news_nb_articles": 5,
-        "news_hype_ratio_pct": 0.0,
-        "news_sources": "Google News",
-        "odds_detail": [
-          {
-            "bookmaker": "Matchbook",
-            "odds": 1.99
-          },
-          {
-            "bookmaker": "Betfair",
-            "odds": 1.99
-          },
-          {
-            "bookmaker": "Pinnacle",
-            "odds": 1.96
-          },
-          {
-            "bookmaker": "Tipico",
-            "odds": 1.93
-          },
-          {
-            "bookmaker": "Marathon Bet",
-            "odds": 1.91
-          },
-          {
-            "bookmaker": "GTbets",
-            "odds": 1.91
-          },
-          {
-            "bookmaker": "Nordic Bet",
-            "odds": 1.9
-          },
-          {
-            "bookmaker": "Betsson",
-            "odds": 1.9
-          },
-          {
-            "bookmaker": "Coolbet",
-            "odds": 1.89
-          },
-          {
-            "bookmaker": "Winamax (DE)",
-            "odds": 1.88
-          },
-          {
-            "bookmaker": "BetOnline.ag",
-            "odds": 1.87
-          },
-          {
-            "bookmaker": "BetAnything",
-            "odds": 1.87
-          },
-          {
-            "bookmaker": "Everygame",
-            "odds": 1.87
-          },
-          {
-            "bookmaker": "1xBet",
-            "odds": 1.86
-          },
-          {
-            "bookmaker": "MyBookie.ag",
-            "odds": 1.86
-          },
-          {
-            "bookmaker": "Betclic (FR)",
-            "odds": 1.85
-          },
-          {
-            "bookmaker": "Codere (IT)",
-            "odds": 1.85
-          },
-          {
-            "bookmaker": "Winamax (FR)",
-            "odds": 1.82
-          },
-          {
-            "bookmaker": "Unibet (NL)",
-            "odds": 1.82
-          },
-          {
-            "bookmaker": "Unibet (SE)",
-            "odds": 1.82
-          },
-          {
-            "bookmaker": "888sport",
-            "odds": 1.8
-          },
-          {
-            "bookmaker": "William Hill",
-            "odds": 1.8
-          },
-          {
-            "bookmaker": "LeoVegas (SE)",
-            "odds": 1.8
-          },
-          {
-            "bookmaker": "Unibet (FR)",
-            "odds": 1.75
-          },
-          {
-            "bookmaker": "PMU (FR)",
-            "odds": 1.74
-          }
-        ],
-        "max_bookmaker": "Matchbook",
-        "max_odds": 1.99,
-        "min_bookmaker": "PMU (FR)",
-        "min_odds": 1.74,
-        "max_ties": [
-          "Matchbook",
-          "Betfair"
-        ],
-        "min_ties": [
-          "PMU (FR)"
-        ]
-      },
-      "all_candidates": [
-        {
-          "selection": "Utah Jazz",
-          "type": "Victoire domicile",
-          "odds": 1.87,
-          "market_probability_pct": 51.0,
-          "confidence_score_pct": 49.8,
-          "news_net_signal": -1.2,
-          "news_nb_articles": 5,
-          "news_hype_ratio_pct": 0.0,
-          "news_sources": "Google News",
-          "odds_detail": [
-            {
-              "bookmaker": "Matchbook",
-              "odds": 1.99
-            },
-            {
-              "bookmaker": "Betfair",
-              "odds": 1.99
-            },
-            {
-              "bookmaker": "Pinnacle",
-              "odds": 1.96
-            },
-            {
-              "bookmaker": "Tipico",
-              "odds": 1.93
+              "odds": 2.12
             },
             {
               "bookmaker": "Marathon Bet",
-              "odds": 1.91
-            },
-            {
-              "bookmaker": "GTbets",
-              "odds": 1.91
-            },
-            {
-              "bookmaker": "Nordic Bet",
-              "odds": 1.9
-            },
-            {
-              "bookmaker": "Betsson",
-              "odds": 1.9
-            },
-            {
-              "bookmaker": "Coolbet",
-              "odds": 1.89
-            },
-            {
-              "bookmaker": "Winamax (DE)",
-              "odds": 1.88
-            },
-            {
-              "bookmaker": "BetOnline.ag",
-              "odds": 1.87
-            },
-            {
-              "bookmaker": "BetAnything",
-              "odds": 1.87
-            },
-            {
-              "bookmaker": "Everygame",
-              "odds": 1.87
-            },
-            {
-              "bookmaker": "1xBet",
-              "odds": 1.86
-            },
-            {
-              "bookmaker": "MyBookie.ag",
-              "odds": 1.86
-            },
-            {
-              "bookmaker": "Betclic (FR)",
-              "odds": 1.85
-            },
-            {
-              "bookmaker": "Codere (IT)",
-              "odds": 1.85
-            },
-            {
-              "bookmaker": "Winamax (FR)",
-              "odds": 1.82
-            },
-            {
-              "bookmaker": "Unibet (NL)",
-              "odds": 1.82
-            },
-            {
-              "bookmaker": "Unibet (SE)",
-              "odds": 1.82
+              "odds": 2.1
             },
             {
               "bookmaker": "888sport",
-              "odds": 1.8
+              "odds": 2.1
             },
             {
               "bookmaker": "William Hill",
-              "odds": 1.8
-            },
-            {
-              "bookmaker": "LeoVegas (SE)",
-              "odds": 1.8
-            },
-            {
-              "bookmaker": "Unibet (FR)",
-              "odds": 1.75
-            },
-            {
-              "bookmaker": "PMU (FR)",
-              "odds": 1.74
-            }
-          ],
-          "max_bookmaker": "Matchbook",
-          "max_odds": 1.99,
-          "min_bookmaker": "PMU (FR)",
-          "min_odds": 1.74,
-          "max_ties": [
-            "Matchbook",
-            "Betfair"
-          ],
-          "min_ties": [
-            "PMU (FR)"
-          ]
-        },
-        {
-          "selection": "Memphis Grizzlies",
-          "type": "Victoire extérieur",
-          "odds": 1.94,
-          "market_probability_pct": 49.0,
-          "confidence_score_pct": 49.0,
-          "news_net_signal": 0.0,
-          "news_nb_articles": 4,
-          "news_hype_ratio_pct": 0.0,
-          "news_sources": "Google News",
-          "odds_detail": [
-            {
-              "bookmaker": "1xBet",
-              "odds": 2.01
-            },
-            {
-              "bookmaker": "888sport",
-              "odds": 2.0
-            },
-            {
-              "bookmaker": "William Hill",
-              "odds": 2.0
-            },
-            {
-              "bookmaker": "Matchbook",
-              "odds": 2.0
-            },
-            {
-              "bookmaker": "Unibet (NL)",
-              "odds": 2.0
-            },
-            {
-              "bookmaker": "Unibet (SE)",
-              "odds": 2.0
-            },
-            {
-              "bookmaker": "Betfair",
-              "odds": 1.99
-            },
-            {
-              "bookmaker": "Winamax (DE)",
-              "odds": 1.98
-            },
-            {
-              "bookmaker": "LeoVegas (SE)",
-              "odds": 1.97
-            },
-            {
-              "bookmaker": "Coolbet",
-              "odds": 1.96
-            },
-            {
-              "bookmaker": "BetOnline.ag",
-              "odds": 1.95
-            },
-            {
-              "bookmaker": "BetAnything",
-              "odds": 1.95
+              "odds": 2.1
             },
             {
               "bookmaker": "Everygame",
-              "odds": 1.95
+              "odds": 2.1
             },
             {
-              "bookmaker": "MyBookie.ag",
-              "odds": 1.94
-            },
-            {
-              "bookmaker": "Pinnacle",
-              "odds": 1.94
-            },
-            {
-              "bookmaker": "Betclic (FR)",
-              "odds": 1.93
+              "bookmaker": "BetAnything",
+              "odds": 2.1
             },
             {
               "bookmaker": "Codere (IT)",
-              "odds": 1.93
+              "odds": 2.09
             },
             {
-              "bookmaker": "Marathon Bet",
-              "odds": 1.92
-            },
-            {
-              "bookmaker": "PMU (FR)",
-              "odds": 1.91
-            },
-            {
-              "bookmaker": "GTbets",
-              "odds": 1.91
-            },
-            {
-              "bookmaker": "Nordic Bet",
-              "odds": 1.9
+              "bookmaker": "Unibet (SE)",
+              "odds": 2.08
             },
             {
               "bookmaker": "Betsson",
-              "odds": 1.9
+              "odds": 2.08
             },
             {
-              "bookmaker": "Winamax (FR)",
-              "odds": 1.9
+              "bookmaker": "Nordic Bet",
+              "odds": 2.08
+            },
+            {
+              "bookmaker": "GTbets",
+              "odds": 2.07
             },
             {
               "bookmaker": "Tipico",
-              "odds": 1.83
+              "odds": 2.05
+            },
+            {
+              "bookmaker": "Unibet (NL)",
+              "odds": 2.05
+            },
+            {
+              "bookmaker": "Betclic (FR)",
+              "odds": 2.0
+            },
+            {
+              "bookmaker": "Winamax (DE)",
+              "odds": 2.0
+            },
+            {
+              "bookmaker": "LeoVegas (SE)",
+              "odds": 2.0
+            },
+            {
+              "bookmaker": "Winamax (FR)",
+              "odds": 1.98
             },
             {
               "bookmaker": "Unibet (FR)",
-              "odds": 1.82
+              "odds": 1.95
+            },
+            {
+              "bookmaker": "PMU (FR)",
+              "odds": 1.95
             }
           ],
           "max_bookmaker": "1xBet",
-          "max_odds": 2.01,
+          "max_odds": 2.16,
           "min_bookmaker": "Unibet (FR)",
-          "min_odds": 1.82,
+          "min_odds": 1.95,
           "max_ties": [
-            "1xBet"
+            "1xBet",
+            "Betfair",
+            "Matchbook"
           ],
           "min_ties": [
-            "Unibet (FR)"
+            "Unibet (FR)",
+            "PMU (FR)"
+          ]
+        },
+        {
+          "selection": "Match nul",
+          "type": "Nul",
+          "odds": 3.51,
+          "market_probability_pct": 27.0,
+          "confidence_score_pct": 27.0,
+          "news_net_signal": 0,
+          "news_nb_articles": 10,
+          "news_hype_ratio_pct": 0.0,
+          "news_sources": "Google News",
+          "odds_detail": [
+            {
+              "bookmaker": "Unibet (SE)",
+              "odds": 3.7
+            },
+            {
+              "bookmaker": "1xBet",
+              "odds": 3.65
+            },
+            {
+              "bookmaker": "Betfair",
+              "odds": 3.65
+            },
+            {
+              "bookmaker": "Matchbook",
+              "odds": 3.65
+            },
+            {
+              "bookmaker": "GTbets",
+              "odds": 3.62
+            },
+            {
+              "bookmaker": "BetOnline.ag",
+              "odds": 3.61
+            },
+            {
+              "bookmaker": "Unibet (NL)",
+              "odds": 3.6
+            },
+            {
+              "bookmaker": "Coolbet",
+              "odds": 3.58
+            },
+            {
+              "bookmaker": "Codere (IT)",
+              "odds": 3.55
+            },
+            {
+              "bookmaker": "BetAnything",
+              "odds": 3.55
+            },
+            {
+              "bookmaker": "Marathon Bet",
+              "odds": 3.54
+            },
+            {
+              "bookmaker": "Pinnacle",
+              "odds": 3.52
+            },
+            {
+              "bookmaker": "Tipico",
+              "odds": 3.5
+            },
+            {
+              "bookmaker": "Betsson",
+              "odds": 3.5
+            },
+            {
+              "bookmaker": "Winamax (DE)",
+              "odds": 3.45
+            },
+            {
+              "bookmaker": "LeoVegas (SE)",
+              "odds": 3.45
+            },
+            {
+              "bookmaker": "Nordic Bet",
+              "odds": 3.45
+            },
+            {
+              "bookmaker": "Everygame",
+              "odds": 3.45
+            },
+            {
+              "bookmaker": "Betclic (FR)",
+              "odds": 3.42
+            },
+            {
+              "bookmaker": "Unibet (FR)",
+              "odds": 3.4
+            },
+            {
+              "bookmaker": "Winamax (FR)",
+              "odds": 3.35
+            },
+            {
+              "bookmaker": "PMU (FR)",
+              "odds": 3.35
+            },
+            {
+              "bookmaker": "888sport",
+              "odds": 3.3
+            },
+            {
+              "bookmaker": "William Hill",
+              "odds": 3.3
+            }
+          ],
+          "max_bookmaker": "Unibet (SE)",
+          "max_odds": 3.7,
+          "min_bookmaker": "888sport",
+          "min_odds": 3.3,
+          "max_ties": [
+            "Unibet (SE)"
+          ],
+          "min_ties": [
+            "888sport",
+            "William Hill"
           ]
         }
       ],
-      "h2h_favorite": "Utah Jazz",
-      "h2h_nb_matches": 0,
-      "h2h_summary": ""
+      "h2h_favorite": "Lazio",
+      "h2h_nb_matches": 2,
+      "h2h_summary": "PG"
     }
   ]
 }
