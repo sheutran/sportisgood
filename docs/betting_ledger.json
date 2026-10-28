@@ -1876,10 +1876,10 @@
           "odds_used": 1.3,
           "confidence_score_pct": 72.8,
           "stake": 3.33,
-          "status": "pending",
-          "payout": null,
-          "profit": null,
-          "final_score": null
+          "status": "won",
+          "payout": 4.33,
+          "profit": 1.0,
+          "final_score": "4-2"
         },
         {
           "event_id": "9ad8cc650802c0c5c3c23a1f32c3e0f6",
@@ -1893,10 +1893,10 @@
           "odds_used": 1.17,
           "confidence_score_pct": 79.9,
           "stake": 3.33,
-          "status": "pending",
-          "payout": null,
-          "profit": null,
-          "final_score": null
+          "status": "won",
+          "payout": 3.9,
+          "profit": 0.57,
+          "final_score": "125-124"
         },
         {
           "event_id": "7a640609d2c74cbbfd05008d0875455b",
@@ -1910,6 +1910,50 @@
           "odds_used": 1.05,
           "confidence_score_pct": 89.2,
           "stake": 3.34,
+          "status": "won",
+          "payout": 3.51,
+          "profit": 0.17,
+          "final_score": "130-103"
+        }
+      ],
+      "day_total_staked": 10.0,
+      "day_total_payout": 11.74,
+      "day_profit": 1.74,
+      "settled": true
+    },
+    {
+      "date": "2026-10-28",
+      "budget": 10.0,
+      "bets": [
+        {
+          "event_id": "f2a1271ffcfd7c85f51640ebff3b7ddd",
+          "match": "Cleveland Cavaliers vs Washington Wizards",
+          "sport": "basketball_nba",
+          "home_team": "Cleveland Cavaliers",
+          "away_team": "Washington Wizards",
+          "commence_time_gmt": "2026-10-28T23:10:00Z",
+          "selection": "Cleveland Cavaliers",
+          "type": "Victoire domicile",
+          "odds_used": 1.24,
+          "confidence_score_pct": 75.5,
+          "stake": 5.0,
+          "status": "pending",
+          "payout": null,
+          "profit": null,
+          "final_score": null
+        },
+        {
+          "event_id": "83ca338f605b5664b7b1da34c19a0222",
+          "match": "Milwaukee Bucks vs Houston Rockets",
+          "sport": "basketball_nba",
+          "home_team": "Milwaukee Bucks",
+          "away_team": "Houston Rockets",
+          "commence_time_gmt": "2026-10-29T00:10:00Z",
+          "selection": "Houston Rockets",
+          "type": "Victoire extérieur",
+          "odds_used": 1.29,
+          "confidence_score_pct": 73.8,
+          "stake": 5.0,
           "status": "pending",
           "payout": null,
           "profit": null,
