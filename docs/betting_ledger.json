@@ -2190,10 +2190,10 @@
           "odds_used": 1.1,
           "confidence_score_pct": 84.3,
           "stake": 2.0,
-          "status": "pending",
-          "payout": null,
-          "profit": null,
-          "final_score": null
+          "status": "won",
+          "payout": 2.2,
+          "profit": 0.2,
+          "final_score": "103-90"
         },
         {
           "event_id": "0a808d8f7afab3c0e249ca284c470806",
@@ -2207,10 +2207,10 @@
           "odds_used": 1.18,
           "confidence_score_pct": 80.4,
           "stake": 2.0,
-          "status": "pending",
-          "payout": null,
-          "profit": null,
-          "final_score": null
+          "status": "won",
+          "payout": 2.36,
+          "profit": 0.36,
+          "final_score": "126-107"
         },
         {
           "event_id": "df7f8fce0b1c11db5140d60e1e126eb3",
@@ -2224,10 +2224,10 @@
           "odds_used": 1.22,
           "confidence_score_pct": 74.9,
           "stake": 2.0,
-          "status": "pending",
-          "payout": null,
-          "profit": null,
-          "final_score": null
+          "status": "lost",
+          "payout": 0.0,
+          "profit": -2.0,
+          "final_score": "100-115"
         },
         {
           "event_id": "6907851d65a9d0046d4c6c2f4ffb5e80",
@@ -2241,10 +2241,10 @@
           "odds_used": 1.19,
           "confidence_score_pct": 78.6,
           "stake": 2.0,
-          "status": "pending",
-          "payout": null,
-          "profit": null,
-          "final_score": null
+          "status": "won",
+          "payout": 2.38,
+          "profit": 0.38,
+          "final_score": "112-100"
         },
         {
           "event_id": "fe9664deb3e21a28b10a3de39adfb82a",
@@ -2258,16 +2258,25 @@
           "odds_used": 1.08,
           "confidence_score_pct": 86.7,
           "stake": 2.0,
-          "status": "pending",
-          "payout": null,
-          "profit": null,
-          "final_score": null
+          "status": "won",
+          "payout": 2.16,
+          "profit": 0.16,
+          "final_score": "119-97"
         }
       ],
       "day_total_staked": 10.0,
-      "day_total_payout": null,
-      "day_profit": null,
-      "settled": false
+      "day_total_payout": 9.1,
+      "day_profit": -0.9,
+      "settled": true
+    },
+    {
+      "date": "2026-11-03",
+      "budget": 10.0,
+      "bets": [],
+      "day_total_staked": 0,
+      "day_total_payout": 0.0,
+      "day_profit": 0.0,
+      "settled": true
     }
   ]
 }
