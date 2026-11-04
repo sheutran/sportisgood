@@ -2277,6 +2277,84 @@
       "day_total_payout": 0.0,
       "day_profit": 0.0,
       "settled": true
+    },
+    {
+      "date": "2026-11-04",
+      "budget": 10.0,
+      "bets": [
+        {
+          "event_id": "1cb12166c3eda270d40cc65b9b34459a",
+          "match": "Boston Celtics vs Milwaukee Bucks",
+          "sport": "basketball_nba",
+          "home_team": "Boston Celtics",
+          "away_team": "Milwaukee Bucks",
+          "commence_time_gmt": "2026-11-05T00:40:00Z",
+          "selection": "Boston Celtics",
+          "type": "Victoire domicile",
+          "odds_used": 1.17,
+          "confidence_score_pct": 79.9,
+          "stake": 2.5,
+          "status": "pending",
+          "payout": null,
+          "profit": null,
+          "final_score": null
+        },
+        {
+          "event_id": "87d2b814c3f0d3691e9cebbf2de76295",
+          "match": "New York Knicks vs Chicago Bulls",
+          "sport": "basketball_nba",
+          "home_team": "New York Knicks",
+          "away_team": "Chicago Bulls",
+          "commence_time_gmt": "2026-11-05T00:40:00Z",
+          "selection": "New York Knicks",
+          "type": "Victoire domicile",
+          "odds_used": 1.16,
+          "confidence_score_pct": 79.6,
+          "stake": 2.5,
+          "status": "pending",
+          "payout": null,
+          "profit": null,
+          "final_score": null
+        },
+        {
+          "event_id": "6b25f3932db93d4c5ad7658def2645bf",
+          "match": "San Antonio Spurs vs Dallas Mavericks",
+          "sport": "basketball_nba",
+          "home_team": "San Antonio Spurs",
+          "away_team": "Dallas Mavericks",
+          "commence_time_gmt": "2026-11-05T02:30:00Z",
+          "selection": "San Antonio Spurs",
+          "type": "Victoire domicile",
+          "odds_used": 1.17,
+          "confidence_score_pct": 79.9,
+          "stake": 2.5,
+          "status": "pending",
+          "payout": null,
+          "profit": null,
+          "final_score": null
+        },
+        {
+          "event_id": "29988f1011d7738962e13e0a0beb693f",
+          "match": "Sacramento Kings vs Los Angeles Lakers",
+          "sport": "basketball_nba",
+          "home_team": "Sacramento Kings",
+          "away_team": "Los Angeles Lakers",
+          "commence_time_gmt": "2026-11-05T03:10:00Z",
+          "selection": "Los Angeles Lakers",
+          "type": "Victoire extérieur",
+          "odds_used": 1.15,
+          "confidence_score_pct": 81.0,
+          "stake": 2.5,
+          "status": "pending",
+          "payout": null,
+          "profit": null,
+          "final_score": null
+        }
+      ],
+      "day_total_staked": 10.0,
+      "day_total_payout": null,
+      "day_profit": null,
+      "settled": false
     }
   ]
 }
