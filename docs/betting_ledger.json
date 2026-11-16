@@ -2861,10 +2861,10 @@
           "odds_used": 1.22,
           "confidence_score_pct": 76.8,
           "stake": 1.43,
-          "status": "pending",
-          "payout": null,
-          "profit": null,
-          "final_score": null
+          "status": "won",
+          "payout": 1.74,
+          "profit": 0.31,
+          "final_score": "12-31"
         },
         {
           "event_id": "28800df7e768ecec14f116454d560f9b",
@@ -2878,10 +2878,10 @@
           "odds_used": 1.15,
           "confidence_score_pct": 82.5,
           "stake": 1.43,
-          "status": "pending",
-          "payout": null,
-          "profit": null,
-          "final_score": null
+          "status": "won",
+          "payout": 1.64,
+          "profit": 0.21,
+          "final_score": "23-40"
         },
         {
           "event_id": "6c932a965110f3f89ec4a5f1a6ac256e",
@@ -2895,10 +2895,10 @@
           "odds_used": 1.18,
           "confidence_score_pct": 80.4,
           "stake": 1.43,
-          "status": "pending",
-          "payout": null,
-          "profit": null,
-          "final_score": null
+          "status": "won",
+          "payout": 1.69,
+          "profit": 0.26,
+          "final_score": "6-34"
         },
         {
           "event_id": "6079a5cbabf99b265a17edfc92a1da60",
@@ -2912,10 +2912,10 @@
           "odds_used": 1.34,
           "confidence_score_pct": 71.3,
           "stake": 1.43,
-          "status": "pending",
-          "payout": null,
-          "profit": null,
-          "final_score": null
+          "status": "won",
+          "payout": 1.92,
+          "profit": 0.49,
+          "final_score": "13-21"
         },
         {
           "event_id": "b2ffb781fe21df092fae2cff6c4c8c89",
@@ -2929,10 +2929,10 @@
           "odds_used": 1.07,
           "confidence_score_pct": 89.1,
           "stake": 1.43,
-          "status": "pending",
-          "payout": null,
-          "profit": null,
-          "final_score": null
+          "status": "won",
+          "payout": 1.53,
+          "profit": 0.1,
+          "final_score": "102-110"
         },
         {
           "event_id": "956532b58659658093d93e24e83f5213",
@@ -2946,10 +2946,10 @@
           "odds_used": 1.11,
           "confidence_score_pct": 84.0,
           "stake": 1.43,
-          "status": "pending",
-          "payout": null,
-          "profit": null,
-          "final_score": null
+          "status": "won",
+          "payout": 1.59,
+          "profit": 0.16,
+          "final_score": "131-94"
         },
         {
           "event_id": "488c2bc1e099361f06015cf126f95fd6",
@@ -2963,6 +2963,67 @@
           "odds_used": 1.26,
           "confidence_score_pct": 72.7,
           "stake": 1.42,
+          "status": "won",
+          "payout": 1.79,
+          "profit": 0.37,
+          "final_score": "119-147"
+        }
+      ],
+      "day_total_staked": 10.0,
+      "day_total_payout": 11.9,
+      "day_profit": 1.9,
+      "settled": true
+    },
+    {
+      "date": "2026-11-16",
+      "budget": 10.0,
+      "bets": [
+        {
+          "event_id": "7c2ac54a119f461bf8fc1a23da536f29",
+          "match": "Boston Celtics vs Orlando Magic",
+          "sport": "basketball_nba",
+          "home_team": "Boston Celtics",
+          "away_team": "Orlando Magic",
+          "commence_time_gmt": "2026-11-17T00:10:00Z",
+          "selection": "Boston Celtics",
+          "type": "Victoire domicile",
+          "odds_used": 1.26,
+          "confidence_score_pct": 74.0,
+          "stake": 3.33,
+          "status": "pending",
+          "payout": null,
+          "profit": null,
+          "final_score": null
+        },
+        {
+          "event_id": "39dbdb7fdc78bd01ceac2fc7048bc1fd",
+          "match": "Cleveland Cavaliers vs Chicago Bulls",
+          "sport": "basketball_nba",
+          "home_team": "Cleveland Cavaliers",
+          "away_team": "Chicago Bulls",
+          "commence_time_gmt": "2026-11-17T00:10:00Z",
+          "selection": "Cleveland Cavaliers",
+          "type": "Victoire domicile",
+          "odds_used": 1.28,
+          "confidence_score_pct": 72.2,
+          "stake": 3.33,
+          "status": "pending",
+          "payout": null,
+          "profit": null,
+          "final_score": null
+        },
+        {
+          "event_id": "c2c9d9729305c19d4a453f92c83feae8",
+          "match": "Denver Nuggets vs Phoenix Suns",
+          "sport": "basketball_nba",
+          "home_team": "Denver Nuggets",
+          "away_team": "Phoenix Suns",
+          "commence_time_gmt": "2026-11-17T02:10:00Z",
+          "selection": "Denver Nuggets",
+          "type": "Victoire domicile",
+          "odds_used": 1.23,
+          "confidence_score_pct": 75.7,
+          "stake": 3.34,
           "status": "pending",
           "payout": null,
           "profit": null,
