@@ -2990,10 +2990,10 @@
           "odds_used": 1.26,
           "confidence_score_pct": 74.0,
           "stake": 3.33,
-          "status": "pending",
-          "payout": null,
-          "profit": null,
-          "final_score": null
+          "status": "lost",
+          "payout": 0.0,
+          "profit": -3.33,
+          "final_score": "105-115"
         },
         {
           "event_id": "39dbdb7fdc78bd01ceac2fc7048bc1fd",
@@ -3007,10 +3007,10 @@
           "odds_used": 1.28,
           "confidence_score_pct": 72.2,
           "stake": 3.33,
-          "status": "pending",
-          "payout": null,
-          "profit": null,
-          "final_score": null
+          "status": "won",
+          "payout": 4.26,
+          "profit": 0.93,
+          "final_score": "126-115"
         },
         {
           "event_id": "c2c9d9729305c19d4a453f92c83feae8",
@@ -3024,6 +3024,33 @@
           "odds_used": 1.23,
           "confidence_score_pct": 75.7,
           "stake": 3.34,
+          "status": "lost",
+          "payout": 0.0,
+          "profit": -3.34,
+          "final_score": "105-117"
+        }
+      ],
+      "day_total_staked": 10.0,
+      "day_total_payout": 4.26,
+      "day_profit": -5.74,
+      "settled": true
+    },
+    {
+      "date": "2026-11-17",
+      "budget": 10.0,
+      "bets": [
+        {
+          "event_id": "69f0b70d1185e537c5ae4be43ebf2c9f",
+          "match": "San Antonio Spurs vs Detroit Pistons",
+          "sport": "basketball_nba",
+          "home_team": "San Antonio Spurs",
+          "away_team": "Detroit Pistons",
+          "commence_time_gmt": "2026-11-18T01:10:00Z",
+          "selection": "San Antonio Spurs",
+          "type": "Victoire domicile",
+          "odds_used": 1.23,
+          "confidence_score_pct": 77.8,
+          "stake": 10.0,
           "status": "pending",
           "payout": null,
           "profit": null,
