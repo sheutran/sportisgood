@@ -3078,10 +3078,10 @@
           "odds_used": 1.32,
           "confidence_score_pct": 71.2,
           "stake": 3.33,
-          "status": "pending",
-          "payout": null,
-          "profit": null,
-          "final_score": null
+          "status": "won",
+          "payout": 4.4,
+          "profit": 1.07,
+          "final_score": "104-119"
         },
         {
           "event_id": "b609888ea766ac28cd0e84f315d8f3d2",
@@ -3095,10 +3095,10 @@
           "odds_used": 1.14,
           "confidence_score_pct": 82.2,
           "stake": 3.33,
-          "status": "pending",
-          "payout": null,
-          "profit": null,
-          "final_score": null
+          "status": "won",
+          "payout": 3.8,
+          "profit": 0.47,
+          "final_score": "137-130"
         },
         {
           "event_id": "2adabff2dca8b2ed4b39540a6a25ffb2",
@@ -3111,6 +3111,67 @@
           "type": "Victoire domicile",
           "odds_used": 1.21,
           "confidence_score_pct": 74.5,
+          "stake": 3.34,
+          "status": "lost",
+          "payout": 0.0,
+          "profit": -3.34,
+          "final_score": "97-109"
+        }
+      ],
+      "day_total_staked": 10.0,
+      "day_total_payout": 8.2,
+      "day_profit": -1.8,
+      "settled": true
+    },
+    {
+      "date": "2026-11-19",
+      "budget": 10.0,
+      "bets": [
+        {
+          "event_id": "20fa5e2d73cec494c113790161a89aec",
+          "match": "San Antonio Spurs vs Los Angeles Clippers",
+          "sport": "basketball_nba",
+          "home_team": "San Antonio Spurs",
+          "away_team": "Los Angeles Clippers",
+          "commence_time_gmt": "2026-11-20T01:10:00Z",
+          "selection": "San Antonio Spurs",
+          "type": "Victoire domicile",
+          "odds_used": 1.09,
+          "confidence_score_pct": 86.0,
+          "stake": 3.33,
+          "status": "pending",
+          "payout": null,
+          "profit": null,
+          "final_score": null
+        },
+        {
+          "event_id": "006df00e5e48650d849d1bb4cd81565d",
+          "match": "Milwaukee Bucks vs Portland Trail Blazers",
+          "sport": "basketball_nba",
+          "home_team": "Milwaukee Bucks",
+          "away_team": "Portland Trail Blazers",
+          "commence_time_gmt": "2026-11-20T01:10:00Z",
+          "selection": "Portland Trail Blazers",
+          "type": "Victoire extérieur",
+          "odds_used": 1.2,
+          "confidence_score_pct": 77.6,
+          "stake": 3.33,
+          "status": "pending",
+          "payout": null,
+          "profit": null,
+          "final_score": null
+        },
+        {
+          "event_id": "66f9e83cf025d58acee12bce18661fb3",
+          "match": "Houston Texans vs Indianapolis Colts",
+          "sport": "americanfootball_nfl",
+          "home_team": "Houston Texans",
+          "away_team": "Indianapolis Colts",
+          "commence_time_gmt": "2026-11-20T01:15:00Z",
+          "selection": "Houston Texans",
+          "type": "Victoire domicile",
+          "odds_used": 1.13,
+          "confidence_score_pct": 84.4,
           "stake": 3.34,
           "status": "pending",
           "payout": null,
