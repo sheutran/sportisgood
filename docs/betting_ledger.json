@@ -3200,10 +3200,10 @@
           "odds_used": 1.08,
           "confidence_score_pct": 83.7,
           "stake": 5.0,
-          "status": "pending",
-          "payout": null,
-          "profit": null,
-          "final_score": null
+          "status": "lost",
+          "payout": 0.0,
+          "profit": -5.0,
+          "final_score": "1-1"
         },
         {
           "event_id": "17e3a8dc71275a88b19d0d6750a5052c",
@@ -3216,6 +3216,50 @@
           "type": "Victoire domicile",
           "odds_used": 1.16,
           "confidence_score_pct": 79.1,
+          "stake": 5.0,
+          "status": "won",
+          "payout": 5.8,
+          "profit": 0.8,
+          "final_score": "126-120"
+        }
+      ],
+      "day_total_staked": 10.0,
+      "day_total_payout": 5.8,
+      "day_profit": -4.2,
+      "settled": true
+    },
+    {
+      "date": "2026-11-21",
+      "budget": 10.0,
+      "bets": [
+        {
+          "event_id": "cb513fd9869c9aa6ce506bb499bcd48b",
+          "match": "Parma vs AS Roma",
+          "sport": "soccer_italy_serie_a",
+          "home_team": "Parma",
+          "away_team": "AS Roma",
+          "commence_time_gmt": "2026-11-21T17:00:00Z",
+          "selection": "AS Roma",
+          "type": "Victoire extérieur",
+          "odds_used": 1.22,
+          "confidence_score_pct": 77.9,
+          "stake": 5.0,
+          "status": "pending",
+          "payout": null,
+          "profit": null,
+          "final_score": null
+        },
+        {
+          "event_id": "6cd4587453e4da55317b2c1e3576e75b",
+          "match": "Philadelphia 76ers vs Milwaukee Bucks",
+          "sport": "basketball_nba",
+          "home_team": "Philadelphia 76ers",
+          "away_team": "Milwaukee Bucks",
+          "commence_time_gmt": "2026-11-21T18:10:00Z",
+          "selection": "Philadelphia 76ers",
+          "type": "Victoire domicile",
+          "odds_used": 1.17,
+          "confidence_score_pct": 78.6,
           "stake": 5.0,
           "status": "pending",
           "payout": null,
