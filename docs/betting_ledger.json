@@ -3383,10 +3383,10 @@
           "odds_used": 1.17,
           "confidence_score_pct": 79.9,
           "stake": 1.43,
-          "status": "pending",
-          "payout": null,
-          "profit": null,
-          "final_score": null
+          "status": "won",
+          "payout": 1.67,
+          "profit": 0.24,
+          "final_score": "142-116"
         },
         {
           "event_id": "a5184238c27b9c3bfca29220f9d5d14a",
@@ -3400,10 +3400,10 @@
           "odds_used": 1.21,
           "confidence_score_pct": 73.4,
           "stake": 1.43,
-          "status": "pending",
-          "payout": null,
-          "profit": null,
-          "final_score": null
+          "status": "lost",
+          "payout": 0.0,
+          "profit": -1.43,
+          "final_score": "111-116"
         },
         {
           "event_id": "b8dfee1fca57ec870528a14c792ad73a",
@@ -3417,10 +3417,10 @@
           "odds_used": 1.28,
           "confidence_score_pct": 70.4,
           "stake": 1.43,
-          "status": "pending",
-          "payout": null,
-          "profit": null,
-          "final_score": null
+          "status": "lost",
+          "payout": 0.0,
+          "profit": -1.43,
+          "final_score": "122-108"
         },
         {
           "event_id": "3a60ed1d20004aa4d4772b2c1a2272e7",
@@ -3434,10 +3434,10 @@
           "odds_used": 1.33,
           "confidence_score_pct": 72.0,
           "stake": 1.43,
-          "status": "pending",
-          "payout": null,
-          "profit": null,
-          "final_score": null
+          "status": "lost",
+          "payout": 0.0,
+          "profit": -1.43,
+          "final_score": "22-20"
         },
         {
           "event_id": "db2311c331296d3328d71b842167dea4",
@@ -3451,10 +3451,10 @@
           "odds_used": 1.14,
           "confidence_score_pct": 80.6,
           "stake": 1.43,
-          "status": "pending",
-          "payout": null,
-          "profit": null,
-          "final_score": null
+          "status": "won",
+          "payout": 1.63,
+          "profit": 0.2,
+          "final_score": "116-104"
         },
         {
           "event_id": "3e9dc52cb055c0154839c4aec417955b",
@@ -3468,10 +3468,10 @@
           "odds_used": 1.11,
           "confidence_score_pct": 82.8,
           "stake": 1.43,
-          "status": "pending",
-          "payout": null,
-          "profit": null,
-          "final_score": null
+          "status": "won",
+          "payout": 1.59,
+          "profit": 0.16,
+          "final_score": "109-94"
         },
         {
           "event_id": "17f31499f145cd9d3232819395d29448",
@@ -3485,6 +3485,50 @@
           "odds_used": 1.2,
           "confidence_score_pct": 78.1,
           "stake": 1.42,
+          "status": "won",
+          "payout": 1.7,
+          "profit": 0.28,
+          "final_score": "107-123"
+        }
+      ],
+      "day_total_staked": 10.0,
+      "day_total_payout": 6.59,
+      "day_profit": -3.41,
+      "settled": true
+    },
+    {
+      "date": "2026-11-24",
+      "budget": 10.0,
+      "bets": [
+        {
+          "event_id": "3167a4072c65c9314c71d0fe49be8e28",
+          "match": "Washington Wizards vs Boston Celtics",
+          "sport": "basketball_nba",
+          "home_team": "Washington Wizards",
+          "away_team": "Boston Celtics",
+          "commence_time_gmt": "2026-11-25T01:10:00Z",
+          "selection": "Boston Celtics",
+          "type": "Victoire extérieur",
+          "odds_used": 1.21,
+          "confidence_score_pct": 76.9,
+          "stake": 5.0,
+          "status": "pending",
+          "payout": null,
+          "profit": null,
+          "final_score": null
+        },
+        {
+          "event_id": "6bfadbd22ed8a054cf82ec1b12b78243",
+          "match": "Denver Nuggets vs Dallas Mavericks",
+          "sport": "basketball_nba",
+          "home_team": "Denver Nuggets",
+          "away_team": "Dallas Mavericks",
+          "commence_time_gmt": "2026-11-25T03:10:00Z",
+          "selection": "Denver Nuggets",
+          "type": "Victoire domicile",
+          "odds_used": 1.31,
+          "confidence_score_pct": 71.0,
+          "stake": 5.0,
           "status": "pending",
           "payout": null,
           "profit": null,
