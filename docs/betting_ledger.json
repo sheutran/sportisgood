@@ -3512,10 +3512,10 @@
           "odds_used": 1.21,
           "confidence_score_pct": 76.9,
           "stake": 5.0,
-          "status": "pending",
-          "payout": null,
-          "profit": null,
-          "final_score": null
+          "status": "won",
+          "payout": 6.05,
+          "profit": 1.05,
+          "final_score": "116-131"
         },
         {
           "event_id": "6bfadbd22ed8a054cf82ec1b12b78243",
@@ -3529,6 +3529,33 @@
           "odds_used": 1.31,
           "confidence_score_pct": 71.0,
           "stake": 5.0,
+          "status": "lost",
+          "payout": 0.0,
+          "profit": -5.0,
+          "final_score": "101-120"
+        }
+      ],
+      "day_total_staked": 10.0,
+      "day_total_payout": 6.05,
+      "day_profit": -3.95,
+      "settled": true
+    },
+    {
+      "date": "2026-11-25",
+      "budget": 10.0,
+      "bets": [
+        {
+          "event_id": "60fd73164f7b0d1848f998d922155d87",
+          "match": "Houston Rockets vs Phoenix Suns",
+          "sport": "basketball_nba",
+          "home_team": "Houston Rockets",
+          "away_team": "Phoenix Suns",
+          "commence_time_gmt": "2026-11-26T01:40:00Z",
+          "selection": "Houston Rockets",
+          "type": "Victoire domicile",
+          "odds_used": 1.24,
+          "confidence_score_pct": 74.9,
+          "stake": 10.0,
           "status": "pending",
           "payout": null,
           "profit": null,
